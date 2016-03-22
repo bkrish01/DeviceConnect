@@ -1,0 +1,1380 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProfileViewController"
+provides-nominal:
+- "C6DevCon21ProfileViewController"
+provides-member:
+- ["C6DevCon21ProfileViewController", ""]
+provides-dynamic-lookup:
+- "Done"
+- "VdevType"
+- "vDevType"
+- "ValidicId"
+- "vGender"
+- "syncnow"
+- "UserId"
+- "myResult"
+- "JobDone"
+- "OrganizationId"
+- "routineRecord"
+- "vDevSer"
+- "UserToken"
+- "stepsdic"
+- "VDeviceme"
+- "VLast_upd"
+- "AuthToken"
+- "GetUserProfile"
+- "viewDidLoad"
+- "didReceiveMemoryWarning"
+- "Lblsynstatus"
+- "regCallback"
+- "vName"
+depends-top-level:
+- !private "NSURL"
+- !private "BooleanLiteralType"
+- "ProfileViewController"
+- "UILabel"
+- "Dashboard"
+- "CMUserOperationCallback"
+- "NSCoder"
+- !private ">"
+- !private "CMUserAccountResult"
+- !private "NSUserDefaults"
+- !private "NSError"
+- "NSString"
+- "TableData"
+- !private "Void"
+- !private "NSHTTPURLResponse"
+- "HealthKit"
+- "UIViewController"
+- "AnyObject"
+- "String"
+- !private "NSURLRequest"
+- !private "NSJSONSerialization"
+- "NSDictionary"
+- !private "NSURLSession"
+- "StringLiteralType"
+- !private "=="
+- !private "print"
+depends-member:
+- ["PSs9AnyObject", "AuthToken"]
+- ["PSs9AnyObject", "Dashboard"]
+- ["PSs9AnyObject", "Done"]
+- ["PSs9AnyObject", "GetUserProfile"]
+- ["PSs9AnyObject", "HealthKit"]
+- !private ["PSs9AnyObject", "JSONObjectWithData"]
+- ["PSs9AnyObject", "JobDone"]
+- ["PSs9AnyObject", "Lblsynstatus"]
+- !private ["PSs9AnyObject", "NSJSONSerialization"]
+- !private ["PSs9AnyObject", "NSURL"]
+- !private ["PSs9AnyObject", "NSURLRequest"]
+- !private ["PSs9AnyObject", "NSURLSession"]
+- !private ["PSs9AnyObject", "NSUserDefaults"]
+- ["PSs9AnyObject", "OrganizationId"]
+- !private ["PSs9AnyObject", "String"]
+- ["PSs9AnyObject", "TableData"]
+- ["PSs9AnyObject", "UserId"]
+- ["PSs9AnyObject", "UserToken"]
+- ["PSs9AnyObject", "VDeviceme"]
+- ["PSs9AnyObject", "VLast_upd"]
+- ["PSs9AnyObject", "ValidicId"]
+- ["PSs9AnyObject", "VdevType"]
+- ["PSs9AnyObject", "dashboards"]
+- !private ["PSs9AnyObject", "dataTaskWithRequest"]
+- !private ["PSs9AnyObject", "deinit"]
+- ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- !private ["PSs9AnyObject", "dismissViewControllerAnimated"]
+- ["PSs9AnyObject", "healthManager"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "localizedDescription"]
+- ["PSs9AnyObject", "myResult"]
+- !private ["PSs9AnyObject", "objectForKey"]
+- !private ["PSs9AnyObject", "print"]
+- ["PSs9AnyObject", "regCallback"]
+- ["PSs9AnyObject", "regCallback.storage"]
+- !private ["PSs9AnyObject", "resume"]
+- ["PSs9AnyObject", "routineRecord"]
+- !private ["PSs9AnyObject", "sharedSession"]
+- !private ["PSs9AnyObject", "standardUserDefaults"]
+- !private ["PSs9AnyObject", "statusCode"]
+- ["PSs9AnyObject", "stepsdic"]
+- ["PSs9AnyObject", "syncnow"]
+- ["PSs9AnyObject", "tabledata"]
+- !private ["PSs9AnyObject", "text"]
+- ["PSs9AnyObject", "vDevSer"]
+- ["PSs9AnyObject", "vDevType"]
+- ["PSs9AnyObject", "vGender"]
+- ["PSs9AnyObject", "vName"]
+- !private ["PSs9AnyObject", "valueForKey"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "count"]
+- ["Sa", "init"]
+- !private ["PSs23ArrayLiteralConvertible", "AllowFragments"]
+- !private ["PSs23ArrayLiteralConvertible", "Generator"]
+- !private ["PSs23ArrayLiteralConvertible", "Index"]
+- !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
+- !private ["PSs23ArrayLiteralConvertible", "count"]
+- ["PSs23ArrayLiteralConvertible", "init"]
+- !private ["VSs10ArraySlice", "Generator"]
+- !private ["VSs10ArraySlice", "Index"]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["OSC19CMUserAccountResult", "CreateFailedDuplicateAccount"]
+- !private ["OSC19CMUserAccountResult", "CreateSucceeded"]
+- !private ["OSC19CMUserAccountResult", "LoginSucceeded"]
+- ["PSs11CVarArgType", "AuthToken"]
+- ["PSs11CVarArgType", "Dashboard"]
+- !private ["PSs11CVarArgType", "Distance"]
+- ["PSs11CVarArgType", "Done"]
+- ["PSs11CVarArgType", "GetUserProfile"]
+- ["PSs11CVarArgType", "HealthKit"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "JSONObjectWithData"]
+- ["PSs11CVarArgType", "JobDone"]
+- ["PSs11CVarArgType", "Lblsynstatus"]
+- !private ["PSs11CVarArgType", "NSJSONSerialization"]
+- !private ["PSs11CVarArgType", "NSURL"]
+- !private ["PSs11CVarArgType", "NSURLRequest"]
+- !private ["PSs11CVarArgType", "NSURLSession"]
+- !private ["PSs11CVarArgType", "NSUserDefaults"]
+- ["PSs11CVarArgType", "OrganizationId"]
+- !private ["PSs11CVarArgType", "String"]
+- ["PSs11CVarArgType", "TableData"]
+- ["PSs11CVarArgType", "UserId"]
+- ["PSs11CVarArgType", "UserToken"]
+- ["PSs11CVarArgType", "VDeviceme"]
+- ["PSs11CVarArgType", "VLast_upd"]
+- ["PSs11CVarArgType", "ValidicId"]
+- ["PSs11CVarArgType", "VdevType"]
+- ["PSs11CVarArgType", "dashboards"]
+- !private ["PSs11CVarArgType", "dataTaskWithRequest"]
+- ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- !private ["PSs11CVarArgType", "dismissViewControllerAnimated"]
+- ["PSs11CVarArgType", "healthManager"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "localizedDescription"]
+- ["PSs11CVarArgType", "myResult"]
+- !private ["PSs11CVarArgType", "objectForKey"]
+- !private ["PSs11CVarArgType", "print"]
+- ["PSs11CVarArgType", "regCallback"]
+- ["PSs11CVarArgType", "regCallback.storage"]
+- !private ["PSs11CVarArgType", "resume"]
+- ["PSs11CVarArgType", "routineRecord"]
+- !private ["PSs11CVarArgType", "sharedSession"]
+- !private ["PSs11CVarArgType", "standardUserDefaults"]
+- !private ["PSs11CVarArgType", "statusCode"]
+- ["PSs11CVarArgType", "stepsdic"]
+- ["PSs11CVarArgType", "syncnow"]
+- ["PSs11CVarArgType", "tabledata"]
+- !private ["PSs11CVarArgType", "text"]
+- ["PSs11CVarArgType", "vDevSer"]
+- ["PSs11CVarArgType", "vDevType"]
+- ["PSs11CVarArgType", "vGender"]
+- ["PSs11CVarArgType", "vName"]
+- !private ["PSs11CVarArgType", "valueForKey"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "count"]
+- ["PSs14CollectionType", "init"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "count"]
+- ["PSs28CustomDebugStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "AuthToken"]
+- ["PSs23CustomStringConvertible", "Dashboard"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- ["PSs23CustomStringConvertible", "Done"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- ["PSs23CustomStringConvertible", "GetUserProfile"]
+- ["PSs23CustomStringConvertible", "HealthKit"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "JSONObjectWithData"]
+- ["PSs23CustomStringConvertible", "JobDone"]
+- ["PSs23CustomStringConvertible", "Lblsynstatus"]
+- !private ["PSs23CustomStringConvertible", "NSJSONSerialization"]
+- !private ["PSs23CustomStringConvertible", "NSURL"]
+- !private ["PSs23CustomStringConvertible", "NSURLRequest"]
+- !private ["PSs23CustomStringConvertible", "NSURLSession"]
+- !private ["PSs23CustomStringConvertible", "NSUserDefaults"]
+- ["PSs23CustomStringConvertible", "OrganizationId"]
+- !private ["PSs23CustomStringConvertible", "String"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- ["PSs23CustomStringConvertible", "TableData"]
+- ["PSs23CustomStringConvertible", "UserId"]
+- ["PSs23CustomStringConvertible", "UserToken"]
+- ["PSs23CustomStringConvertible", "VDeviceme"]
+- ["PSs23CustomStringConvertible", "VLast_upd"]
+- ["PSs23CustomStringConvertible", "ValidicId"]
+- ["PSs23CustomStringConvertible", "VdevType"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "count"]
+- ["PSs23CustomStringConvertible", "dashboards"]
+- !private ["PSs23CustomStringConvertible", "dataTaskWithRequest"]
+- ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["PSs23CustomStringConvertible", "dismissViewControllerAnimated"]
+- ["PSs23CustomStringConvertible", "healthManager"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "localizedDescription"]
+- ["PSs23CustomStringConvertible", "myResult"]
+- !private ["PSs23CustomStringConvertible", "objectForKey"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- ["PSs23CustomStringConvertible", "regCallback"]
+- ["PSs23CustomStringConvertible", "regCallback.storage"]
+- !private ["PSs23CustomStringConvertible", "resume"]
+- ["PSs23CustomStringConvertible", "routineRecord"]
+- !private ["PSs23CustomStringConvertible", "sharedSession"]
+- !private ["PSs23CustomStringConvertible", "standardUserDefaults"]
+- !private ["PSs23CustomStringConvertible", "statusCode"]
+- ["PSs23CustomStringConvertible", "stepsdic"]
+- ["PSs23CustomStringConvertible", "syncnow"]
+- ["PSs23CustomStringConvertible", "tabledata"]
+- !private ["PSs23CustomStringConvertible", "text"]
+- ["PSs23CustomStringConvertible", "vDevSer"]
+- ["PSs23CustomStringConvertible", "vDevType"]
+- ["PSs23CustomStringConvertible", "vGender"]
+- ["PSs23CustomStringConvertible", "vName"]
+- !private ["PSs23CustomStringConvertible", "valueForKey"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- ["C6DevCon9Dashboard", "deinit"]
+- !private ["PSs28DictionaryLiteralConvertible", "objectForKey"]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "AllowFragments"]
+- ["PSs9Equatable", "AuthToken"]
+- !private ["PSs9Equatable", "CreateFailedDuplicateAccount"]
+- !private ["PSs9Equatable", "CreateSucceeded"]
+- ["PSs9Equatable", "Dashboard"]
+- !private ["PSs9Equatable", "Distance"]
+- ["PSs9Equatable", "Done"]
+- ["PSs9Equatable", "GetUserProfile"]
+- ["PSs9Equatable", "HealthKit"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "JSONObjectWithData"]
+- ["PSs9Equatable", "JobDone"]
+- ["PSs9Equatable", "Lblsynstatus"]
+- !private ["PSs9Equatable", "LoginSucceeded"]
+- !private ["PSs9Equatable", "NSJSONSerialization"]
+- !private ["PSs9Equatable", "NSURL"]
+- !private ["PSs9Equatable", "NSURLRequest"]
+- !private ["PSs9Equatable", "NSURLSession"]
+- !private ["PSs9Equatable", "NSUserDefaults"]
+- ["PSs9Equatable", "OrganizationId"]
+- !private ["PSs9Equatable", "String"]
+- ["PSs9Equatable", "TableData"]
+- ["PSs9Equatable", "UserId"]
+- ["PSs9Equatable", "UserToken"]
+- ["PSs9Equatable", "VDeviceme"]
+- ["PSs9Equatable", "VLast_upd"]
+- ["PSs9Equatable", "ValidicId"]
+- ["PSs9Equatable", "VdevType"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- ["PSs9Equatable", "dashboards"]
+- !private ["PSs9Equatable", "dataTaskWithRequest"]
+- ["PSs9Equatable", "didReceiveMemoryWarning"]
+- !private ["PSs9Equatable", "dismissViewControllerAnimated"]
+- ["PSs9Equatable", "healthManager"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "localizedDescription"]
+- ["PSs9Equatable", "myResult"]
+- !private ["PSs9Equatable", "objectForKey"]
+- !private ["PSs9Equatable", "print"]
+- ["PSs9Equatable", "regCallback"]
+- ["PSs9Equatable", "regCallback.storage"]
+- !private ["PSs9Equatable", "resume"]
+- ["PSs9Equatable", "routineRecord"]
+- !private ["PSs9Equatable", "sharedSession"]
+- !private ["PSs9Equatable", "standardUserDefaults"]
+- !private ["PSs9Equatable", "statusCode"]
+- ["PSs9Equatable", "stepsdic"]
+- ["PSs9Equatable", "syncnow"]
+- ["PSs9Equatable", "tabledata"]
+- !private ["PSs9Equatable", "text"]
+- ["PSs9Equatable", "vDevSer"]
+- ["PSs9Equatable", "vDevType"]
+- ["PSs9Equatable", "vGender"]
+- ["PSs9Equatable", "vName"]
+- !private ["PSs9Equatable", "valueForKey"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- !private ["PSs9ErrorType", "localizedDescription"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- ["PSs8Hashable", "AuthToken"]
+- !private ["PSs8Hashable", "CreateFailedDuplicateAccount"]
+- !private ["PSs8Hashable", "CreateSucceeded"]
+- ["PSs8Hashable", "Dashboard"]
+- !private ["PSs8Hashable", "Distance"]
+- ["PSs8Hashable", "Done"]
+- ["PSs8Hashable", "GetUserProfile"]
+- ["PSs8Hashable", "HealthKit"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "JSONObjectWithData"]
+- ["PSs8Hashable", "JobDone"]
+- ["PSs8Hashable", "Lblsynstatus"]
+- !private ["PSs8Hashable", "LoginSucceeded"]
+- !private ["PSs8Hashable", "NSJSONSerialization"]
+- !private ["PSs8Hashable", "NSURL"]
+- !private ["PSs8Hashable", "NSURLRequest"]
+- !private ["PSs8Hashable", "NSURLSession"]
+- !private ["PSs8Hashable", "NSUserDefaults"]
+- ["PSs8Hashable", "OrganizationId"]
+- !private ["PSs8Hashable", "String"]
+- ["PSs8Hashable", "TableData"]
+- ["PSs8Hashable", "UserId"]
+- ["PSs8Hashable", "UserToken"]
+- ["PSs8Hashable", "VDeviceme"]
+- ["PSs8Hashable", "VLast_upd"]
+- ["PSs8Hashable", "ValidicId"]
+- ["PSs8Hashable", "VdevType"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- ["PSs8Hashable", "dashboards"]
+- !private ["PSs8Hashable", "dataTaskWithRequest"]
+- ["PSs8Hashable", "didReceiveMemoryWarning"]
+- !private ["PSs8Hashable", "dismissViewControllerAnimated"]
+- ["PSs8Hashable", "healthManager"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "localizedDescription"]
+- ["PSs8Hashable", "myResult"]
+- !private ["PSs8Hashable", "objectForKey"]
+- !private ["PSs8Hashable", "print"]
+- ["PSs8Hashable", "regCallback"]
+- ["PSs8Hashable", "regCallback.storage"]
+- !private ["PSs8Hashable", "resume"]
+- ["PSs8Hashable", "routineRecord"]
+- !private ["PSs8Hashable", "sharedSession"]
+- !private ["PSs8Hashable", "standardUserDefaults"]
+- !private ["PSs8Hashable", "statusCode"]
+- ["PSs8Hashable", "stepsdic"]
+- ["PSs8Hashable", "syncnow"]
+- ["PSs8Hashable", "tabledata"]
+- !private ["PSs8Hashable", "text"]
+- ["PSs8Hashable", "vDevSer"]
+- ["PSs8Hashable", "vDevType"]
+- ["PSs8Hashable", "vGender"]
+- ["PSs8Hashable", "vName"]
+- !private ["PSs8Hashable", "valueForKey"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- ["C6DevCon9HealthKit", "init"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "count"]
+- ["PSs9Indexable", "init"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSs21MutableCollectionType", "Generator"]
+- !private ["PSs21MutableCollectionType", "Index"]
+- !private ["PSs21MutableCollectionType", "SubSequence"]
+- !private ["PSs21MutableCollectionType", "count"]
+- ["PSs21MutableCollectionType", "init"]
+- !private ["PSs16MutableIndexable", "Generator"]
+- !private ["PSs16MutableIndexable", "Index"]
+- !private ["PSs16MutableIndexable", "SubSequence"]
+- !private ["PSs16MutableIndexable", "count"]
+- ["PSs16MutableIndexable", "init"]
+- !private ["PSs16MutableSliceable", "Generator"]
+- !private ["PSs16MutableSliceable", "Index"]
+- !private ["PSs16MutableSliceable", "SubSequence"]
+- !private ["PSs16MutableSliceable", "count"]
+- ["PSs16MutableSliceable", "init"]
+- ["PSo8NSCoding", "AuthToken"]
+- ["PSo8NSCoding", "Dashboard"]
+- ["PSo8NSCoding", "Done"]
+- ["PSo8NSCoding", "GetUserProfile"]
+- ["PSo8NSCoding", "HealthKit"]
+- ["PSo8NSCoding", "JobDone"]
+- ["PSo8NSCoding", "Lblsynstatus"]
+- !private ["PSo8NSCoding", "NSJSONSerialization"]
+- !private ["PSo8NSCoding", "NSURL"]
+- !private ["PSo8NSCoding", "NSURLRequest"]
+- !private ["PSo8NSCoding", "NSURLSession"]
+- !private ["PSo8NSCoding", "NSUserDefaults"]
+- ["PSo8NSCoding", "OrganizationId"]
+- !private ["PSo8NSCoding", "String"]
+- ["PSo8NSCoding", "TableData"]
+- ["PSo8NSCoding", "UserId"]
+- ["PSo8NSCoding", "UserToken"]
+- ["PSo8NSCoding", "VDeviceme"]
+- ["PSo8NSCoding", "VLast_upd"]
+- ["PSo8NSCoding", "ValidicId"]
+- ["PSo8NSCoding", "VdevType"]
+- ["PSo8NSCoding", "dashboards"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "dismissViewControllerAnimated"]
+- ["PSo8NSCoding", "healthManager"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "localizedDescription"]
+- ["PSo8NSCoding", "myResult"]
+- !private ["PSo8NSCoding", "objectForKey"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "regCallback"]
+- ["PSo8NSCoding", "regCallback.storage"]
+- ["PSo8NSCoding", "routineRecord"]
+- !private ["PSo8NSCoding", "statusCode"]
+- ["PSo8NSCoding", "stepsdic"]
+- ["PSo8NSCoding", "syncnow"]
+- ["PSo8NSCoding", "tabledata"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "vDevSer"]
+- ["PSo8NSCoding", "vDevType"]
+- ["PSo8NSCoding", "vGender"]
+- ["PSo8NSCoding", "vName"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "localizedDescription"]
+- !private ["PSo9NSCopying", "objectForKey"]
+- !private ["PSo9NSCopying", "resume"]
+- !private ["PSo9NSCopying", "statusCode"]
+- !private ["CSo12NSDictionary", "objectForKey"]
+- !private ["CSo7NSError", "localizedDescription"]
+- ["PSo26NSExtensionRequestHandling", "AuthToken"]
+- ["PSo26NSExtensionRequestHandling", "Dashboard"]
+- ["PSo26NSExtensionRequestHandling", "Done"]
+- ["PSo26NSExtensionRequestHandling", "GetUserProfile"]
+- ["PSo26NSExtensionRequestHandling", "HealthKit"]
+- ["PSo26NSExtensionRequestHandling", "JobDone"]
+- ["PSo26NSExtensionRequestHandling", "Lblsynstatus"]
+- !private ["PSo26NSExtensionRequestHandling", "NSJSONSerialization"]
+- !private ["PSo26NSExtensionRequestHandling", "NSURL"]
+- !private ["PSo26NSExtensionRequestHandling", "NSURLRequest"]
+- !private ["PSo26NSExtensionRequestHandling", "NSURLSession"]
+- !private ["PSo26NSExtensionRequestHandling", "NSUserDefaults"]
+- ["PSo26NSExtensionRequestHandling", "OrganizationId"]
+- !private ["PSo26NSExtensionRequestHandling", "String"]
+- ["PSo26NSExtensionRequestHandling", "TableData"]
+- ["PSo26NSExtensionRequestHandling", "UserId"]
+- ["PSo26NSExtensionRequestHandling", "UserToken"]
+- ["PSo26NSExtensionRequestHandling", "VDeviceme"]
+- ["PSo26NSExtensionRequestHandling", "VLast_upd"]
+- ["PSo26NSExtensionRequestHandling", "ValidicId"]
+- ["PSo26NSExtensionRequestHandling", "VdevType"]
+- ["PSo26NSExtensionRequestHandling", "dashboards"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "dismissViewControllerAnimated"]
+- ["PSo26NSExtensionRequestHandling", "healthManager"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "myResult"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "regCallback"]
+- ["PSo26NSExtensionRequestHandling", "regCallback.storage"]
+- ["PSo26NSExtensionRequestHandling", "routineRecord"]
+- ["PSo26NSExtensionRequestHandling", "stepsdic"]
+- ["PSo26NSExtensionRequestHandling", "syncnow"]
+- ["PSo26NSExtensionRequestHandling", "tabledata"]
+- ["PSo26NSExtensionRequestHandling", "vDevSer"]
+- ["PSo26NSExtensionRequestHandling", "vDevType"]
+- ["PSo26NSExtensionRequestHandling", "vGender"]
+- ["PSo26NSExtensionRequestHandling", "vName"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo17NSFastEnumeration", "objectForKey"]
+- !private ["CSo17NSHTTPURLResponse", "statusCode"]
+- !private ["VSC20NSJSONReadingOptions", "AllowFragments"]
+- !private ["CSo19NSJSONSerialization", "JSONObjectWithData"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "objectForKey"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "AuthToken"]
+- !private ["CSo8NSObject", "CMUserAccountResult"]
+- ["CSo8NSObject", "CMUserOperationCallback"]
+- ["CSo8NSObject", "Dashboard"]
+- ["CSo8NSObject", "Done"]
+- ["CSo8NSObject", "GetUserProfile"]
+- ["CSo8NSObject", "HealthKit"]
+- !private ["CSo8NSObject", "JSONObjectWithData"]
+- ["CSo8NSObject", "JobDone"]
+- ["CSo8NSObject", "Lblsynstatus"]
+- ["CSo8NSObject", "NSCoder"]
+- ["CSo8NSObject", "NSDictionary"]
+- !private ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "NSHTTPURLResponse"]
+- !private ["CSo8NSObject", "NSJSONSerialization"]
+- ["CSo8NSObject", "NSString"]
+- !private ["CSo8NSObject", "NSURL"]
+- !private ["CSo8NSObject", "NSURLRequest"]
+- !private ["CSo8NSObject", "NSURLSession"]
+- !private ["CSo8NSObject", "NSUserDefaults"]
+- ["CSo8NSObject", "OrganizationId"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "TableData"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UserId"]
+- ["CSo8NSObject", "UserToken"]
+- ["CSo8NSObject", "VDeviceme"]
+- ["CSo8NSObject", "VLast_upd"]
+- ["CSo8NSObject", "ValidicId"]
+- ["CSo8NSObject", "VdevType"]
+- !private ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "dashboards"]
+- !private ["CSo8NSObject", "dataTaskWithRequest"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "dismissViewControllerAnimated"]
+- ["CSo8NSObject", "healthManager"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "localizedDescription"]
+- ["CSo8NSObject", "myResult"]
+- !private ["CSo8NSObject", "objectForKey"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "regCallback"]
+- ["CSo8NSObject", "regCallback.storage"]
+- !private ["CSo8NSObject", "resume"]
+- ["CSo8NSObject", "routineRecord"]
+- !private ["CSo8NSObject", "sharedSession"]
+- !private ["CSo8NSObject", "standardUserDefaults"]
+- !private ["CSo8NSObject", "statusCode"]
+- ["CSo8NSObject", "stepsdic"]
+- ["CSo8NSObject", "syncnow"]
+- ["CSo8NSObject", "tabledata"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "vDevSer"]
+- ["CSo8NSObject", "vDevType"]
+- ["CSo8NSObject", "vGender"]
+- ["CSo8NSObject", "vName"]
+- !private ["CSo8NSObject", "valueForKey"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "AuthToken"]
+- ["PSo16NSObjectProtocol", "Dashboard"]
+- ["PSo16NSObjectProtocol", "Done"]
+- ["PSo16NSObjectProtocol", "GetUserProfile"]
+- ["PSo16NSObjectProtocol", "HealthKit"]
+- !private ["PSo16NSObjectProtocol", "JSONObjectWithData"]
+- ["PSo16NSObjectProtocol", "JobDone"]
+- ["PSo16NSObjectProtocol", "Lblsynstatus"]
+- !private ["PSo16NSObjectProtocol", "NSJSONSerialization"]
+- !private ["PSo16NSObjectProtocol", "NSURL"]
+- !private ["PSo16NSObjectProtocol", "NSURLRequest"]
+- !private ["PSo16NSObjectProtocol", "NSURLSession"]
+- !private ["PSo16NSObjectProtocol", "NSUserDefaults"]
+- ["PSo16NSObjectProtocol", "OrganizationId"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- ["PSo16NSObjectProtocol", "TableData"]
+- ["PSo16NSObjectProtocol", "UserId"]
+- ["PSo16NSObjectProtocol", "UserToken"]
+- ["PSo16NSObjectProtocol", "VDeviceme"]
+- ["PSo16NSObjectProtocol", "VLast_upd"]
+- ["PSo16NSObjectProtocol", "ValidicId"]
+- ["PSo16NSObjectProtocol", "VdevType"]
+- ["PSo16NSObjectProtocol", "dashboards"]
+- !private ["PSo16NSObjectProtocol", "dataTaskWithRequest"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "dismissViewControllerAnimated"]
+- ["PSo16NSObjectProtocol", "healthManager"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "localizedDescription"]
+- ["PSo16NSObjectProtocol", "myResult"]
+- !private ["PSo16NSObjectProtocol", "objectForKey"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "regCallback"]
+- ["PSo16NSObjectProtocol", "regCallback.storage"]
+- !private ["PSo16NSObjectProtocol", "resume"]
+- ["PSo16NSObjectProtocol", "routineRecord"]
+- !private ["PSo16NSObjectProtocol", "sharedSession"]
+- !private ["PSo16NSObjectProtocol", "standardUserDefaults"]
+- !private ["PSo16NSObjectProtocol", "statusCode"]
+- ["PSo16NSObjectProtocol", "stepsdic"]
+- ["PSo16NSObjectProtocol", "syncnow"]
+- ["PSo16NSObjectProtocol", "tabledata"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "vDevSer"]
+- ["PSo16NSObjectProtocol", "vDevType"]
+- ["PSo16NSObjectProtocol", "vGender"]
+- ["PSo16NSObjectProtocol", "vName"]
+- !private ["PSo16NSObjectProtocol", "valueForKey"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "localizedDescription"]
+- !private ["PSo14NSSecureCoding", "objectForKey"]
+- !private ["PSo14NSSecureCoding", "statusCode"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo5NSURL", "init"]
+- !private ["CSo12NSURLRequest", "init"]
+- !private ["CSo13NSURLResponse", "statusCode"]
+- !private ["CSo12NSURLSession", "dataTaskWithRequest"]
+- !private ["CSo12NSURLSession", "sharedSession"]
+- !private ["CSo20NSURLSessionDataTask", "resume"]
+- !private ["CSo16NSURLSessionTask", "resume"]
+- !private ["CSo14NSUserDefaults", "standardUserDefaults"]
+- !private ["CSo14NSUserDefaults", "valueForKey"]
+- !private ["PSs13OptionSetType", "AllowFragments"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- ["C6DevCon21ProfileViewController", "AnyObject"]
+- ["C6DevCon21ProfileViewController", "AuthToken"]
+- !private ["C6DevCon21ProfileViewController", "CMUserAccountResult"]
+- ["C6DevCon21ProfileViewController", "CMUserOperationCallback"]
+- ["C6DevCon21ProfileViewController", "Dashboard"]
+- ["C6DevCon21ProfileViewController", "Done"]
+- ["C6DevCon21ProfileViewController", "GetUserProfile"]
+- ["C6DevCon21ProfileViewController", "HealthKit"]
+- ["C6DevCon21ProfileViewController", "JobDone"]
+- ["C6DevCon21ProfileViewController", "Lblsynstatus"]
+- ["C6DevCon21ProfileViewController", "NSCoder"]
+- ["C6DevCon21ProfileViewController", "NSDictionary"]
+- !private ["C6DevCon21ProfileViewController", "NSError"]
+- !private ["C6DevCon21ProfileViewController", "NSHTTPURLResponse"]
+- !private ["C6DevCon21ProfileViewController", "NSJSONSerialization"]
+- ["C6DevCon21ProfileViewController", "NSString"]
+- !private ["C6DevCon21ProfileViewController", "NSURL"]
+- !private ["C6DevCon21ProfileViewController", "NSURLRequest"]
+- !private ["C6DevCon21ProfileViewController", "NSURLSession"]
+- !private ["C6DevCon21ProfileViewController", "NSUserDefaults"]
+- ["C6DevCon21ProfileViewController", "OrganizationId"]
+- ["C6DevCon21ProfileViewController", "String"]
+- ["C6DevCon21ProfileViewController", "TableData"]
+- ["C6DevCon21ProfileViewController", "UILabel"]
+- ["C6DevCon21ProfileViewController", "UserId"]
+- ["C6DevCon21ProfileViewController", "UserToken"]
+- ["C6DevCon21ProfileViewController", "VDeviceme"]
+- ["C6DevCon21ProfileViewController", "VLast_upd"]
+- ["C6DevCon21ProfileViewController", "ValidicId"]
+- ["C6DevCon21ProfileViewController", "VdevType"]
+- !private ["C6DevCon21ProfileViewController", "Void"]
+- ["C6DevCon21ProfileViewController", "dashboards"]
+- ["C6DevCon21ProfileViewController", "deinit"]
+- ["C6DevCon21ProfileViewController", "didReceiveMemoryWarning"]
+- !private ["C6DevCon21ProfileViewController", "dismissViewControllerAnimated"]
+- ["C6DevCon21ProfileViewController", "healthManager"]
+- ["C6DevCon21ProfileViewController", "init"]
+- ["C6DevCon21ProfileViewController", "myResult"]
+- !private ["C6DevCon21ProfileViewController", "print"]
+- ["C6DevCon21ProfileViewController", "regCallback"]
+- !private ["C6DevCon21ProfileViewController", "regCallback.storage"]
+- ["C6DevCon21ProfileViewController", "routineRecord"]
+- ["C6DevCon21ProfileViewController", "stepsdic"]
+- ["C6DevCon21ProfileViewController", "syncnow"]
+- ["C6DevCon21ProfileViewController", "tabledata"]
+- ["C6DevCon21ProfileViewController", "vDevSer"]
+- ["C6DevCon21ProfileViewController", "vDevType"]
+- ["C6DevCon21ProfileViewController", "vGender"]
+- ["C6DevCon21ProfileViewController", "vName"]
+- ["C6DevCon21ProfileViewController", "viewDidLoad"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs30RangeReplaceableCollectionType", "Generator"]
+- !private ["PSs30RangeReplaceableCollectionType", "Index"]
+- !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["PSs30RangeReplaceableCollectionType", "count"]
+- ["PSs30RangeReplaceableCollectionType", "init"]
+- !private ["PSs16RawRepresentable", "AllowFragments"]
+- !private ["PSs16RawRepresentable", "CreateFailedDuplicateAccount"]
+- !private ["PSs16RawRepresentable", "CreateSucceeded"]
+- !private ["PSs16RawRepresentable", "LoginSucceeded"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "count"]
+- ["PSs12SequenceType", "init"]
+- !private ["PSs12SequenceType", "objectForKey"]
+- !private ["PSs14SetAlgebraType", "AllowFragments"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["VSs12StaticString", "deinit"]
+- !private ["PSs10Streamable", "init"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- ["C6DevCon9TableData", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo21UIAppearanceContainer", "AuthToken"]
+- ["PSo21UIAppearanceContainer", "Dashboard"]
+- ["PSo21UIAppearanceContainer", "Done"]
+- ["PSo21UIAppearanceContainer", "GetUserProfile"]
+- ["PSo21UIAppearanceContainer", "HealthKit"]
+- ["PSo21UIAppearanceContainer", "JobDone"]
+- ["PSo21UIAppearanceContainer", "Lblsynstatus"]
+- !private ["PSo21UIAppearanceContainer", "NSJSONSerialization"]
+- !private ["PSo21UIAppearanceContainer", "NSURL"]
+- !private ["PSo21UIAppearanceContainer", "NSURLRequest"]
+- !private ["PSo21UIAppearanceContainer", "NSURLSession"]
+- !private ["PSo21UIAppearanceContainer", "NSUserDefaults"]
+- ["PSo21UIAppearanceContainer", "OrganizationId"]
+- !private ["PSo21UIAppearanceContainer", "String"]
+- ["PSo21UIAppearanceContainer", "TableData"]
+- ["PSo21UIAppearanceContainer", "UserId"]
+- ["PSo21UIAppearanceContainer", "UserToken"]
+- ["PSo21UIAppearanceContainer", "VDeviceme"]
+- ["PSo21UIAppearanceContainer", "VLast_upd"]
+- ["PSo21UIAppearanceContainer", "ValidicId"]
+- ["PSo21UIAppearanceContainer", "VdevType"]
+- ["PSo21UIAppearanceContainer", "dashboards"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "dismissViewControllerAnimated"]
+- ["PSo21UIAppearanceContainer", "healthManager"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "myResult"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "regCallback"]
+- ["PSo21UIAppearanceContainer", "regCallback.storage"]
+- ["PSo21UIAppearanceContainer", "routineRecord"]
+- ["PSo21UIAppearanceContainer", "stepsdic"]
+- ["PSo21UIAppearanceContainer", "syncnow"]
+- ["PSo21UIAppearanceContainer", "tabledata"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "vDevSer"]
+- ["PSo21UIAppearanceContainer", "vDevType"]
+- ["PSo21UIAppearanceContainer", "vGender"]
+- ["PSo21UIAppearanceContainer", "vName"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "AuthToken"]
+- ["PSo18UIContentContainer", "Dashboard"]
+- ["PSo18UIContentContainer", "Done"]
+- ["PSo18UIContentContainer", "GetUserProfile"]
+- ["PSo18UIContentContainer", "HealthKit"]
+- ["PSo18UIContentContainer", "JobDone"]
+- ["PSo18UIContentContainer", "Lblsynstatus"]
+- !private ["PSo18UIContentContainer", "NSJSONSerialization"]
+- !private ["PSo18UIContentContainer", "NSURL"]
+- !private ["PSo18UIContentContainer", "NSURLRequest"]
+- !private ["PSo18UIContentContainer", "NSURLSession"]
+- !private ["PSo18UIContentContainer", "NSUserDefaults"]
+- ["PSo18UIContentContainer", "OrganizationId"]
+- !private ["PSo18UIContentContainer", "String"]
+- ["PSo18UIContentContainer", "TableData"]
+- ["PSo18UIContentContainer", "UserId"]
+- ["PSo18UIContentContainer", "UserToken"]
+- ["PSo18UIContentContainer", "VDeviceme"]
+- ["PSo18UIContentContainer", "VLast_upd"]
+- ["PSo18UIContentContainer", "ValidicId"]
+- ["PSo18UIContentContainer", "VdevType"]
+- ["PSo18UIContentContainer", "dashboards"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "dismissViewControllerAnimated"]
+- ["PSo18UIContentContainer", "healthManager"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "myResult"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "regCallback"]
+- ["PSo18UIContentContainer", "regCallback.storage"]
+- ["PSo18UIContentContainer", "routineRecord"]
+- ["PSo18UIContentContainer", "stepsdic"]
+- ["PSo18UIContentContainer", "syncnow"]
+- ["PSo18UIContentContainer", "tabledata"]
+- ["PSo18UIContentContainer", "vDevSer"]
+- ["PSo18UIContentContainer", "vDevType"]
+- ["PSo18UIContentContainer", "vGender"]
+- ["PSo18UIContentContainer", "vName"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo18UIFocusEnvironment", "AuthToken"]
+- ["PSo18UIFocusEnvironment", "Dashboard"]
+- ["PSo18UIFocusEnvironment", "Done"]
+- ["PSo18UIFocusEnvironment", "GetUserProfile"]
+- ["PSo18UIFocusEnvironment", "HealthKit"]
+- ["PSo18UIFocusEnvironment", "JobDone"]
+- ["PSo18UIFocusEnvironment", "Lblsynstatus"]
+- !private ["PSo18UIFocusEnvironment", "NSJSONSerialization"]
+- !private ["PSo18UIFocusEnvironment", "NSURL"]
+- !private ["PSo18UIFocusEnvironment", "NSURLRequest"]
+- !private ["PSo18UIFocusEnvironment", "NSURLSession"]
+- !private ["PSo18UIFocusEnvironment", "NSUserDefaults"]
+- ["PSo18UIFocusEnvironment", "OrganizationId"]
+- !private ["PSo18UIFocusEnvironment", "String"]
+- ["PSo18UIFocusEnvironment", "TableData"]
+- ["PSo18UIFocusEnvironment", "UserId"]
+- ["PSo18UIFocusEnvironment", "UserToken"]
+- ["PSo18UIFocusEnvironment", "VDeviceme"]
+- ["PSo18UIFocusEnvironment", "VLast_upd"]
+- ["PSo18UIFocusEnvironment", "ValidicId"]
+- ["PSo18UIFocusEnvironment", "VdevType"]
+- ["PSo18UIFocusEnvironment", "dashboards"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "dismissViewControllerAnimated"]
+- ["PSo18UIFocusEnvironment", "healthManager"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "myResult"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "regCallback"]
+- ["PSo18UIFocusEnvironment", "regCallback.storage"]
+- ["PSo18UIFocusEnvironment", "routineRecord"]
+- ["PSo18UIFocusEnvironment", "stepsdic"]
+- ["PSo18UIFocusEnvironment", "syncnow"]
+- ["PSo18UIFocusEnvironment", "tabledata"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "vDevSer"]
+- ["PSo18UIFocusEnvironment", "vDevType"]
+- ["PSo18UIFocusEnvironment", "vGender"]
+- ["PSo18UIFocusEnvironment", "vName"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "AuthToken"]
+- !private ["CSo11UIResponder", "CMUserAccountResult"]
+- ["CSo11UIResponder", "CMUserOperationCallback"]
+- ["CSo11UIResponder", "Dashboard"]
+- ["CSo11UIResponder", "Done"]
+- ["CSo11UIResponder", "GetUserProfile"]
+- ["CSo11UIResponder", "HealthKit"]
+- ["CSo11UIResponder", "JobDone"]
+- ["CSo11UIResponder", "Lblsynstatus"]
+- ["CSo11UIResponder", "NSCoder"]
+- ["CSo11UIResponder", "NSDictionary"]
+- !private ["CSo11UIResponder", "NSError"]
+- !private ["CSo11UIResponder", "NSHTTPURLResponse"]
+- !private ["CSo11UIResponder", "NSJSONSerialization"]
+- ["CSo11UIResponder", "NSString"]
+- !private ["CSo11UIResponder", "NSURL"]
+- !private ["CSo11UIResponder", "NSURLRequest"]
+- !private ["CSo11UIResponder", "NSURLSession"]
+- !private ["CSo11UIResponder", "NSUserDefaults"]
+- ["CSo11UIResponder", "OrganizationId"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "TableData"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UserId"]
+- ["CSo11UIResponder", "UserToken"]
+- ["CSo11UIResponder", "VDeviceme"]
+- ["CSo11UIResponder", "VLast_upd"]
+- ["CSo11UIResponder", "ValidicId"]
+- ["CSo11UIResponder", "VdevType"]
+- !private ["CSo11UIResponder", "Void"]
+- ["CSo11UIResponder", "dashboards"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "dismissViewControllerAnimated"]
+- ["CSo11UIResponder", "healthManager"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "myResult"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "regCallback"]
+- ["CSo11UIResponder", "regCallback.storage"]
+- ["CSo11UIResponder", "routineRecord"]
+- ["CSo11UIResponder", "stepsdic"]
+- ["CSo11UIResponder", "syncnow"]
+- ["CSo11UIResponder", "tabledata"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "vDevSer"]
+- ["CSo11UIResponder", "vDevType"]
+- ["CSo11UIResponder", "vGender"]
+- ["CSo11UIResponder", "vName"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "AuthToken"]
+- ["PSo16UIStateRestoring", "Dashboard"]
+- ["PSo16UIStateRestoring", "Done"]
+- ["PSo16UIStateRestoring", "GetUserProfile"]
+- ["PSo16UIStateRestoring", "HealthKit"]
+- ["PSo16UIStateRestoring", "JobDone"]
+- ["PSo16UIStateRestoring", "Lblsynstatus"]
+- !private ["PSo16UIStateRestoring", "NSJSONSerialization"]
+- !private ["PSo16UIStateRestoring", "NSURL"]
+- !private ["PSo16UIStateRestoring", "NSURLRequest"]
+- !private ["PSo16UIStateRestoring", "NSURLSession"]
+- !private ["PSo16UIStateRestoring", "NSUserDefaults"]
+- ["PSo16UIStateRestoring", "OrganizationId"]
+- !private ["PSo16UIStateRestoring", "String"]
+- ["PSo16UIStateRestoring", "TableData"]
+- ["PSo16UIStateRestoring", "UserId"]
+- ["PSo16UIStateRestoring", "UserToken"]
+- ["PSo16UIStateRestoring", "VDeviceme"]
+- ["PSo16UIStateRestoring", "VLast_upd"]
+- ["PSo16UIStateRestoring", "ValidicId"]
+- ["PSo16UIStateRestoring", "VdevType"]
+- ["PSo16UIStateRestoring", "dashboards"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "dismissViewControllerAnimated"]
+- ["PSo16UIStateRestoring", "healthManager"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "myResult"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "regCallback"]
+- ["PSo16UIStateRestoring", "regCallback.storage"]
+- ["PSo16UIStateRestoring", "routineRecord"]
+- ["PSo16UIStateRestoring", "stepsdic"]
+- ["PSo16UIStateRestoring", "syncnow"]
+- ["PSo16UIStateRestoring", "tabledata"]
+- ["PSo16UIStateRestoring", "vDevSer"]
+- ["PSo16UIStateRestoring", "vDevType"]
+- ["PSo16UIStateRestoring", "vGender"]
+- ["PSo16UIStateRestoring", "vName"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- ["PSo18UITraitEnvironment", "AuthToken"]
+- ["PSo18UITraitEnvironment", "Dashboard"]
+- ["PSo18UITraitEnvironment", "Done"]
+- ["PSo18UITraitEnvironment", "GetUserProfile"]
+- ["PSo18UITraitEnvironment", "HealthKit"]
+- ["PSo18UITraitEnvironment", "JobDone"]
+- ["PSo18UITraitEnvironment", "Lblsynstatus"]
+- !private ["PSo18UITraitEnvironment", "NSJSONSerialization"]
+- !private ["PSo18UITraitEnvironment", "NSURL"]
+- !private ["PSo18UITraitEnvironment", "NSURLRequest"]
+- !private ["PSo18UITraitEnvironment", "NSURLSession"]
+- !private ["PSo18UITraitEnvironment", "NSUserDefaults"]
+- ["PSo18UITraitEnvironment", "OrganizationId"]
+- !private ["PSo18UITraitEnvironment", "String"]
+- ["PSo18UITraitEnvironment", "TableData"]
+- ["PSo18UITraitEnvironment", "UserId"]
+- ["PSo18UITraitEnvironment", "UserToken"]
+- ["PSo18UITraitEnvironment", "VDeviceme"]
+- ["PSo18UITraitEnvironment", "VLast_upd"]
+- ["PSo18UITraitEnvironment", "ValidicId"]
+- ["PSo18UITraitEnvironment", "VdevType"]
+- ["PSo18UITraitEnvironment", "dashboards"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "dismissViewControllerAnimated"]
+- ["PSo18UITraitEnvironment", "healthManager"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "myResult"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "regCallback"]
+- ["PSo18UITraitEnvironment", "regCallback.storage"]
+- ["PSo18UITraitEnvironment", "routineRecord"]
+- ["PSo18UITraitEnvironment", "stepsdic"]
+- ["PSo18UITraitEnvironment", "syncnow"]
+- ["PSo18UITraitEnvironment", "tabledata"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "vDevSer"]
+- ["PSo18UITraitEnvironment", "vDevType"]
+- ["PSo18UITraitEnvironment", "vGender"]
+- ["PSo18UITraitEnvironment", "vName"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "AuthToken"]
+- !private ["CSo16UIViewController", "CMUserAccountResult"]
+- ["CSo16UIViewController", "CMUserOperationCallback"]
+- ["CSo16UIViewController", "Dashboard"]
+- ["CSo16UIViewController", "Done"]
+- ["CSo16UIViewController", "GetUserProfile"]
+- ["CSo16UIViewController", "HealthKit"]
+- ["CSo16UIViewController", "JobDone"]
+- ["CSo16UIViewController", "Lblsynstatus"]
+- ["CSo16UIViewController", "NSCoder"]
+- ["CSo16UIViewController", "NSDictionary"]
+- !private ["CSo16UIViewController", "NSError"]
+- !private ["CSo16UIViewController", "NSHTTPURLResponse"]
+- !private ["CSo16UIViewController", "NSJSONSerialization"]
+- ["CSo16UIViewController", "NSString"]
+- !private ["CSo16UIViewController", "NSURL"]
+- !private ["CSo16UIViewController", "NSURLRequest"]
+- !private ["CSo16UIViewController", "NSURLSession"]
+- !private ["CSo16UIViewController", "NSUserDefaults"]
+- ["CSo16UIViewController", "OrganizationId"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "TableData"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "UserId"]
+- ["CSo16UIViewController", "UserToken"]
+- ["CSo16UIViewController", "VDeviceme"]
+- ["CSo16UIViewController", "VLast_upd"]
+- ["CSo16UIViewController", "ValidicId"]
+- ["CSo16UIViewController", "VdevType"]
+- !private ["CSo16UIViewController", "Void"]
+- ["CSo16UIViewController", "dashboards"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- !private ["CSo16UIViewController", "dismissViewControllerAnimated"]
+- ["CSo16UIViewController", "healthManager"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "myResult"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "regCallback"]
+- ["CSo16UIViewController", "regCallback.storage"]
+- ["CSo16UIViewController", "routineRecord"]
+- ["CSo16UIViewController", "stepsdic"]
+- ["CSo16UIViewController", "syncnow"]
+- ["CSo16UIViewController", "tabledata"]
+- ["CSo16UIViewController", "vDevSer"]
+- ["CSo16UIViewController", "vDevType"]
+- ["CSo16UIViewController", "vGender"]
+- ["CSo16UIViewController", "vName"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs10_ArrayType", "Generator"]
+- !private ["PSs10_ArrayType", "Index"]
+- !private ["PSs10_ArrayType", "SubSequence"]
+- !private ["PSs10_ArrayType", "count"]
+- ["PSs10_ArrayType", "init"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs24_DestructorSafeContainer", "Generator"]
+- !private ["PSs24_DestructorSafeContainer", "Index"]
+- !private ["PSs24_DestructorSafeContainer", "SubSequence"]
+- !private ["PSs24_DestructorSafeContainer", "count"]
+- ["PSs24_DestructorSafeContainer", "init"]
+- !private ["PSs32_FileReferenceLiteralConvertible", "init"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "count"]
+- ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "count"]
+- ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "objectForKey"]
+- !private ["PSs12_Reflectable", "text"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+depends-nominal:
+- "PSs9AnyObject"
+- "Sa"
+- "PSs23ArrayLiteralConvertible"
+- !private "VSs10ArraySlice"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "OSC19CMUserAccountResult"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- "PSs14CollectionType"
+- !private "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "C6DevCon9Dashboard"
+- !private "PSs28DictionaryLiteralConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs9ErrorType"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "PSs16ForwardIndexType"
+- "PSs8Hashable"
+- "C6DevCon9HealthKit"
+- "PSs9Indexable"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- "PSs21MutableCollectionType"
+- "PSs16MutableIndexable"
+- "PSs16MutableSliceable"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo12NSDictionary"
+- !private "CSo7NSError"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo17NSFastEnumeration"
+- !private "CSo17NSHTTPURLResponse"
+- !private "VSC20NSJSONReadingOptions"
+- !private "CSo19NSJSONSerialization"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo5NSURL"
+- !private "CSo12NSURLRequest"
+- !private "CSo13NSURLResponse"
+- !private "CSo12NSURLSession"
+- !private "CSo20NSURLSessionDataTask"
+- !private "CSo16NSURLSessionTask"
+- !private "CSo14NSUserDefaults"
+- !private "PSs13OptionSetType"
+- !private "Sq"
+- !private "PSs16OutputStreamType"
+- "C6DevCon21ProfileViewController"
+- !private "PSs21RandomAccessIndexType"
+- "PSs30RangeReplaceableCollectionType"
+- !private "PSs16RawRepresentable"
+- "PSs12SequenceType"
+- !private "PSs14SetAlgebraType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "VSs12StaticString"
+- !private "PSs10Streamable"
+- !private "PSs10Strideable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- "C6DevCon9TableData"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- "PSs10_ArrayType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- "PSs24_DestructorSafeContainer"
+- !private "PSs32_FileReferenceLiteralConvertible"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+- !private "objectForKey"
+depends-external:
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/myHeart/DevCon-Bridging-Header.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CloudMine.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMAPICredentials.h"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMDate.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMSerializable.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMDistance.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMUntypedObject.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObject.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMStoreCallbacks.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMACLFetchResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMStoreResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMSnippetResult.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMResponseMetadata.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMUser.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMUserAccountResult.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMSocialLoginViewController.h"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMPaymentResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObjectFetchResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObjectUploadResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMFileFetchResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMFileUploadResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMFileUploadResult.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMDeleteResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMStore.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMStoreOptions.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMServerFunction.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMPagingDescriptor.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMFile.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObjectOwnershipLevel.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMDeviceTokenResult.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMGeoPoint.h"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMACL.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMMimeType.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObjectClassNameRegistry.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObjectDecoder.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObjectEncoder.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObjectSerialization.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMCoding.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMSortDescriptor.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMNullStore.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMWebService.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFNetworking.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFURLRequestSerialization.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFURLResponseSerialization.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFSecurityPolicy.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFNetworkReachabilityManager.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFURLConnectionOperation.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFHTTPRequestOperation.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFHTTPRequestOperationManager.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFURLSessionManager.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFHTTPSessionManager.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMChannelResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMViewChannelsResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMAppDelegateBase.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMActiveUser.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMUserResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMPaymentService.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMCardPayment.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/UIImageView+CloudMine.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/NewRelicAgent/NewRelicAgent/NewRelic.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/NewRelicAgent/NewRelicAgent/NewRelicFeatureFlags.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/NewRelicAgent/NewRelicAgent/NRConstants.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/NewRelicAgent/NewRelicAgent/NRTimer.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/NewRelicAgent/NewRelicAgent/NRLogger.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/NewRelicAgent/NewRelicAgent/NewRelicCustomInteractionInterface.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/NewRelicAgent/NewRelicAgent/NRGCDOverride.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Modules/ResearchKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ResearchKit-Swift.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKAnswerFormat_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKStepNavigationRule_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKRecorder_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKQuestionStepViewController_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKResult_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKCompletionStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKHolePegTestRemoveStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKHolePegTestPlaceStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKPSATStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKTimedWalkStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKTappingIntervalStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKFitnessStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKCountdownStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKWalkingTaskStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKSpatialSpanMemoryStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKToneAudiometryPracticeStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKToneAudiometryStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKAudioStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKTowerOfHanoiStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKReactionTimeStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKCompletionStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKHolePegTestRemoveStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKHolePegTestPlaceStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKPSATStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKTimedWalkStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKTappingIntervalStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKFitnessStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKCountdownStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKWalkingTaskStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKSpatialSpanMemoryStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKToneAudiometryPracticeStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKToneAudiometryStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKAudioStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKOrderedTask_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKCustomStepView.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKReviewStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKImageCaptureStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKConsentReviewStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKVisualConsentStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKInstructionStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKQuestionStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKErrors.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKDataLogger.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKTaskViewController_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKDefines_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ResearchKit_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKPieChartView.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKDiscreteGraphChartView.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKGraphChartView.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKLineGraphChartView.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKRangedPoint.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKActiveStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKActiveStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKPasscodeViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKPasscodeStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKKeychainWrapper.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKLoginStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKLoginStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKVerificationStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKVerificationStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKRegistrationStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKConsentSharingStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKConsentReviewStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKVisualConsentStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKConsentSection.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKConsentSignature.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKConsentDocument.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKWaitStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKFormStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKRecorder.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKTaskViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKResultPredicate.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKHealthAnswerFormat.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKWaitStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKIt.framework/Headers/ORKReviewStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKImageCaptureStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKStepNavigationRule.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKFormStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKInstructionStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKQuestionStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKNavigableOrderedTask.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKOrderedTask.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKAnswerFormat.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKResult.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKTask.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKDefines.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ResearchKit.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/WebKit.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/Charts.framework/Modules/Charts.swiftmodule/x86_64.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/Charts.framework/Headers/Charts-Swift.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/Charts.framework/Headers/Charts.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/Charts.framework/Modules/module.modulemap"
+interface-hash: "9dddbc04270b80efd96a8fb8d1706240"

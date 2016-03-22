@@ -1,0 +1,392 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SurveyResponse"
+provides-nominal:
+- "C6DevCon14SurveyResponse"
+provides-member:
+- ["C6DevCon14SurveyResponse", ""]
+provides-dynamic-lookup:
+- "location"
+- "classification"
+- "surveyId"
+- "__class__"
+- "duration"
+- "timestamp"
+- "userId"
+- "severity"
+depends-top-level:
+- "*"
+- "String"
+- "NSMutableDictionary"
+- "NSDate"
+- "UnicodeScalarType"
+- "SurveyResponse"
+- "StringLiteralType"
+- "NSObject"
+depends-member:
+- ["PSs9AnyObject", "NSDate"]
+- ["PSs9AnyObject", "__class__"]
+- ["PSs9AnyObject", "classification"]
+- ["PSs9AnyObject", "duration"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "location"]
+- ["PSs9AnyObject", "severity"]
+- ["PSs9AnyObject", "surveyId"]
+- ["PSs9AnyObject", "timeIntervalSince1970"]
+- ["PSs9AnyObject", "timestamp"]
+- ["PSs9AnyObject", "userId"]
+- ["PSs9AnyObject", ""]
+- ["Sb", "deinit"]
+- ["PSs11CVarArgType", "NSDate"]
+- ["PSs11CVarArgType", "__class__"]
+- ["PSs11CVarArgType", "classification"]
+- ["PSs11CVarArgType", "duration"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "location"]
+- ["PSs11CVarArgType", "severity"]
+- ["PSs11CVarArgType", "surveyId"]
+- ["PSs11CVarArgType", "timeIntervalSince1970"]
+- ["PSs11CVarArgType", "timestamp"]
+- ["PSs11CVarArgType", "userId"]
+- ["PSs11CVarArgType", ""]
+- ["VSs9Character", "deinit"]
+- ["PSs10Comparable", "init"]
+- ["PSs28CustomDebugStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "NSDate"]
+- ["PSs23CustomStringConvertible", "__class__"]
+- ["PSs23CustomStringConvertible", "classification"]
+- ["PSs23CustomStringConvertible", "duration"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "location"]
+- ["PSs23CustomStringConvertible", "severity"]
+- ["PSs23CustomStringConvertible", "surveyId"]
+- ["PSs23CustomStringConvertible", "timeIntervalSince1970"]
+- ["PSs23CustomStringConvertible", "timestamp"]
+- ["PSs23CustomStringConvertible", "userId"]
+- ["PSs23CustomStringConvertible", ""]
+- ["Sd", "deinit"]
+- ["PSs9Equatable", "NSDate"]
+- ["PSs9Equatable", "__class__"]
+- ["PSs9Equatable", "classification"]
+- ["PSs9Equatable", "duration"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "location"]
+- ["PSs9Equatable", "severity"]
+- ["PSs9Equatable", "surveyId"]
+- ["PSs9Equatable", "timeIntervalSince1970"]
+- ["PSs9Equatable", "timestamp"]
+- ["PSs9Equatable", "userId"]
+- ["PSs9Equatable", ""]
+- ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- ["Sf", "deinit"]
+- ["PSs8Hashable", "NSDate"]
+- ["PSs8Hashable", "__class__"]
+- ["PSs8Hashable", "classification"]
+- ["PSs8Hashable", "duration"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "location"]
+- ["PSs8Hashable", "severity"]
+- ["PSs8Hashable", "surveyId"]
+- ["PSs8Hashable", "timeIntervalSince1970"]
+- ["PSs8Hashable", "timestamp"]
+- ["PSs8Hashable", "userId"]
+- ["PSs8Hashable", ""]
+- ["Si", "deinit"]
+- ["VSs5Int16", "deinit"]
+- ["VSs5Int32", "deinit"]
+- ["VSs5Int64", "deinit"]
+- ["VSs4Int8", "deinit"]
+- ["PSs14MirrorPathType", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "timeIntervalSince1970"]
+- ["PSo9NSCopying", "init"]
+- ["PSo9NSCopying", "timeIntervalSince1970"]
+- ["CSo6NSDate", "init"]
+- ["CSo6NSDate", "timeIntervalSince1970"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "NSDate"]
+- ["CSo8NSObject", "NSMutableDictionary"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "__class__"]
+- ["CSo8NSObject", "classification"]
+- ["CSo8NSObject", "duration"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "location"]
+- ["CSo8NSObject", "severity"]
+- ["CSo8NSObject", "surveyId"]
+- ["CSo8NSObject", "timeIntervalSince1970"]
+- ["CSo8NSObject", "timestamp"]
+- ["CSo8NSObject", "userId"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "NSDate"]
+- ["PSo16NSObjectProtocol", "__class__"]
+- ["PSo16NSObjectProtocol", "classification"]
+- ["PSo16NSObjectProtocol", "duration"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "location"]
+- ["PSo16NSObjectProtocol", "severity"]
+- ["PSo16NSObjectProtocol", "surveyId"]
+- ["PSo16NSObjectProtocol", "timeIntervalSince1970"]
+- ["PSo16NSObjectProtocol", "timestamp"]
+- ["PSo16NSObjectProtocol", "userId"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- ["PSo14NSSecureCoding", "timeIntervalSince1970"]
+- ["CSo8NSString", "init"]
+- ["PSs16OutputStreamType", "init"]
+- ["PSs10Streamable", "init"]
+- ["SS", "init"]
+- ["PSs30StringInterpolationConvertible", "init"]
+- ["PSs24StringLiteralConvertible", "init"]
+- ["C6DevCon14SurveyResponse", "NSDate"]
+- ["C6DevCon14SurveyResponse", "NSMutableDictionary"]
+- ["C6DevCon14SurveyResponse", "String"]
+- ["C6DevCon14SurveyResponse", "__class__"]
+- ["C6DevCon14SurveyResponse", "classification"]
+- ["C6DevCon14SurveyResponse", "deinit"]
+- ["C6DevCon14SurveyResponse", "duration"]
+- ["C6DevCon14SurveyResponse", "init"]
+- ["C6DevCon14SurveyResponse", "location"]
+- ["C6DevCon14SurveyResponse", "severity"]
+- ["C6DevCon14SurveyResponse", "surveyId"]
+- ["C6DevCon14SurveyResponse", "timestamp"]
+- ["C6DevCon14SurveyResponse", "userId"]
+- ["Su", "deinit"]
+- ["VSs6UInt16", "deinit"]
+- ["VSs6UInt32", "deinit"]
+- ["VSs6UInt64", "deinit"]
+- ["VSs5UInt8", "deinit"]
+- ["Sc", "deinit"]
+- ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- ["PSs16_CocoaStringType", "init"]
+- ["PSs21_ObjectiveCBridgeable", "init"]
+- ["PSs12_Reflectable", "init"]
+- ["PSs12_Reflectable", "timeIntervalSince1970"]
+depends-nominal:
+- "PSs9AnyObject"
+- "Sb"
+- "PSs11CVarArgType"
+- "VSs9Character"
+- "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "Sd"
+- "PSs9Equatable"
+- "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- "Sf"
+- "PSs8Hashable"
+- "Si"
+- "VSs5Int16"
+- "VSs5Int32"
+- "VSs5Int64"
+- "VSs4Int8"
+- "PSs14MirrorPathType"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo6NSDate"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "PSs16OutputStreamType"
+- "PSs10Streamable"
+- "SS"
+- "PSs30StringInterpolationConvertible"
+- "PSs24StringLiteralConvertible"
+- "C6DevCon14SurveyResponse"
+- "Su"
+- "VSs6UInt16"
+- "VSs6UInt32"
+- "VSs6UInt64"
+- "VSs5UInt8"
+- "Sc"
+- "PSs31UnicodeScalarLiteralConvertible"
+- "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- "PSs32_BuiltinStringLiteralConvertible"
+- "PSs37_BuiltinUTF16StringLiteralConvertible"
+- "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- "PSs16_CocoaStringType"
+- "PSs21_ObjectiveCBridgeable"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/myHeart/DevCon-Bridging-Header.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CloudMine.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMAPICredentials.h"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMDate.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMSerializable.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMDistance.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMUntypedObject.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObject.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMStoreCallbacks.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMACLFetchResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMStoreResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMSnippetResult.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMResponseMetadata.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMUser.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMUserAccountResult.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMSocialLoginViewController.h"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMPaymentResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObjectFetchResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObjectUploadResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMFileFetchResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMFileUploadResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMFileUploadResult.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMDeleteResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMStore.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMStoreOptions.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMServerFunction.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMPagingDescriptor.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMFile.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObjectOwnershipLevel.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMDeviceTokenResult.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMGeoPoint.h"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMACL.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMMimeType.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObjectClassNameRegistry.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObjectDecoder.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObjectEncoder.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObjectSerialization.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMCoding.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMSortDescriptor.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMNullStore.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMWebService.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFNetworking.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFURLRequestSerialization.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFURLResponseSerialization.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFSecurityPolicy.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFNetworkReachabilityManager.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFURLConnectionOperation.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFHTTPRequestOperation.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFHTTPRequestOperationManager.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFURLSessionManager.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFHTTPSessionManager.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMChannelResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMViewChannelsResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMAppDelegateBase.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMActiveUser.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMUserResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMPaymentService.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMCardPayment.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/UIImageView+CloudMine.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/NewRelicAgent/NewRelicAgent/NewRelic.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/NewRelicAgent/NewRelicAgent/NewRelicFeatureFlags.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/NewRelicAgent/NewRelicAgent/NRConstants.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/NewRelicAgent/NewRelicAgent/NRTimer.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/NewRelicAgent/NewRelicAgent/NRLogger.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/NewRelicAgent/NewRelicAgent/NewRelicCustomInteractionInterface.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/NewRelicAgent/NewRelicAgent/NRGCDOverride.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Modules/ResearchKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ResearchKit-Swift.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKAnswerFormat_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKStepNavigationRule_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKRecorder_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKQuestionStepViewController_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKResult_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKCompletionStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKHolePegTestRemoveStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKHolePegTestPlaceStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKPSATStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKTimedWalkStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKTappingIntervalStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKFitnessStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKCountdownStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKWalkingTaskStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKSpatialSpanMemoryStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKToneAudiometryPracticeStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKToneAudiometryStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKAudioStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKTowerOfHanoiStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKReactionTimeStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKCompletionStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKHolePegTestRemoveStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKHolePegTestPlaceStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKPSATStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKTimedWalkStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKTappingIntervalStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKFitnessStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKCountdownStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKWalkingTaskStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKSpatialSpanMemoryStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKToneAudiometryPracticeStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKToneAudiometryStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKAudioStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKOrderedTask_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKCustomStepView.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKReviewStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKImageCaptureStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKConsentReviewStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKVisualConsentStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKInstructionStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKQuestionStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKErrors.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKDataLogger.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKTaskViewController_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKDefines_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ResearchKit_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKPieChartView.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKDiscreteGraphChartView.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKGraphChartView.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKLineGraphChartView.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKRangedPoint.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKActiveStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKActiveStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKPasscodeViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKPasscodeStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKKeychainWrapper.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKLoginStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKLoginStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKVerificationStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKVerificationStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKRegistrationStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKConsentSharingStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKConsentReviewStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKVisualConsentStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKConsentSection.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKConsentSignature.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKConsentDocument.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKWaitStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKFormStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKRecorder.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKTaskViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKResultPredicate.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKHealthAnswerFormat.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKWaitStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKIt.framework/Headers/ORKReviewStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKImageCaptureStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKStepNavigationRule.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKFormStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKInstructionStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKQuestionStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKNavigableOrderedTask.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKOrderedTask.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKAnswerFormat.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKResult.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKTask.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKDefines.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ResearchKit.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/WebKit.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/Charts.framework/Modules/Charts.swiftmodule/x86_64.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/Charts.framework/Headers/Charts-Swift.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/Charts.framework/Headers/Charts.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/Charts.framework/Modules/module.modulemap"
+interface-hash: "8b6df140b1227aefaa48fd023cb81548"

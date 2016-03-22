@@ -1,0 +1,475 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/brajbong/Downloads/ValidicApp.V4/build/Debug-iphonesimulator/AFNetworking.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AFHTTPRequestOperation.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFHTTPRequestOperationManager.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFHTTPSessionManager.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworkActivityIndicatorManager.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworkReachabilityManager.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworking-Swift.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/build/Debug-iphonesimulator/AFNetworking.framework/Headers/AFNetworking-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworking-umbrella.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Target Support Files/AFNetworking/AFNetworking-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFNetworking.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/AFNetworking/AFNetworking/AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFSecurityPolicy.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFURLConnectionOperation.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/AFNetworking/AFNetworking/AFURLConnectionOperation.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFURLRequestSerialization.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFURLResponseSerialization.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h"
+        },
+        {
+          'type': 'file',
+          'name': "AFURLSessionManager.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIActivityIndicatorView+AFNetworking.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIAlertView+AFNetworking.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/AFNetworking/UIKit+AFNetworking/UIAlertView+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIButton+AFNetworking.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImage+AFNetworking.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/AFNetworking/UIKit+AFNetworking/UIImage+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImageView+AFNetworking.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIKit+AFNetworking.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/AFNetworking/UIKit+AFNetworking/UIKit+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIProgressView+AFNetworking.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIRefreshControl+AFNetworking.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIWebView+AFNetworking.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/brajbong/Downloads/ValidicApp.V4/build/Debug-iphonesimulator/AFNetworking.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/build/Pods.build/Debug-iphonesimulator/AFNetworking.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/brajbong/Downloads/ValidicApp.V4/build/Debug-iphonesimulator/CloudMine.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CMACL.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Users/ACLs/CMACL.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMACLFetchResponse.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Storage/CMACLFetchResponse.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMAPICredentials.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Web Services/CMAPICredentials.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMActiveUser.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Web Services/CMActiveUser.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMAppDelegateBase.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Web Services/CMAppDelegateBase.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMCardPayment.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Web Services/CMCardPayment.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMChannelResponse.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Storage/Response/CMChannelResponse.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMCoding.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Web Services/CMCoding.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMConstants.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/CMConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMDate.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Persisted Objects/CMDate.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMDeleteResponse.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Storage/Response/CMDeleteResponse.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMDeviceTokenResult.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Web Services/CMDeviceTokenResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMDistance.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Storage/Response/Metadata/CMDistance.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMFile.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Persisted Objects/CMFile.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMFileFetchResponse.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Storage/Response/CMFileFetchResponse.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMFileUploadResponse.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Storage/Response/CMFileUploadResponse.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMFileUploadResult.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Web Services/CMFileUploadResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMGeoPoint.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Persisted Objects/CMGeoPoint.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMMimeType.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/CMMimeType.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMNullStore.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Storage/CMNullStore.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMObject+Private.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Persisted Objects/CMObject+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMObject.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Persisted Objects/CMObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMObjectClassNameRegistry.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Persisted Objects/CMObjectClassNameRegistry.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMObjectDecoder.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Web Services/Decoding/CMObjectDecoder.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMObjectEncoder.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Web Services/Encoding/CMObjectEncoder.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMObjectFetchResponse.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Storage/Response/CMObjectFetchResponse.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMObjectOwnershipLevel.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Storage/CMObjectOwnershipLevel.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMObjectSerialization.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Web Services/CMObjectSerialization.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMObjectUploadResponse.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Storage/Response/CMObjectUploadResponse.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMPagingDescriptor.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Web Services/CMPagingDescriptor.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMPaymentResponse.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Web Services/CMPaymentResponse.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMPaymentService.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Web Services/CMPaymentService.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMResponse.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Storage/CMResponse.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMResponseMetadata.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Storage/Response/CMResponseMetadata.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMSerializable.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Web Services/CMSerializable.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMServerFunction.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Web Services/CMServerFunction.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMSnippetResult.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Storage/Response/CMSnippetResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMSocialAccountChooser.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Web Services/CMSocialAccountChooser.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMSocialLoginViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Web Services/CMSocialLoginViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMSortDescriptor.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Web Services/CMSortDescriptor.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMStore.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Storage/CMStore.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMStoreCallbacks.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Storage/CMStoreCallbacks.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMStoreOptions.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Storage/CMStoreOptions.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMStoreResponse.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Storage/Response/CMStoreResponse.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMTools.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Extensions/CMTools.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMUntypedObject.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Persisted Objects/CMUntypedObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMUser.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Users/CMUser.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMUserAccountResult.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Web Services/CMUserAccountResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMUserResponse.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Storage/CMUserResponse.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMViewChannelsResponse.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Storage/CMViewChannelsResponse.h"
+        },
+        {
+          'type': 'file',
+          'name': "CMWebService.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Web Services/CMWebService.h"
+        },
+        {
+          'type': 'file',
+          'name': "CloudMine-Swift.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/build/Debug-iphonesimulator/CloudMine.framework/Headers/CloudMine-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "CloudMine-umbrella.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Target Support Files/CloudMine/CloudMine-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "CloudMine.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/CloudMine.h"
+        },
+        {
+          'type': 'file',
+          'name': "MARTNSObject.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Vendor/MARTNSObject.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSArray+CMJSON.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Extensions/NSArray+CMJSON.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSDictionary+CMJSON.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Extensions/NSDictionary+CMJSON.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSString+UUID.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Extensions/NSString+UUID.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSURL+QueryParameterAdditions.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Extensions/NSURL+QueryParameterAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "RTIvar.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Vendor/RTIvar.h"
+        },
+        {
+          'type': 'file',
+          'name': "RTMethod.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Vendor/RTMethod.h"
+        },
+        {
+          'type': 'file',
+          'name': "RTProperty.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Vendor/RTProperty.h"
+        },
+        {
+          'type': 'file',
+          'name': "RTProtocol.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Vendor/RTProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "RTUnregisteredClass.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/Vendor/RTUnregisteredClass.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIImageView+CloudMine.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/Pods/CloudMine/ios/ios/src/UIImageView+CloudMine.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/brajbong/Downloads/ValidicApp.V4/build/Debug-iphonesimulator/CloudMine.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/build/Pods.build/Debug-iphonesimulator/CloudMine.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

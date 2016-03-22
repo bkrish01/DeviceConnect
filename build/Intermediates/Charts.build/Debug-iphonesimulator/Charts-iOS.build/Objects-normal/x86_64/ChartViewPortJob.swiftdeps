@@ -1,0 +1,63 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChartViewPortJob"
+provides-nominal:
+- "C6Charts16ChartViewPortJob"
+provides-member:
+- ["C6Charts16ChartViewPortJob", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "ChartViewBase"
+- "Double"
+- "ChartTransformer"
+- "CGPoint"
+- "CGFloat"
+- "ChartViewPortJob"
+- "ChartViewPortHandler"
+depends-member:
+- ["PSs9AnyObject", "CGPoint"]
+- !private ["PSs9AnyObject", "transformer"]
+- !private ["PSs9AnyObject", "view"]
+- !private ["PSs9AnyObject", "viewPortHandler"]
+- !private ["PSs9AnyObject", "xIndex"]
+- !private ["PSs9AnyObject", "yValue"]
+- ["PSs9AnyObject", ""]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["VSC7CGPoint", "init"]
+- ["C6Charts16ChartViewPortJob", "CGFloat"]
+- ["C6Charts16ChartViewPortJob", "CGPoint"]
+- ["C6Charts16ChartViewPortJob", "ChartTransformer"]
+- ["C6Charts16ChartViewPortJob", "ChartViewBase"]
+- ["C6Charts16ChartViewPortJob", "ChartViewPortHandler"]
+- ["C6Charts16ChartViewPortJob", "Double"]
+- ["C6Charts16ChartViewPortJob", "deinit"]
+- ["C6Charts16ChartViewPortJob", "doJob"]
+- ["C6Charts16ChartViewPortJob", "init"]
+- ["C6Charts16ChartViewPortJob", "point"]
+- ["C6Charts16ChartViewPortJob", "transformer"]
+- ["C6Charts16ChartViewPortJob", "view"]
+- ["C6Charts16ChartViewPortJob", "viewPortHandler"]
+- ["C6Charts16ChartViewPortJob", "xIndex"]
+- ["C6Charts16ChartViewPortJob", "yValue"]
+- ["PSs9Equatable", "init"]
+- ["PSs12_Reflectable", "init"]
+depends-nominal:
+- "PSs9AnyObject"
+- "V12CoreGraphics7CGFloat"
+- "VSC7CGPoint"
+- "C6Charts16ChartViewPortJob"
+- "PSs9Equatable"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/brajbong/Downloads/ios-charts-master/Charts/Supporting Files/Charts.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Intermediates/Charts.build/Debug-iphonesimulator/Charts-iOS.build/unextended-module.modulemap"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "cebb3f40720180058a4fbed938668732"

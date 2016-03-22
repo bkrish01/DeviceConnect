@@ -1,0 +1,1105 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BMIViewController"
+provides-nominal:
+- "C6DevCon17BMIViewController"
+provides-member:
+- ["C6DevCon17BMIViewController", ""]
+provides-dynamic-lookup:
+- "kUnknownString"
+- "didReceiveMemoryWarning"
+- "weight"
+- "BMlLabel"
+- "Cancel"
+- "updateBMI"
+- "viewDidLoad"
+- "Done"
+- "heightLabel"
+- "saveBMI"
+- "updateHeight"
+- "updateWeight"
+- "weightLabel"
+- "height"
+depends-top-level:
+- !private "&&"
+- "HKQuantitySample"
+- !private "=="
+- !private "HKSampleType"
+- !private "HKQuantityTypeIdentifierHeight"
+- !private "Void"
+- "UILabel"
+- !private "NSMassFormatter"
+- "BMIViewController"
+- "UIViewController"
+- "StringLiteralType"
+- !private "dispatch_get_main_queue"
+- !private "HKQuantityTypeIdentifierBodyMass"
+- !private "dispatch_async"
+- !private "*"
+- "HealthKit"
+- "Double"
+- "AnyObject"
+- !private "/"
+- !private "BooleanLiteralType"
+- !private "print"
+- !private "HKUnit"
+- "UITextField"
+- !private "NSDate"
+- !private "NSLengthFormatter"
+- !private "!="
+- !private "String"
+depends-member:
+- ["PSs9AnyObject", "BMlLabel"]
+- ["PSs9AnyObject", "Cancel"]
+- ["PSs9AnyObject", "Done"]
+- !private ["PSs9AnyObject", "HKQuantityTypeIdentifierBodyMass"]
+- !private ["PSs9AnyObject", "HKQuantityTypeIdentifierHeight"]
+- !private ["PSs9AnyObject", "HKSampleType"]
+- !private ["PSs9AnyObject", "HKUnit"]
+- ["PSs9AnyObject", "HealthKit"]
+- !private ["PSs9AnyObject", "NSDate"]
+- !private ["PSs9AnyObject", "NSLengthFormatter"]
+- !private ["PSs9AnyObject", "NSMassFormatter"]
+- !private ["PSs9AnyObject", "String"]
+- ["PSs9AnyObject", "bmi"]
+- ["PSs9AnyObject", "calculateBMIWithWeightInKilograms"]
+- ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- !private ["PSs9AnyObject", "dismissViewControllerAnimated"]
+- !private ["PSs9AnyObject", "dispatch_async"]
+- !private ["PSs9AnyObject", "dispatch_get_main_queue"]
+- !private ["PSs9AnyObject", "doubleValueForUnit"]
+- !private ["PSs9AnyObject", "forPersonHeightUse"]
+- !private ["PSs9AnyObject", "forPersonMassUse"]
+- !private ["PSs9AnyObject", "gramUnitWithMetricPrefix"]
+- ["PSs9AnyObject", "healthManager"]
+- ["PSs9AnyObject", "height"]
+- ["PSs9AnyObject", "heightLabel"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "kUnknownString"]
+- !private ["PSs9AnyObject", "localizedDescription"]
+- !private ["PSs9AnyObject", "meterUnit"]
+- !private ["PSs9AnyObject", "print"]
+- !private ["PSs9AnyObject", "quantity"]
+- !private ["PSs9AnyObject", "quantityTypeForIdentifier"]
+- !private ["PSs9AnyObject", "readMostRecentSample"]
+- ["PSs9AnyObject", "saveBMI"]
+- !private ["PSs9AnyObject", "saveBMISample"]
+- !private ["PSs9AnyObject", "stringFromKilograms"]
+- !private ["PSs9AnyObject", "stringFromMeters"]
+- !private ["PSs9AnyObject", "text"]
+- !private ["PSs9AnyObject", "undoManager"]
+- ["PSs9AnyObject", "updateBMI"]
+- ["PSs9AnyObject", "updateHeight"]
+- ["PSs9AnyObject", "updateWeight"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", "weight"]
+- ["PSs9AnyObject", "weightLabel"]
+- ["PSs9AnyObject", ""]
+- ["C6DevCon17BMIViewController", "AnyObject"]
+- ["C6DevCon17BMIViewController", "BMlLabel"]
+- ["C6DevCon17BMIViewController", "Cancel"]
+- ["C6DevCon17BMIViewController", "Done"]
+- ["C6DevCon17BMIViewController", "Double"]
+- ["C6DevCon17BMIViewController", "HKQuantitySample"]
+- !private ["C6DevCon17BMIViewController", "HKQuantityTypeIdentifierBodyMass"]
+- !private ["C6DevCon17BMIViewController", "HKQuantityTypeIdentifierHeight"]
+- !private ["C6DevCon17BMIViewController", "HKSampleType"]
+- !private ["C6DevCon17BMIViewController", "HKUnit"]
+- ["C6DevCon17BMIViewController", "HealthKit"]
+- !private ["C6DevCon17BMIViewController", "NSDate"]
+- !private ["C6DevCon17BMIViewController", "NSLengthFormatter"]
+- !private ["C6DevCon17BMIViewController", "NSMassFormatter"]
+- !private ["C6DevCon17BMIViewController", "String"]
+- ["C6DevCon17BMIViewController", "UILabel"]
+- ["C6DevCon17BMIViewController", "UITextField"]
+- !private ["C6DevCon17BMIViewController", "Void"]
+- ["C6DevCon17BMIViewController", "bmi"]
+- ["C6DevCon17BMIViewController", "calculateBMIWithWeightInKilograms"]
+- ["C6DevCon17BMIViewController", "deinit"]
+- ["C6DevCon17BMIViewController", "didReceiveMemoryWarning"]
+- !private ["C6DevCon17BMIViewController", "dismissViewControllerAnimated"]
+- !private ["C6DevCon17BMIViewController", "dispatch_async"]
+- !private ["C6DevCon17BMIViewController", "dispatch_get_main_queue"]
+- ["C6DevCon17BMIViewController", "healthManager"]
+- ["C6DevCon17BMIViewController", "height"]
+- ["C6DevCon17BMIViewController", "heightLabel"]
+- ["C6DevCon17BMIViewController", "init"]
+- ["C6DevCon17BMIViewController", "kUnknownString"]
+- !private ["C6DevCon17BMIViewController", "print"]
+- ["C6DevCon17BMIViewController", "saveBMI"]
+- !private ["C6DevCon17BMIViewController", "undoManager"]
+- ["C6DevCon17BMIViewController", "updateBMI"]
+- ["C6DevCon17BMIViewController", "updateHeight"]
+- ["C6DevCon17BMIViewController", "updateWeight"]
+- ["C6DevCon17BMIViewController", "viewDidLoad"]
+- ["C6DevCon17BMIViewController", "weight"]
+- ["C6DevCon17BMIViewController", "weightLabel"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- ["PSs11CVarArgType", "BMlLabel"]
+- ["PSs11CVarArgType", "Cancel"]
+- ["PSs11CVarArgType", "Done"]
+- !private ["PSs11CVarArgType", "HKQuantityTypeIdentifierBodyMass"]
+- !private ["PSs11CVarArgType", "HKQuantityTypeIdentifierHeight"]
+- !private ["PSs11CVarArgType", "HKSampleType"]
+- !private ["PSs11CVarArgType", "HKUnit"]
+- ["PSs11CVarArgType", "HealthKit"]
+- !private ["PSs11CVarArgType", "NSDate"]
+- !private ["PSs11CVarArgType", "NSLengthFormatter"]
+- !private ["PSs11CVarArgType", "NSMassFormatter"]
+- !private ["PSs11CVarArgType", "String"]
+- ["PSs11CVarArgType", "bmi"]
+- ["PSs11CVarArgType", "calculateBMIWithWeightInKilograms"]
+- ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- !private ["PSs11CVarArgType", "dismissViewControllerAnimated"]
+- !private ["PSs11CVarArgType", "dispatch_async"]
+- !private ["PSs11CVarArgType", "dispatch_get_main_queue"]
+- !private ["PSs11CVarArgType", "doubleValueForUnit"]
+- !private ["PSs11CVarArgType", "forPersonHeightUse"]
+- !private ["PSs11CVarArgType", "forPersonMassUse"]
+- !private ["PSs11CVarArgType", "gramUnitWithMetricPrefix"]
+- ["PSs11CVarArgType", "healthManager"]
+- ["PSs11CVarArgType", "height"]
+- ["PSs11CVarArgType", "heightLabel"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "kUnknownString"]
+- !private ["PSs11CVarArgType", "localizedDescription"]
+- !private ["PSs11CVarArgType", "meterUnit"]
+- !private ["PSs11CVarArgType", "print"]
+- !private ["PSs11CVarArgType", "quantity"]
+- !private ["PSs11CVarArgType", "quantityTypeForIdentifier"]
+- ["PSs11CVarArgType", "saveBMI"]
+- !private ["PSs11CVarArgType", "stringFromKilograms"]
+- !private ["PSs11CVarArgType", "stringFromMeters"]
+- !private ["PSs11CVarArgType", "text"]
+- !private ["PSs11CVarArgType", "undoManager"]
+- ["PSs11CVarArgType", "updateBMI"]
+- ["PSs11CVarArgType", "updateHeight"]
+- ["PSs11CVarArgType", "updateWeight"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", "weight"]
+- ["PSs11CVarArgType", "weightLabel"]
+- ["PSs11CVarArgType", ""]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "BMlLabel"]
+- ["PSs23CustomStringConvertible", "Cancel"]
+- ["PSs23CustomStringConvertible", "Done"]
+- !private ["PSs23CustomStringConvertible", "HKQuantityTypeIdentifierBodyMass"]
+- !private ["PSs23CustomStringConvertible", "HKQuantityTypeIdentifierHeight"]
+- !private ["PSs23CustomStringConvertible", "HKSampleType"]
+- !private ["PSs23CustomStringConvertible", "HKUnit"]
+- ["PSs23CustomStringConvertible", "HealthKit"]
+- !private ["PSs23CustomStringConvertible", "NSDate"]
+- !private ["PSs23CustomStringConvertible", "NSLengthFormatter"]
+- !private ["PSs23CustomStringConvertible", "NSMassFormatter"]
+- !private ["PSs23CustomStringConvertible", "String"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["PSs23CustomStringConvertible", "bmi"]
+- ["PSs23CustomStringConvertible", "calculateBMIWithWeightInKilograms"]
+- ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["PSs23CustomStringConvertible", "dismissViewControllerAnimated"]
+- !private ["PSs23CustomStringConvertible", "dispatch_async"]
+- !private ["PSs23CustomStringConvertible", "dispatch_get_main_queue"]
+- !private ["PSs23CustomStringConvertible", "doubleValueForUnit"]
+- !private ["PSs23CustomStringConvertible", "forPersonHeightUse"]
+- !private ["PSs23CustomStringConvertible", "forPersonMassUse"]
+- !private ["PSs23CustomStringConvertible", "gramUnitWithMetricPrefix"]
+- ["PSs23CustomStringConvertible", "healthManager"]
+- ["PSs23CustomStringConvertible", "height"]
+- ["PSs23CustomStringConvertible", "heightLabel"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "kUnknownString"]
+- !private ["PSs23CustomStringConvertible", "localizedDescription"]
+- !private ["PSs23CustomStringConvertible", "meterUnit"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- !private ["PSs23CustomStringConvertible", "quantity"]
+- !private ["PSs23CustomStringConvertible", "quantityTypeForIdentifier"]
+- ["PSs23CustomStringConvertible", "saveBMI"]
+- !private ["PSs23CustomStringConvertible", "stringFromKilograms"]
+- !private ["PSs23CustomStringConvertible", "stringFromMeters"]
+- !private ["PSs23CustomStringConvertible", "text"]
+- !private ["PSs23CustomStringConvertible", "undoManager"]
+- ["PSs23CustomStringConvertible", "updateBMI"]
+- ["PSs23CustomStringConvertible", "updateHeight"]
+- ["PSs23CustomStringConvertible", "updateWeight"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", "weight"]
+- ["PSs23CustomStringConvertible", "weightLabel"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- ["PSs9Equatable", "BMlLabel"]
+- ["PSs9Equatable", "Cancel"]
+- ["PSs9Equatable", "Done"]
+- !private ["PSs9Equatable", "HKQuantityTypeIdentifierBodyMass"]
+- !private ["PSs9Equatable", "HKQuantityTypeIdentifierHeight"]
+- !private ["PSs9Equatable", "HKSampleType"]
+- !private ["PSs9Equatable", "HKUnit"]
+- ["PSs9Equatable", "HealthKit"]
+- !private ["PSs9Equatable", "Kilo"]
+- !private ["PSs9Equatable", "NSDate"]
+- !private ["PSs9Equatable", "NSLengthFormatter"]
+- !private ["PSs9Equatable", "NSMassFormatter"]
+- !private ["PSs9Equatable", "String"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- ["PSs9Equatable", "bmi"]
+- ["PSs9Equatable", "calculateBMIWithWeightInKilograms"]
+- ["PSs9Equatable", "didReceiveMemoryWarning"]
+- !private ["PSs9Equatable", "dismissViewControllerAnimated"]
+- !private ["PSs9Equatable", "dispatch_async"]
+- !private ["PSs9Equatable", "dispatch_get_main_queue"]
+- !private ["PSs9Equatable", "doubleValueForUnit"]
+- !private ["PSs9Equatable", "forPersonHeightUse"]
+- !private ["PSs9Equatable", "forPersonMassUse"]
+- !private ["PSs9Equatable", "gramUnitWithMetricPrefix"]
+- ["PSs9Equatable", "healthManager"]
+- ["PSs9Equatable", "height"]
+- ["PSs9Equatable", "heightLabel"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "kUnknownString"]
+- !private ["PSs9Equatable", "localizedDescription"]
+- !private ["PSs9Equatable", "meterUnit"]
+- !private ["PSs9Equatable", "print"]
+- !private ["PSs9Equatable", "quantity"]
+- !private ["PSs9Equatable", "quantityTypeForIdentifier"]
+- ["PSs9Equatable", "saveBMI"]
+- !private ["PSs9Equatable", "stringFromKilograms"]
+- !private ["PSs9Equatable", "stringFromMeters"]
+- !private ["PSs9Equatable", "text"]
+- !private ["PSs9Equatable", "undoManager"]
+- ["PSs9Equatable", "updateBMI"]
+- ["PSs9Equatable", "updateHeight"]
+- ["PSs9Equatable", "updateWeight"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", "weight"]
+- ["PSs9Equatable", "weightLabel"]
+- ["PSs9Equatable", ""]
+- !private ["PSs9ErrorType", "localizedDescription"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["OSC14HKMetricPrefix", "Kilo"]
+- !private ["CSo8HKObject", "quantity"]
+- !private ["CSo12HKObjectType", "quantityTypeForIdentifier"]
+- !private ["CSo10HKQuantity", "doubleValueForUnit"]
+- !private ["CSo16HKQuantitySample", "quantity"]
+- !private ["CSo8HKSample", "deinit"]
+- !private ["CSo8HKSample", "quantity"]
+- !private ["CSo12HKSampleType", "quantityTypeForIdentifier"]
+- !private ["CSo6HKUnit", "gramUnitWithMetricPrefix"]
+- !private ["CSo6HKUnit", "meterUnit"]
+- ["PSs8Hashable", "BMlLabel"]
+- ["PSs8Hashable", "Cancel"]
+- ["PSs8Hashable", "Done"]
+- !private ["PSs8Hashable", "HKQuantityTypeIdentifierBodyMass"]
+- !private ["PSs8Hashable", "HKQuantityTypeIdentifierHeight"]
+- !private ["PSs8Hashable", "HKSampleType"]
+- !private ["PSs8Hashable", "HKUnit"]
+- ["PSs8Hashable", "HealthKit"]
+- !private ["PSs8Hashable", "Kilo"]
+- !private ["PSs8Hashable", "NSDate"]
+- !private ["PSs8Hashable", "NSLengthFormatter"]
+- !private ["PSs8Hashable", "NSMassFormatter"]
+- !private ["PSs8Hashable", "String"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- ["PSs8Hashable", "bmi"]
+- ["PSs8Hashable", "calculateBMIWithWeightInKilograms"]
+- ["PSs8Hashable", "didReceiveMemoryWarning"]
+- !private ["PSs8Hashable", "dismissViewControllerAnimated"]
+- !private ["PSs8Hashable", "dispatch_async"]
+- !private ["PSs8Hashable", "dispatch_get_main_queue"]
+- !private ["PSs8Hashable", "doubleValueForUnit"]
+- !private ["PSs8Hashable", "forPersonHeightUse"]
+- !private ["PSs8Hashable", "forPersonMassUse"]
+- !private ["PSs8Hashable", "gramUnitWithMetricPrefix"]
+- ["PSs8Hashable", "healthManager"]
+- ["PSs8Hashable", "height"]
+- ["PSs8Hashable", "heightLabel"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "kUnknownString"]
+- !private ["PSs8Hashable", "localizedDescription"]
+- !private ["PSs8Hashable", "meterUnit"]
+- !private ["PSs8Hashable", "print"]
+- !private ["PSs8Hashable", "quantity"]
+- !private ["PSs8Hashable", "quantityTypeForIdentifier"]
+- ["PSs8Hashable", "saveBMI"]
+- !private ["PSs8Hashable", "stringFromKilograms"]
+- !private ["PSs8Hashable", "stringFromMeters"]
+- !private ["PSs8Hashable", "text"]
+- !private ["PSs8Hashable", "undoManager"]
+- ["PSs8Hashable", "updateBMI"]
+- ["PSs8Hashable", "updateHeight"]
+- ["PSs8Hashable", "updateWeight"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", "weight"]
+- ["PSs8Hashable", "weightLabel"]
+- ["PSs8Hashable", ""]
+- ["C6DevCon9HealthKit", "init"]
+- !private ["C6DevCon9HealthKit", "readMostRecentSample"]
+- !private ["C6DevCon9HealthKit", "saveBMISample"]
+- !private ["SQ", "deinit"]
+- !private ["Si", "deinit"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs14MirrorPathType", "init"]
+- ["PSo8NSCoding", "BMlLabel"]
+- ["PSo8NSCoding", "Cancel"]
+- ["PSo8NSCoding", "Done"]
+- !private ["PSo8NSCoding", "HKQuantityTypeIdentifierBodyMass"]
+- !private ["PSo8NSCoding", "HKQuantityTypeIdentifierHeight"]
+- !private ["PSo8NSCoding", "HKSampleType"]
+- !private ["PSo8NSCoding", "HKUnit"]
+- ["PSo8NSCoding", "HealthKit"]
+- !private ["PSo8NSCoding", "NSDate"]
+- !private ["PSo8NSCoding", "NSLengthFormatter"]
+- !private ["PSo8NSCoding", "NSMassFormatter"]
+- !private ["PSo8NSCoding", "String"]
+- ["PSo8NSCoding", "bmi"]
+- ["PSo8NSCoding", "calculateBMIWithWeightInKilograms"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "dismissViewControllerAnimated"]
+- !private ["PSo8NSCoding", "dispatch_async"]
+- !private ["PSo8NSCoding", "dispatch_get_main_queue"]
+- !private ["PSo8NSCoding", "doubleValueForUnit"]
+- !private ["PSo8NSCoding", "forPersonHeightUse"]
+- !private ["PSo8NSCoding", "forPersonMassUse"]
+- !private ["PSo8NSCoding", "gramUnitWithMetricPrefix"]
+- ["PSo8NSCoding", "healthManager"]
+- ["PSo8NSCoding", "height"]
+- ["PSo8NSCoding", "heightLabel"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "kUnknownString"]
+- !private ["PSo8NSCoding", "localizedDescription"]
+- !private ["PSo8NSCoding", "meterUnit"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "quantity"]
+- !private ["PSo8NSCoding", "quantityTypeForIdentifier"]
+- ["PSo8NSCoding", "saveBMI"]
+- !private ["PSo8NSCoding", "stringFromKilograms"]
+- !private ["PSo8NSCoding", "stringFromMeters"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "undoManager"]
+- ["PSo8NSCoding", "updateBMI"]
+- ["PSo8NSCoding", "updateHeight"]
+- ["PSo8NSCoding", "updateWeight"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", "weight"]
+- ["PSo8NSCoding", "weightLabel"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "doubleValueForUnit"]
+- !private ["PSo9NSCopying", "forPersonHeightUse"]
+- !private ["PSo9NSCopying", "forPersonMassUse"]
+- !private ["PSo9NSCopying", "gramUnitWithMetricPrefix"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "localizedDescription"]
+- !private ["PSo9NSCopying", "meterUnit"]
+- !private ["PSo9NSCopying", "quantityTypeForIdentifier"]
+- !private ["PSo9NSCopying", "stringFromKilograms"]
+- !private ["PSo9NSCopying", "stringFromMeters"]
+- !private ["CSo6NSDate", "init"]
+- !private ["CSo7NSError", "deinit"]
+- !private ["CSo7NSError", "localizedDescription"]
+- ["PSo26NSExtensionRequestHandling", "BMlLabel"]
+- ["PSo26NSExtensionRequestHandling", "Cancel"]
+- ["PSo26NSExtensionRequestHandling", "Done"]
+- !private ["PSo26NSExtensionRequestHandling", "HKQuantityTypeIdentifierBodyMass"]
+- !private ["PSo26NSExtensionRequestHandling", "HKQuantityTypeIdentifierHeight"]
+- !private ["PSo26NSExtensionRequestHandling", "HKSampleType"]
+- !private ["PSo26NSExtensionRequestHandling", "HKUnit"]
+- ["PSo26NSExtensionRequestHandling", "HealthKit"]
+- !private ["PSo26NSExtensionRequestHandling", "NSDate"]
+- !private ["PSo26NSExtensionRequestHandling", "NSLengthFormatter"]
+- !private ["PSo26NSExtensionRequestHandling", "NSMassFormatter"]
+- !private ["PSo26NSExtensionRequestHandling", "String"]
+- ["PSo26NSExtensionRequestHandling", "bmi"]
+- ["PSo26NSExtensionRequestHandling", "calculateBMIWithWeightInKilograms"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "dismissViewControllerAnimated"]
+- !private ["PSo26NSExtensionRequestHandling", "dispatch_async"]
+- !private ["PSo26NSExtensionRequestHandling", "dispatch_get_main_queue"]
+- ["PSo26NSExtensionRequestHandling", "healthManager"]
+- ["PSo26NSExtensionRequestHandling", "height"]
+- ["PSo26NSExtensionRequestHandling", "heightLabel"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "kUnknownString"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "saveBMI"]
+- !private ["PSo26NSExtensionRequestHandling", "undoManager"]
+- ["PSo26NSExtensionRequestHandling", "updateBMI"]
+- ["PSo26NSExtensionRequestHandling", "updateHeight"]
+- ["PSo26NSExtensionRequestHandling", "updateWeight"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", "weight"]
+- ["PSo26NSExtensionRequestHandling", "weightLabel"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["CSo11NSFormatter", "forPersonHeightUse"]
+- !private ["CSo11NSFormatter", "forPersonMassUse"]
+- !private ["CSo11NSFormatter", "init"]
+- !private ["CSo11NSFormatter", "stringFromKilograms"]
+- !private ["CSo11NSFormatter", "stringFromMeters"]
+- !private ["CSo17NSLengthFormatter", "forPersonHeightUse"]
+- !private ["CSo17NSLengthFormatter", "init"]
+- !private ["CSo17NSLengthFormatter", "stringFromMeters"]
+- !private ["CSo15NSMassFormatter", "forPersonMassUse"]
+- !private ["CSo15NSMassFormatter", "init"]
+- !private ["CSo15NSMassFormatter", "stringFromKilograms"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "BMlLabel"]
+- ["CSo8NSObject", "Cancel"]
+- ["CSo8NSObject", "Done"]
+- ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "HKQuantitySample"]
+- !private ["CSo8NSObject", "HKQuantityTypeIdentifierBodyMass"]
+- !private ["CSo8NSObject", "HKQuantityTypeIdentifierHeight"]
+- !private ["CSo8NSObject", "HKSampleType"]
+- !private ["CSo8NSObject", "HKUnit"]
+- ["CSo8NSObject", "HealthKit"]
+- !private ["CSo8NSObject", "NSDate"]
+- !private ["CSo8NSObject", "NSLengthFormatter"]
+- !private ["CSo8NSObject", "NSMassFormatter"]
+- !private ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UITextField"]
+- !private ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "bmi"]
+- ["CSo8NSObject", "calculateBMIWithWeightInKilograms"]
+- !private ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "dismissViewControllerAnimated"]
+- !private ["CSo8NSObject", "dispatch_async"]
+- !private ["CSo8NSObject", "dispatch_get_main_queue"]
+- !private ["CSo8NSObject", "doubleValueForUnit"]
+- !private ["CSo8NSObject", "forPersonHeightUse"]
+- !private ["CSo8NSObject", "forPersonMassUse"]
+- !private ["CSo8NSObject", "gramUnitWithMetricPrefix"]
+- ["CSo8NSObject", "healthManager"]
+- ["CSo8NSObject", "height"]
+- ["CSo8NSObject", "heightLabel"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "kUnknownString"]
+- !private ["CSo8NSObject", "localizedDescription"]
+- !private ["CSo8NSObject", "meterUnit"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "quantity"]
+- !private ["CSo8NSObject", "quantityTypeForIdentifier"]
+- ["CSo8NSObject", "saveBMI"]
+- !private ["CSo8NSObject", "stringFromKilograms"]
+- !private ["CSo8NSObject", "stringFromMeters"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "undoManager"]
+- ["CSo8NSObject", "updateBMI"]
+- ["CSo8NSObject", "updateHeight"]
+- ["CSo8NSObject", "updateWeight"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "weight"]
+- ["CSo8NSObject", "weightLabel"]
+- ["PSo16NSObjectProtocol", "BMlLabel"]
+- ["PSo16NSObjectProtocol", "Cancel"]
+- ["PSo16NSObjectProtocol", "Done"]
+- !private ["PSo16NSObjectProtocol", "HKQuantityTypeIdentifierBodyMass"]
+- !private ["PSo16NSObjectProtocol", "HKQuantityTypeIdentifierHeight"]
+- !private ["PSo16NSObjectProtocol", "HKSampleType"]
+- !private ["PSo16NSObjectProtocol", "HKUnit"]
+- ["PSo16NSObjectProtocol", "HealthKit"]
+- !private ["PSo16NSObjectProtocol", "NSDate"]
+- !private ["PSo16NSObjectProtocol", "NSLengthFormatter"]
+- !private ["PSo16NSObjectProtocol", "NSMassFormatter"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- ["PSo16NSObjectProtocol", "bmi"]
+- ["PSo16NSObjectProtocol", "calculateBMIWithWeightInKilograms"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "dismissViewControllerAnimated"]
+- !private ["PSo16NSObjectProtocol", "dispatch_async"]
+- !private ["PSo16NSObjectProtocol", "dispatch_get_main_queue"]
+- !private ["PSo16NSObjectProtocol", "doubleValueForUnit"]
+- !private ["PSo16NSObjectProtocol", "forPersonHeightUse"]
+- !private ["PSo16NSObjectProtocol", "forPersonMassUse"]
+- !private ["PSo16NSObjectProtocol", "gramUnitWithMetricPrefix"]
+- ["PSo16NSObjectProtocol", "healthManager"]
+- ["PSo16NSObjectProtocol", "height"]
+- ["PSo16NSObjectProtocol", "heightLabel"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "kUnknownString"]
+- !private ["PSo16NSObjectProtocol", "localizedDescription"]
+- !private ["PSo16NSObjectProtocol", "meterUnit"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "quantity"]
+- !private ["PSo16NSObjectProtocol", "quantityTypeForIdentifier"]
+- ["PSo16NSObjectProtocol", "saveBMI"]
+- !private ["PSo16NSObjectProtocol", "stringFromKilograms"]
+- !private ["PSo16NSObjectProtocol", "stringFromMeters"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "undoManager"]
+- ["PSo16NSObjectProtocol", "updateBMI"]
+- ["PSo16NSObjectProtocol", "updateHeight"]
+- ["PSo16NSObjectProtocol", "updateWeight"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "weight"]
+- ["PSo16NSObjectProtocol", "weightLabel"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "doubleValueForUnit"]
+- !private ["PSo14NSSecureCoding", "gramUnitWithMetricPrefix"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "localizedDescription"]
+- !private ["PSo14NSSecureCoding", "meterUnit"]
+- !private ["PSo14NSSecureCoding", "quantity"]
+- !private ["PSo14NSSecureCoding", "quantityTypeForIdentifier"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "init"]
+- !private ["PSs21NilLiteralConvertible", "Some"]
+- !private ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs16RawRepresentable", "Kilo"]
+- !private ["PSs10Streamable", "init"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo21UIAppearanceContainer", "BMlLabel"]
+- ["PSo21UIAppearanceContainer", "Cancel"]
+- ["PSo21UIAppearanceContainer", "Done"]
+- !private ["PSo21UIAppearanceContainer", "HKQuantityTypeIdentifierBodyMass"]
+- !private ["PSo21UIAppearanceContainer", "HKQuantityTypeIdentifierHeight"]
+- !private ["PSo21UIAppearanceContainer", "HKSampleType"]
+- !private ["PSo21UIAppearanceContainer", "HKUnit"]
+- ["PSo21UIAppearanceContainer", "HealthKit"]
+- !private ["PSo21UIAppearanceContainer", "NSDate"]
+- !private ["PSo21UIAppearanceContainer", "NSLengthFormatter"]
+- !private ["PSo21UIAppearanceContainer", "NSMassFormatter"]
+- !private ["PSo21UIAppearanceContainer", "String"]
+- ["PSo21UIAppearanceContainer", "bmi"]
+- ["PSo21UIAppearanceContainer", "calculateBMIWithWeightInKilograms"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "dismissViewControllerAnimated"]
+- !private ["PSo21UIAppearanceContainer", "dispatch_async"]
+- !private ["PSo21UIAppearanceContainer", "dispatch_get_main_queue"]
+- ["PSo21UIAppearanceContainer", "healthManager"]
+- ["PSo21UIAppearanceContainer", "height"]
+- ["PSo21UIAppearanceContainer", "heightLabel"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "kUnknownString"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "saveBMI"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "undoManager"]
+- ["PSo21UIAppearanceContainer", "updateBMI"]
+- ["PSo21UIAppearanceContainer", "updateHeight"]
+- ["PSo21UIAppearanceContainer", "updateWeight"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", "weight"]
+- ["PSo21UIAppearanceContainer", "weightLabel"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "BMlLabel"]
+- ["PSo18UIContentContainer", "Cancel"]
+- ["PSo18UIContentContainer", "Done"]
+- !private ["PSo18UIContentContainer", "HKQuantityTypeIdentifierBodyMass"]
+- !private ["PSo18UIContentContainer", "HKQuantityTypeIdentifierHeight"]
+- !private ["PSo18UIContentContainer", "HKSampleType"]
+- !private ["PSo18UIContentContainer", "HKUnit"]
+- ["PSo18UIContentContainer", "HealthKit"]
+- !private ["PSo18UIContentContainer", "NSDate"]
+- !private ["PSo18UIContentContainer", "NSLengthFormatter"]
+- !private ["PSo18UIContentContainer", "NSMassFormatter"]
+- !private ["PSo18UIContentContainer", "String"]
+- ["PSo18UIContentContainer", "bmi"]
+- ["PSo18UIContentContainer", "calculateBMIWithWeightInKilograms"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "dismissViewControllerAnimated"]
+- !private ["PSo18UIContentContainer", "dispatch_async"]
+- !private ["PSo18UIContentContainer", "dispatch_get_main_queue"]
+- ["PSo18UIContentContainer", "healthManager"]
+- ["PSo18UIContentContainer", "height"]
+- ["PSo18UIContentContainer", "heightLabel"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "kUnknownString"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "saveBMI"]
+- !private ["PSo18UIContentContainer", "undoManager"]
+- ["PSo18UIContentContainer", "updateBMI"]
+- ["PSo18UIContentContainer", "updateHeight"]
+- ["PSo18UIContentContainer", "updateWeight"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", "weight"]
+- ["PSo18UIContentContainer", "weightLabel"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "text"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo18UIFocusEnvironment", "BMlLabel"]
+- ["PSo18UIFocusEnvironment", "Cancel"]
+- ["PSo18UIFocusEnvironment", "Done"]
+- !private ["PSo18UIFocusEnvironment", "HKQuantityTypeIdentifierBodyMass"]
+- !private ["PSo18UIFocusEnvironment", "HKQuantityTypeIdentifierHeight"]
+- !private ["PSo18UIFocusEnvironment", "HKSampleType"]
+- !private ["PSo18UIFocusEnvironment", "HKUnit"]
+- ["PSo18UIFocusEnvironment", "HealthKit"]
+- !private ["PSo18UIFocusEnvironment", "NSDate"]
+- !private ["PSo18UIFocusEnvironment", "NSLengthFormatter"]
+- !private ["PSo18UIFocusEnvironment", "NSMassFormatter"]
+- !private ["PSo18UIFocusEnvironment", "String"]
+- ["PSo18UIFocusEnvironment", "bmi"]
+- ["PSo18UIFocusEnvironment", "calculateBMIWithWeightInKilograms"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "dismissViewControllerAnimated"]
+- !private ["PSo18UIFocusEnvironment", "dispatch_async"]
+- !private ["PSo18UIFocusEnvironment", "dispatch_get_main_queue"]
+- ["PSo18UIFocusEnvironment", "healthManager"]
+- ["PSo18UIFocusEnvironment", "height"]
+- ["PSo18UIFocusEnvironment", "heightLabel"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "kUnknownString"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "saveBMI"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "undoManager"]
+- ["PSo18UIFocusEnvironment", "updateBMI"]
+- ["PSo18UIFocusEnvironment", "updateHeight"]
+- ["PSo18UIFocusEnvironment", "updateWeight"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", "weight"]
+- ["PSo18UIFocusEnvironment", "weightLabel"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo10UIKeyInput", "text"]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "BMlLabel"]
+- ["CSo11UIResponder", "Cancel"]
+- ["CSo11UIResponder", "Done"]
+- ["CSo11UIResponder", "Double"]
+- ["CSo11UIResponder", "HKQuantitySample"]
+- !private ["CSo11UIResponder", "HKQuantityTypeIdentifierBodyMass"]
+- !private ["CSo11UIResponder", "HKQuantityTypeIdentifierHeight"]
+- !private ["CSo11UIResponder", "HKSampleType"]
+- !private ["CSo11UIResponder", "HKUnit"]
+- ["CSo11UIResponder", "HealthKit"]
+- !private ["CSo11UIResponder", "NSDate"]
+- !private ["CSo11UIResponder", "NSLengthFormatter"]
+- !private ["CSo11UIResponder", "NSMassFormatter"]
+- !private ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UITextField"]
+- !private ["CSo11UIResponder", "Void"]
+- ["CSo11UIResponder", "bmi"]
+- ["CSo11UIResponder", "calculateBMIWithWeightInKilograms"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "dismissViewControllerAnimated"]
+- !private ["CSo11UIResponder", "dispatch_async"]
+- !private ["CSo11UIResponder", "dispatch_get_main_queue"]
+- ["CSo11UIResponder", "healthManager"]
+- ["CSo11UIResponder", "height"]
+- ["CSo11UIResponder", "heightLabel"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "kUnknownString"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "saveBMI"]
+- !private ["CSo11UIResponder", "text"]
+- !private ["CSo11UIResponder", "undoManager"]
+- ["CSo11UIResponder", "updateBMI"]
+- ["CSo11UIResponder", "updateHeight"]
+- ["CSo11UIResponder", "updateWeight"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "weight"]
+- ["CSo11UIResponder", "weightLabel"]
+- ["PSo16UIStateRestoring", "BMlLabel"]
+- ["PSo16UIStateRestoring", "Cancel"]
+- ["PSo16UIStateRestoring", "Done"]
+- !private ["PSo16UIStateRestoring", "HKQuantityTypeIdentifierBodyMass"]
+- !private ["PSo16UIStateRestoring", "HKQuantityTypeIdentifierHeight"]
+- !private ["PSo16UIStateRestoring", "HKSampleType"]
+- !private ["PSo16UIStateRestoring", "HKUnit"]
+- ["PSo16UIStateRestoring", "HealthKit"]
+- !private ["PSo16UIStateRestoring", "NSDate"]
+- !private ["PSo16UIStateRestoring", "NSLengthFormatter"]
+- !private ["PSo16UIStateRestoring", "NSMassFormatter"]
+- !private ["PSo16UIStateRestoring", "String"]
+- ["PSo16UIStateRestoring", "bmi"]
+- ["PSo16UIStateRestoring", "calculateBMIWithWeightInKilograms"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "dismissViewControllerAnimated"]
+- !private ["PSo16UIStateRestoring", "dispatch_async"]
+- !private ["PSo16UIStateRestoring", "dispatch_get_main_queue"]
+- ["PSo16UIStateRestoring", "healthManager"]
+- ["PSo16UIStateRestoring", "height"]
+- ["PSo16UIStateRestoring", "heightLabel"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "kUnknownString"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "saveBMI"]
+- !private ["PSo16UIStateRestoring", "undoManager"]
+- ["PSo16UIStateRestoring", "updateBMI"]
+- ["PSo16UIStateRestoring", "updateHeight"]
+- ["PSo16UIStateRestoring", "updateWeight"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "weight"]
+- ["PSo16UIStateRestoring", "weightLabel"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo11UITextField", "text"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "text"]
+- ["PSo18UITraitEnvironment", "BMlLabel"]
+- ["PSo18UITraitEnvironment", "Cancel"]
+- ["PSo18UITraitEnvironment", "Done"]
+- !private ["PSo18UITraitEnvironment", "HKQuantityTypeIdentifierBodyMass"]
+- !private ["PSo18UITraitEnvironment", "HKQuantityTypeIdentifierHeight"]
+- !private ["PSo18UITraitEnvironment", "HKSampleType"]
+- !private ["PSo18UITraitEnvironment", "HKUnit"]
+- ["PSo18UITraitEnvironment", "HealthKit"]
+- !private ["PSo18UITraitEnvironment", "NSDate"]
+- !private ["PSo18UITraitEnvironment", "NSLengthFormatter"]
+- !private ["PSo18UITraitEnvironment", "NSMassFormatter"]
+- !private ["PSo18UITraitEnvironment", "String"]
+- ["PSo18UITraitEnvironment", "bmi"]
+- ["PSo18UITraitEnvironment", "calculateBMIWithWeightInKilograms"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "dismissViewControllerAnimated"]
+- !private ["PSo18UITraitEnvironment", "dispatch_async"]
+- !private ["PSo18UITraitEnvironment", "dispatch_get_main_queue"]
+- ["PSo18UITraitEnvironment", "healthManager"]
+- ["PSo18UITraitEnvironment", "height"]
+- ["PSo18UITraitEnvironment", "heightLabel"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "kUnknownString"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "saveBMI"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "undoManager"]
+- ["PSo18UITraitEnvironment", "updateBMI"]
+- ["PSo18UITraitEnvironment", "updateHeight"]
+- ["PSo18UITraitEnvironment", "updateWeight"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", "weight"]
+- ["PSo18UITraitEnvironment", "weightLabel"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "BMlLabel"]
+- ["CSo16UIViewController", "Cancel"]
+- ["CSo16UIViewController", "Done"]
+- ["CSo16UIViewController", "Double"]
+- ["CSo16UIViewController", "HKQuantitySample"]
+- !private ["CSo16UIViewController", "HKQuantityTypeIdentifierBodyMass"]
+- !private ["CSo16UIViewController", "HKQuantityTypeIdentifierHeight"]
+- !private ["CSo16UIViewController", "HKSampleType"]
+- !private ["CSo16UIViewController", "HKUnit"]
+- ["CSo16UIViewController", "HealthKit"]
+- !private ["CSo16UIViewController", "NSDate"]
+- !private ["CSo16UIViewController", "NSLengthFormatter"]
+- !private ["CSo16UIViewController", "NSMassFormatter"]
+- !private ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "UITextField"]
+- !private ["CSo16UIViewController", "Void"]
+- ["CSo16UIViewController", "bmi"]
+- ["CSo16UIViewController", "calculateBMIWithWeightInKilograms"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- !private ["CSo16UIViewController", "dismissViewControllerAnimated"]
+- !private ["CSo16UIViewController", "dispatch_async"]
+- !private ["CSo16UIViewController", "dispatch_get_main_queue"]
+- ["CSo16UIViewController", "healthManager"]
+- ["CSo16UIViewController", "height"]
+- ["CSo16UIViewController", "heightLabel"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "kUnknownString"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "saveBMI"]
+- !private ["CSo16UIViewController", "undoManager"]
+- ["CSo16UIViewController", "updateBMI"]
+- ["CSo16UIViewController", "updateHeight"]
+- ["CSo16UIViewController", "updateWeight"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "weight"]
+- ["CSo16UIViewController", "weightLabel"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "text"]
+depends-nominal:
+- "PSs9AnyObject"
+- "C6DevCon17BMIViewController"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs9ErrorType"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "OSC14HKMetricPrefix"
+- !private "CSo8HKObject"
+- !private "CSo12HKObjectType"
+- !private "CSo10HKQuantity"
+- !private "CSo16HKQuantitySample"
+- !private "CSo8HKSample"
+- !private "CSo12HKSampleType"
+- !private "CSo6HKUnit"
+- "PSs8Hashable"
+- "C6DevCon9HealthKit"
+- !private "SQ"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs14MirrorPathType"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo6NSDate"
+- !private "CSo7NSError"
+- "PSo26NSExtensionRequestHandling"
+- !private "CSo11NSFormatter"
+- !private "CSo17NSLengthFormatter"
+- !private "CSo15NSMassFormatter"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "PSs21NilLiteralConvertible"
+- !private "Sq"
+- !private "PSs16OutputStreamType"
+- !private "PSs16RawRepresentable"
+- !private "PSs10Streamable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo10UIKeyInput"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/myHeart/DevCon-Bridging-Header.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CloudMine.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMAPICredentials.h"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMDate.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMSerializable.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMDistance.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMUntypedObject.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObject.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMStoreCallbacks.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMACLFetchResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMStoreResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMSnippetResult.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMResponseMetadata.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMUser.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMUserAccountResult.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMSocialLoginViewController.h"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMPaymentResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObjectFetchResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObjectUploadResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMFileFetchResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMFileUploadResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMFileUploadResult.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMDeleteResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMStore.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMStoreOptions.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMServerFunction.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMPagingDescriptor.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMFile.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObjectOwnershipLevel.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMDeviceTokenResult.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMGeoPoint.h"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMACL.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMMimeType.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObjectClassNameRegistry.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObjectDecoder.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObjectEncoder.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObjectSerialization.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMCoding.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMSortDescriptor.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMNullStore.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMWebService.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFNetworking.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFURLRequestSerialization.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFURLResponseSerialization.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFSecurityPolicy.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFNetworkReachabilityManager.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFURLConnectionOperation.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFHTTPRequestOperation.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFHTTPRequestOperationManager.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFURLSessionManager.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFHTTPSessionManager.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMChannelResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMViewChannelsResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMAppDelegateBase.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMActiveUser.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMUserResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMPaymentService.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMCardPayment.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/UIImageView+CloudMine.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/NewRelicAgent/NewRelicAgent/NewRelic.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/NewRelicAgent/NewRelicAgent/NewRelicFeatureFlags.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/NewRelicAgent/NewRelicAgent/NRConstants.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/NewRelicAgent/NewRelicAgent/NRTimer.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/NewRelicAgent/NewRelicAgent/NRLogger.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/NewRelicAgent/NewRelicAgent/NewRelicCustomInteractionInterface.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/NewRelicAgent/NewRelicAgent/NRGCDOverride.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Modules/ResearchKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ResearchKit-Swift.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKAnswerFormat_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKStepNavigationRule_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKRecorder_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKQuestionStepViewController_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKResult_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKCompletionStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKHolePegTestRemoveStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKHolePegTestPlaceStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKPSATStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKTimedWalkStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKTappingIntervalStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKFitnessStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKCountdownStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKWalkingTaskStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKSpatialSpanMemoryStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKToneAudiometryPracticeStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKToneAudiometryStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKAudioStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKTowerOfHanoiStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKReactionTimeStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKCompletionStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKHolePegTestRemoveStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKHolePegTestPlaceStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKPSATStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKTimedWalkStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKTappingIntervalStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKFitnessStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKCountdownStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKWalkingTaskStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKSpatialSpanMemoryStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKToneAudiometryPracticeStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKToneAudiometryStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKAudioStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKOrderedTask_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKCustomStepView.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKReviewStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKImageCaptureStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKConsentReviewStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKVisualConsentStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKInstructionStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKQuestionStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKErrors.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKDataLogger.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKTaskViewController_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKDefines_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ResearchKit_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKPieChartView.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKDiscreteGraphChartView.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKGraphChartView.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKLineGraphChartView.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKRangedPoint.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKActiveStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKActiveStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKPasscodeViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKPasscodeStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKKeychainWrapper.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKLoginStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKLoginStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKVerificationStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKVerificationStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKRegistrationStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKConsentSharingStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKConsentReviewStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKVisualConsentStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKConsentSection.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKConsentSignature.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKConsentDocument.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKWaitStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKFormStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKRecorder.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKTaskViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKResultPredicate.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKHealthAnswerFormat.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKWaitStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKIt.framework/Headers/ORKReviewStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKImageCaptureStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKStepNavigationRule.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKFormStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKInstructionStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKQuestionStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKNavigableOrderedTask.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKOrderedTask.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKAnswerFormat.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKResult.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKTask.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKDefines.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ResearchKit.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/WebKit.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/Charts.framework/Modules/Charts.swiftmodule/x86_64.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/Charts.framework/Headers/Charts-Swift.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/Charts.framework/Headers/Charts.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/Charts.framework/Modules/module.modulemap"
+interface-hash: "234e5ab5285273bbbf6fa413a1606545"

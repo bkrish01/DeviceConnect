@@ -1,0 +1,46 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "IBubbleChartDataSet"
+provides-nominal:
+- "P6Charts19IBubbleChartDataSet"
+provides-member:
+- ["P6Charts19IBubbleChartDataSet", ""]
+provides-dynamic-lookup:
+- "highlightCircleWidth"
+- "xMax"
+- "xMin"
+- "maxSize"
+depends-top-level:
+- "IBubbleChartDataSet"
+- "IBarLineScatterCandleBubbleChartDataSet"
+- "Double"
+- "CGFloat"
+depends-member:
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "CGFloat"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "Double"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", ""]
+- ["P6Charts19IBubbleChartDataSet", "CGFloat"]
+- ["P6Charts19IBubbleChartDataSet", "Double"]
+- ["P6Charts19IBubbleChartDataSet", "highlightCircleWidth"]
+- ["P6Charts19IBubbleChartDataSet", "maxSize"]
+- ["P6Charts19IBubbleChartDataSet", "xMax"]
+- ["P6Charts19IBubbleChartDataSet", "xMin"]
+- ["P6Charts13IChartDataSet", "CGFloat"]
+- ["P6Charts13IChartDataSet", "Double"]
+depends-nominal:
+- "P6Charts39IBarLineScatterCandleBubbleChartDataSet"
+- "P6Charts19IBubbleChartDataSet"
+- "P6Charts13IChartDataSet"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/brajbong/Downloads/ios-charts-master/Charts/Supporting Files/Charts.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Intermediates/Charts.build/Debug-iphonesimulator/Charts-iOS.build/unextended-module.modulemap"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "a8c1c8161b056c29c8c7ca32bf63c8eb"

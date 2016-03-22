@@ -1,0 +1,136 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MoveChartViewJob"
+provides-nominal:
+- "C6Charts16MoveChartViewJob"
+provides-member:
+- ["C6Charts16MoveChartViewJob", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "ChartViewPortHandler"
+- "Double"
+- "MoveChartViewJob"
+- "ChartTransformer"
+- "CGFloat"
+- "ChartViewPortJob"
+- "ChartViewBase"
+- !private "CGPoint"
+depends-member:
+- !private ["PSs16AbsoluteValuable", "init"]
+- !private ["PSs9AnyObject", "CGFloat"]
+- !private ["PSs9AnyObject", "CGPoint"]
+- !private ["PSs9AnyObject", "centerViewPort"]
+- ["PSs9AnyObject", "doJob"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "pointValueToPixel"]
+- !private ["PSs9AnyObject", "transformer"]
+- !private ["PSs9AnyObject", "view"]
+- !private ["PSs9AnyObject", "viewPortHandler"]
+- !private ["PSs9AnyObject", "xIndex"]
+- !private ["PSs9AnyObject", "yValue"]
+- ["PSs9AnyObject", ""]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["VSC7CGPoint", "init"]
+- !private ["PSs11CVarArgType", "centerViewPort"]
+- !private ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "pointValueToPixel"]
+- !private ["C6Charts16ChartTransformer", "pointValueToPixel"]
+- !private ["C6Charts20ChartViewPortHandler", "centerViewPort"]
+- ["C6Charts16ChartViewPortJob", "CGFloat"]
+- !private ["C6Charts16ChartViewPortJob", "CGPoint"]
+- ["C6Charts16ChartViewPortJob", "ChartTransformer"]
+- ["C6Charts16ChartViewPortJob", "ChartViewBase"]
+- ["C6Charts16ChartViewPortJob", "ChartViewPortHandler"]
+- ["C6Charts16ChartViewPortJob", "Double"]
+- ["C6Charts16ChartViewPortJob", "doJob"]
+- ["C6Charts16ChartViewPortJob", "init"]
+- !private ["C6Charts16ChartViewPortJob", "transformer"]
+- !private ["C6Charts16ChartViewPortJob", "view"]
+- !private ["C6Charts16ChartViewPortJob", "viewPortHandler"]
+- !private ["C6Charts16ChartViewPortJob", "xIndex"]
+- !private ["C6Charts16ChartViewPortJob", "yValue"]
+- ["C6Charts16ChartViewPortJob", ""]
+- !private ["PSs10Comparable", "init"]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs23CustomStringConvertible", "centerViewPort"]
+- !private ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "pointValueToPixel"]
+- !private ["PSs9Equatable", "centerViewPort"]
+- !private ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "pointValueToPixel"]
+- !private ["PSs23FloatLiteralConvertible", "init"]
+- !private ["PSs17FloatingPointType", "init"]
+- !private ["PSs8Hashable", "centerViewPort"]
+- !private ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "pointValueToPixel"]
+- !private ["PSs25IntegerLiteralConvertible", "init"]
+- ["C6Charts16MoveChartViewJob", "CGFloat"]
+- !private ["C6Charts16MoveChartViewJob", "CGPoint"]
+- ["C6Charts16MoveChartViewJob", "ChartTransformer"]
+- ["C6Charts16MoveChartViewJob", "ChartViewBase"]
+- ["C6Charts16MoveChartViewJob", "ChartViewPortHandler"]
+- ["C6Charts16MoveChartViewJob", "Double"]
+- ["C6Charts16MoveChartViewJob", "deinit"]
+- ["C6Charts16MoveChartViewJob", "doJob"]
+- ["C6Charts16MoveChartViewJob", "init"]
+- !private ["C6Charts16MoveChartViewJob", "transformer"]
+- !private ["C6Charts16MoveChartViewJob", "view"]
+- !private ["C6Charts16MoveChartViewJob", "viewPortHandler"]
+- !private ["C6Charts16MoveChartViewJob", "xIndex"]
+- !private ["C6Charts16MoveChartViewJob", "yValue"]
+- !private ["CSo8NSObject", "centerViewPort"]
+- !private ["CSo8NSObject", "pointValueToPixel"]
+- !private ["PSo16NSObjectProtocol", "centerViewPort"]
+- !private ["PSo16NSObjectProtocol", "pointValueToPixel"]
+- ["PSs21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["PSs16SignedNumberType", "init"]
+- !private ["PSs10Strideable", "init"]
+- !private ["PSs19_CVarArgAlignedType", "init"]
+- !private ["PSs22_CVarArgPassedAsDouble", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs11_Strideable", "init"]
+depends-nominal:
+- !private "PSs16AbsoluteValuable"
+- "PSs9AnyObject"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC7CGPoint"
+- !private "PSs11CVarArgType"
+- !private "C6Charts16ChartTransformer"
+- !private "C6Charts20ChartViewPortHandler"
+- "C6Charts16ChartViewPortJob"
+- !private "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- !private "PSs23CustomStringConvertible"
+- !private "PSs9Equatable"
+- !private "PSs23FloatLiteralConvertible"
+- !private "PSs17FloatingPointType"
+- !private "PSs8Hashable"
+- !private "PSs25IntegerLiteralConvertible"
+- "C6Charts16MoveChartViewJob"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- "PSs21NilLiteralConvertible"
+- "Sq"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Strideable"
+- !private "PSs19_CVarArgAlignedType"
+- !private "PSs22_CVarArgPassedAsDouble"
+- !private "PSs21_ObjectiveCBridgeable"
+- "PSs12_Reflectable"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Target Support Files/Charts/Charts-umbrella.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Intermediates/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "75c7db8437ed85cbdf2ea4dff5f7bba9"

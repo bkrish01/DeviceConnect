@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/brajbong/Downloads/ValidicApp.V4/build/Intermediates/ResearchKit.build/Debug-iphonesimulator/ResearchKit.build/unextended-module.modulemap',
+    }]
+  }]
+}

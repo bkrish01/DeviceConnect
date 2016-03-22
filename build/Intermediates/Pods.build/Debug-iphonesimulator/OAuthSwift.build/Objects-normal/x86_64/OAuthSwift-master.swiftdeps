@@ -1,0 +1,22 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "b79108808e38abe67ec50e91cc8113f4"
+build_time: [510885332, 112245000]
+inputs:
+  "/Users/brajbong/Downloads/ValidicApp.V4/Pods/OAuthSwift/OAuthSwift/SHA1.swift": [510881425, 0]
+  "/Users/brajbong/Downloads/ValidicApp.V4/Pods/OAuthSwift/OAuthSwift/UIApplication+OAuthSwift.swift": [510881425, 0]
+  "/Users/brajbong/Downloads/ValidicApp.V4/Pods/OAuthSwift/OAuthSwift/String+OAuthSwift.swift": [510881425, 0]
+  "/Users/brajbong/Downloads/ValidicApp.V4/Pods/OAuthSwift/OAuthSwift/OAuth1Swift.swift": [510881425, 0]
+  "/Users/brajbong/Downloads/ValidicApp.V4/Pods/OAuthSwift/OAuthSwift/OAuthSwiftURLHandlerType.swift": [510881425, 0]
+  "/Users/brajbong/Downloads/ValidicApp.V4/Pods/OAuthSwift/OAuthSwift/OAuthSwiftMultipartData.swift": [510881425, 0]
+  "/Users/brajbong/Downloads/ValidicApp.V4/Pods/OAuthSwift/OAuthSwift/OAuthWebViewController.swift": [510881425, 0]
+  "/Users/brajbong/Downloads/ValidicApp.V4/Pods/OAuthSwift/OAuthSwift/HMAC.swift": [510881425, 0]
+  "/Users/brajbong/Downloads/ValidicApp.V4/Pods/OAuthSwift/OAuthSwift/OAuthSwiftCredential.swift": [510881425, 0]
+  "/Users/brajbong/Downloads/ValidicApp.V4/Pods/OAuthSwift/OAuthSwift/OAuthSwiftHTTPRequest.swift": [510881425, 0]
+  "/Users/brajbong/Downloads/ValidicApp.V4/Pods/OAuthSwift/OAuthSwift/Dictionary+OAuthSwift.swift": [510881425, 0]
+  "/Users/brajbong/Downloads/ValidicApp.V4/Pods/OAuthSwift/OAuthSwift/Utils.swift": [510881425, 0]
+  "/Users/brajbong/Downloads/ValidicApp.V4/Pods/OAuthSwift/OAuthSwift/OAuth2Swift.swift": [510881425, 0]
+  "/Users/brajbong/Downloads/ValidicApp.V4/Pods/OAuthSwift/OAuthSwift/NSURL+OAuthSwift.swift": [510881425, 0]
+  "/Users/brajbong/Downloads/ValidicApp.V4/Pods/OAuthSwift/OAuthSwift/NSData+OAuthSwift.swift": [510881425, 0]
+  "/Users/brajbong/Downloads/ValidicApp.V4/Pods/OAuthSwift/OAuthSwift/OAuthSwift.swift": [510881425, 0]
+  "/Users/brajbong/Downloads/ValidicApp.V4/Pods/OAuthSwift/OAuthSwift/Int+OAuthSwift.swift": [510881425, 0]
+  "/Users/brajbong/Downloads/ValidicApp.V4/Pods/OAuthSwift/OAuthSwift/OAuthSwiftClient.swift": [510881425, 0]

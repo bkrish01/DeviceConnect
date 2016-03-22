@@ -1,0 +1,1074 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "dates"
+- "stepsOver"
+- "heartRate"
+- "dateOfMax"
+- "sleepAnalysis"
+- "calories"
+- "stairClimbRate"
+- "HealthKit"
+provides-nominal:
+- "C6DevCon9HealthKit"
+provides-member:
+- ["C6DevCon9HealthKit", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "HKObjectType"
+- !private "HKQueryOptions"
+- !private "+"
+- "String"
+- "HKQuantitySample"
+- !private "HKQuantityTypeIdentifierBodyMassIndex"
+- "NSSet"
+- !private "Set"
+- !private "NSSortDescriptor"
+- !private "StringLiteralType"
+- !private "-="
+- !private "HKSampleQuery"
+- !private "abort"
+- "stairClimbRate"
+- !private "%"
+- "NSError"
+- !private "HKSampleSortIdentifierEndDate"
+- "heartRate"
+- "dateOfMax"
+- !private "Array"
+- "Bool"
+- !private "-"
+- "HKSampleType"
+- !private "HKQuantityTypeIdentifierHeight"
+- !private "HKQuantityTypeIdentifierFlightsClimbed"
+- !private "=="
+- "HKSample"
+- "dates"
+- !private "NSDateFormatter"
+- !private "Dictionary"
+- !private "!="
+- !private "HKQuantityType"
+- !private "HKQuantity"
+- !private "HKSampleSortIdentifierStartDate"
+- !private "dispatch_async"
+- !private "NSDateComponents"
+- !private "NSLocalizedDescriptionKey"
+- !private "HKQuantityTypeIdentifierActiveEnergyBurned"
+- !private "HKUnit"
+- "stepsOver"
+- !private "print"
+- !private "HKQuantityTypeIdentifierBodyMass"
+- !private "dispatch_get_main_queue"
+- !private "HKQuantityTypeIdentifierStepCount"
+- !private "HKStatisticsCollectionQuery"
+- "sleepAnalysis"
+- !private "NSCalendar"
+- !private "BooleanLiteralType"
+- !private "HKQuantityTypeIdentifierHeartRate"
+- !private "!"
+- "NSDate"
+- "calories"
+- "HKHealthStore"
+- "Void"
+- "Double"
+- "HealthKit"
+- !private "HKQuery"
+depends-member:
+- ["PSs9AnyObject", "HKHealthStore"]
+- !private ["PSs9AnyObject", "HKObjectType"]
+- !private ["PSs9AnyObject", "HKQuantity"]
+- !private ["PSs9AnyObject", "HKQuantitySample"]
+- !private ["PSs9AnyObject", "HKQuantityType"]
+- !private ["PSs9AnyObject", "HKQuantityTypeIdentifierActiveEnergyBurned"]
+- !private ["PSs9AnyObject", "HKQuantityTypeIdentifierBodyMass"]
+- !private ["PSs9AnyObject", "HKQuantityTypeIdentifierBodyMassIndex"]
+- !private ["PSs9AnyObject", "HKQuantityTypeIdentifierFlightsClimbed"]
+- !private ["PSs9AnyObject", "HKQuantityTypeIdentifierHeartRate"]
+- !private ["PSs9AnyObject", "HKQuantityTypeIdentifierHeight"]
+- !private ["PSs9AnyObject", "HKQuantityTypeIdentifierStepCount"]
+- !private ["PSs9AnyObject", "HKQuery"]
+- !private ["PSs9AnyObject", "HKQueryOptions"]
+- !private ["PSs9AnyObject", "HKSampleQuery"]
+- !private ["PSs9AnyObject", "HKSampleSortIdentifierEndDate"]
+- !private ["PSs9AnyObject", "HKSampleSortIdentifierStartDate"]
+- !private ["PSs9AnyObject", "HKStatisticsCollectionQuery"]
+- !private ["PSs9AnyObject", "HKUnit"]
+- !private ["PSs9AnyObject", "HealthKitStore"]
+- !private ["PSs9AnyObject", "NSCalendar"]
+- !private ["PSs9AnyObject", "NSDate"]
+- !private ["PSs9AnyObject", "NSDateComponents"]
+- !private ["PSs9AnyObject", "NSDateFormatter"]
+- !private ["PSs9AnyObject", "NSError"]
+- !private ["PSs9AnyObject", "NSLocalizedDescriptionKey"]
+- !private ["PSs9AnyObject", "NSSet"]
+- !private ["PSs9AnyObject", "NSSortDescriptor"]
+- !private ["PSs9AnyObject", "abort"]
+- !private ["PSs9AnyObject", "components"]
+- !private ["PSs9AnyObject", "countUnit"]
+- !private ["PSs9AnyObject", "currentCalendar"]
+- !private ["PSs9AnyObject", "dateByAddingUnit"]
+- !private ["PSs9AnyObject", "dateFormat"]
+- !private ["PSs9AnyObject", "dateFromComponents"]
+- !private ["PSs9AnyObject", "dateOfMax"]
+- !private ["PSs9AnyObject", "dates"]
+- !private ["PSs9AnyObject", "day"]
+- !private ["PSs9AnyObject", "deinit"]
+- !private ["PSs9AnyObject", "dispatch_async"]
+- !private ["PSs9AnyObject", "dispatch_get_main_queue"]
+- !private ["PSs9AnyObject", "distanceSampleWithDistance"]
+- !private ["PSs9AnyObject", "distantPast"]
+- !private ["PSs9AnyObject", "doubleValueForUnit"]
+- !private ["PSs9AnyObject", "enumerateStatisticsFromDate"]
+- !private ["PSs9AnyObject", "executeQuery"]
+- !private ["PSs9AnyObject", "heartRate"]
+- !private ["PSs9AnyObject", "hour"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "initialResultsHandler"]
+- !private ["PSs9AnyObject", "isHealthDataAvailable"]
+- !private ["PSs9AnyObject", "localizedDescription"]
+- !private ["PSs9AnyObject", "minuteUnit"]
+- !private ["PSs9AnyObject", "predicateForSamplesWithStartDate"]
+- !private ["PSs9AnyObject", "print"]
+- !private ["PSs9AnyObject", "quantity"]
+- !private ["PSs9AnyObject", "quantityTypeForIdentifier"]
+- !private ["PSs9AnyObject", "requestAuthorizationToShareTypes"]
+- !private ["PSs9AnyObject", "saveObject"]
+- !private ["PSs9AnyObject", "stairClimbRate"]
+- !private ["PSs9AnyObject", "startDate"]
+- !private ["PSs9AnyObject", "stepsOver"]
+- !private ["PSs9AnyObject", "stringFromDate"]
+- !private ["PSs9AnyObject", "sumQuantity"]
+- !private ["PSs9AnyObject", "unitDividedByUnit"]
+- !private ["PSs9AnyObject", "weekday"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- !private ["Sa", "first"]
+- ["Sa", "init"]
+- !private ["PSs23ArrayLiteralConvertible", "CumulativeSum"]
+- !private ["PSs23ArrayLiteralConvertible", "Day"]
+- !private ["PSs23ArrayLiteralConvertible", "Element"]
+- !private ["PSs23ArrayLiteralConvertible", "Generator"]
+- !private ["PSs23ArrayLiteralConvertible", "Index"]
+- !private ["PSs23ArrayLiteralConvertible", "Month"]
+- !private ["PSs23ArrayLiteralConvertible", "NSMonthCalendarUnit"]
+- !private ["PSs23ArrayLiteralConvertible", "None"]
+- !private ["PSs23ArrayLiteralConvertible", "StrictStartDate"]
+- !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
+- !private ["PSs23ArrayLiteralConvertible", "WeekOfYear"]
+- !private ["PSs23ArrayLiteralConvertible", "Weekday"]
+- !private ["PSs23ArrayLiteralConvertible", "Year"]
+- !private ["PSs23ArrayLiteralConvertible", "_Element"]
+- !private ["PSs23ArrayLiteralConvertible", "append"]
+- !private ["PSs23ArrayLiteralConvertible", "first"]
+- ["PSs23ArrayLiteralConvertible", "init"]
+- !private ["VSs10ArraySlice", "Generator"]
+- !private ["VSs10ArraySlice", "Index"]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "components"]
+- !private ["PSs11CVarArgType", "countUnit"]
+- !private ["PSs11CVarArgType", "currentCalendar"]
+- !private ["PSs11CVarArgType", "dateByAddingUnit"]
+- !private ["PSs11CVarArgType", "dateFormat"]
+- !private ["PSs11CVarArgType", "dateFromComponents"]
+- !private ["PSs11CVarArgType", "day"]
+- !private ["PSs11CVarArgType", "distantPast"]
+- !private ["PSs11CVarArgType", "doubleValueForUnit"]
+- !private ["PSs11CVarArgType", "enumerateStatisticsFromDate"]
+- !private ["PSs11CVarArgType", "executeQuery"]
+- !private ["PSs11CVarArgType", "hour"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "initialResultsHandler"]
+- !private ["PSs11CVarArgType", "isHealthDataAvailable"]
+- !private ["PSs11CVarArgType", "localizedDescription"]
+- !private ["PSs11CVarArgType", "minuteUnit"]
+- !private ["PSs11CVarArgType", "predicateForSamplesWithStartDate"]
+- !private ["PSs11CVarArgType", "quantity"]
+- !private ["PSs11CVarArgType", "quantityTypeForIdentifier"]
+- !private ["PSs11CVarArgType", "requestAuthorizationToShareTypes"]
+- !private ["PSs11CVarArgType", "saveObject"]
+- !private ["PSs11CVarArgType", "startDate"]
+- !private ["PSs11CVarArgType", "stringFromDate"]
+- !private ["PSs11CVarArgType", "sumQuantity"]
+- !private ["PSs11CVarArgType", "unitDividedByUnit"]
+- !private ["PSs11CVarArgType", "weekday"]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs14CollectionType", "Element"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "Key"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "Value"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "append"]
+- !private ["PSs14CollectionType", "first"]
+- ["PSs14CollectionType", "init"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "Element"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- !private ["PSs28CustomDebugStringConvertible", "Key"]
+- !private ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "Value"]
+- !private ["PSs28CustomDebugStringConvertible", "_Element"]
+- !private ["PSs28CustomDebugStringConvertible", "append"]
+- !private ["PSs28CustomDebugStringConvertible", "first"]
+- ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "Element"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "Key"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "Value"]
+- !private ["PSs23CustomStringConvertible", "_Element"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "append"]
+- !private ["PSs23CustomStringConvertible", "components"]
+- !private ["PSs23CustomStringConvertible", "countUnit"]
+- !private ["PSs23CustomStringConvertible", "currentCalendar"]
+- !private ["PSs23CustomStringConvertible", "dateByAddingUnit"]
+- !private ["PSs23CustomStringConvertible", "dateFormat"]
+- !private ["PSs23CustomStringConvertible", "dateFromComponents"]
+- !private ["PSs23CustomStringConvertible", "day"]
+- !private ["PSs23CustomStringConvertible", "distantPast"]
+- !private ["PSs23CustomStringConvertible", "doubleValueForUnit"]
+- !private ["PSs23CustomStringConvertible", "enumerateStatisticsFromDate"]
+- !private ["PSs23CustomStringConvertible", "executeQuery"]
+- !private ["PSs23CustomStringConvertible", "first"]
+- !private ["PSs23CustomStringConvertible", "hour"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "initialResultsHandler"]
+- !private ["PSs23CustomStringConvertible", "isHealthDataAvailable"]
+- !private ["PSs23CustomStringConvertible", "localizedDescription"]
+- !private ["PSs23CustomStringConvertible", "minuteUnit"]
+- !private ["PSs23CustomStringConvertible", "predicateForSamplesWithStartDate"]
+- !private ["PSs23CustomStringConvertible", "quantity"]
+- !private ["PSs23CustomStringConvertible", "quantityTypeForIdentifier"]
+- !private ["PSs23CustomStringConvertible", "requestAuthorizationToShareTypes"]
+- !private ["PSs23CustomStringConvertible", "saveObject"]
+- !private ["PSs23CustomStringConvertible", "startDate"]
+- !private ["PSs23CustomStringConvertible", "stringFromDate"]
+- !private ["PSs23CustomStringConvertible", "sumQuantity"]
+- !private ["PSs23CustomStringConvertible", "unitDividedByUnit"]
+- !private ["PSs23CustomStringConvertible", "weekday"]
+- !private ["VSs10Dictionary", "Key"]
+- !private ["VSs10Dictionary", "Value"]
+- !private ["PSs28DictionaryLiteralConvertible", "Key"]
+- !private ["PSs28DictionaryLiteralConvertible", "Value"]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "CumulativeSum"]
+- !private ["PSs9Equatable", "Day"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "Element"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "Meter"]
+- !private ["PSs9Equatable", "Month"]
+- !private ["PSs9Equatable", "NSMonthCalendarUnit"]
+- !private ["PSs9Equatable", "None"]
+- !private ["PSs9Equatable", "StrictStartDate"]
+- !private ["PSs9Equatable", "WeekOfYear"]
+- !private ["PSs9Equatable", "Weekday"]
+- !private ["PSs9Equatable", "Year"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "components"]
+- !private ["PSs9Equatable", "countUnit"]
+- !private ["PSs9Equatable", "currentCalendar"]
+- !private ["PSs9Equatable", "dateByAddingUnit"]
+- !private ["PSs9Equatable", "dateFormat"]
+- !private ["PSs9Equatable", "dateFromComponents"]
+- !private ["PSs9Equatable", "day"]
+- !private ["PSs9Equatable", "distantPast"]
+- !private ["PSs9Equatable", "doubleValueForUnit"]
+- !private ["PSs9Equatable", "enumerateStatisticsFromDate"]
+- !private ["PSs9Equatable", "executeQuery"]
+- !private ["PSs9Equatable", "hour"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "initialResultsHandler"]
+- !private ["PSs9Equatable", "isHealthDataAvailable"]
+- !private ["PSs9Equatable", "localizedDescription"]
+- !private ["PSs9Equatable", "minuteUnit"]
+- !private ["PSs9Equatable", "predicateForSamplesWithStartDate"]
+- !private ["PSs9Equatable", "quantity"]
+- !private ["PSs9Equatable", "quantityTypeForIdentifier"]
+- !private ["PSs9Equatable", "requestAuthorizationToShareTypes"]
+- !private ["PSs9Equatable", "saveObject"]
+- !private ["PSs9Equatable", "startDate"]
+- !private ["PSs9Equatable", "stringFromDate"]
+- !private ["PSs9Equatable", "sumQuantity"]
+- !private ["PSs9Equatable", "unitDividedByUnit"]
+- !private ["PSs9Equatable", "weekday"]
+- !private ["PSs9ErrorType", "init"]
+- !private ["PSs9ErrorType", "localizedDescription"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["CSo13HKHealthStore", "executeQuery"]
+- ["CSo13HKHealthStore", "init"]
+- !private ["CSo13HKHealthStore", "isHealthDataAvailable"]
+- !private ["CSo13HKHealthStore", "requestAuthorizationToShareTypes"]
+- !private ["CSo13HKHealthStore", "saveObject"]
+- !private ["CSo8HKObject", "init"]
+- !private ["CSo8HKObject", "quantity"]
+- !private ["CSo8HKObject", "startDate"]
+- !private ["CSo12HKObjectType", "quantityTypeForIdentifier"]
+- !private ["CSo10HKQuantity", "doubleValueForUnit"]
+- !private ["CSo10HKQuantity", "init"]
+- !private ["CSo16HKQuantitySample", "init"]
+- !private ["CSo16HKQuantitySample", "quantity"]
+- !private ["CSo14HKQuantityType", "quantityTypeForIdentifier"]
+- !private ["CSo7HKQuery", "init"]
+- !private ["CSo7HKQuery", "initialResultsHandler"]
+- !private ["CSo7HKQuery", "predicateForSamplesWithStartDate"]
+- !private ["VSC14HKQueryOptions", "None"]
+- !private ["VSC14HKQueryOptions", "StrictStartDate"]
+- !private ["CSo8HKSample", "deinit"]
+- !private ["CSo8HKSample", "init"]
+- !private ["CSo8HKSample", "quantity"]
+- !private ["CSo8HKSample", "startDate"]
+- !private ["CSo13HKSampleQuery", "init"]
+- !private ["CSo12HKSampleType", "quantityTypeForIdentifier"]
+- !private ["CSo12HKStatistics", "startDate"]
+- !private ["CSo12HKStatistics", "sumQuantity"]
+- !private ["CSo22HKStatisticsCollection", "enumerateStatisticsFromDate"]
+- !private ["CSo27HKStatisticsCollectionQuery", "init"]
+- !private ["CSo27HKStatisticsCollectionQuery", "initialResultsHandler"]
+- !private ["VSC19HKStatisticsOptions", "CumulativeSum"]
+- !private ["CSo6HKUnit", "countUnit"]
+- !private ["CSo6HKUnit", "init"]
+- !private ["CSo6HKUnit", "minuteUnit"]
+- !private ["CSo6HKUnit", "unitDividedByUnit"]
+- !private ["PSs8Hashable", "Distance"]
+- !private ["PSs8Hashable", "Element"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "Meter"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "components"]
+- !private ["PSs8Hashable", "countUnit"]
+- !private ["PSs8Hashable", "currentCalendar"]
+- !private ["PSs8Hashable", "dateByAddingUnit"]
+- !private ["PSs8Hashable", "dateFormat"]
+- !private ["PSs8Hashable", "dateFromComponents"]
+- !private ["PSs8Hashable", "day"]
+- !private ["PSs8Hashable", "distantPast"]
+- !private ["PSs8Hashable", "doubleValueForUnit"]
+- !private ["PSs8Hashable", "enumerateStatisticsFromDate"]
+- !private ["PSs8Hashable", "executeQuery"]
+- !private ["PSs8Hashable", "hour"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "initialResultsHandler"]
+- !private ["PSs8Hashable", "isHealthDataAvailable"]
+- !private ["PSs8Hashable", "localizedDescription"]
+- !private ["PSs8Hashable", "minuteUnit"]
+- !private ["PSs8Hashable", "predicateForSamplesWithStartDate"]
+- !private ["PSs8Hashable", "quantity"]
+- !private ["PSs8Hashable", "quantityTypeForIdentifier"]
+- !private ["PSs8Hashable", "requestAuthorizationToShareTypes"]
+- !private ["PSs8Hashable", "saveObject"]
+- !private ["PSs8Hashable", "startDate"]
+- !private ["PSs8Hashable", "stringFromDate"]
+- !private ["PSs8Hashable", "sumQuantity"]
+- !private ["PSs8Hashable", "unitDividedByUnit"]
+- !private ["PSs8Hashable", "weekday"]
+- ["C6DevCon9HealthKit", "Bool"]
+- ["C6DevCon9HealthKit", "Double"]
+- ["C6DevCon9HealthKit", "HKHealthStore"]
+- !private ["C6DevCon9HealthKit", "HKObjectType"]
+- !private ["C6DevCon9HealthKit", "HKQuantity"]
+- ["C6DevCon9HealthKit", "HKQuantitySample"]
+- !private ["C6DevCon9HealthKit", "HKQuantityType"]
+- !private ["C6DevCon9HealthKit", "HKQuantityTypeIdentifierActiveEnergyBurned"]
+- !private ["C6DevCon9HealthKit", "HKQuantityTypeIdentifierBodyMass"]
+- !private ["C6DevCon9HealthKit", "HKQuantityTypeIdentifierBodyMassIndex"]
+- !private ["C6DevCon9HealthKit", "HKQuantityTypeIdentifierFlightsClimbed"]
+- !private ["C6DevCon9HealthKit", "HKQuantityTypeIdentifierHeartRate"]
+- !private ["C6DevCon9HealthKit", "HKQuantityTypeIdentifierHeight"]
+- !private ["C6DevCon9HealthKit", "HKQuantityTypeIdentifierStepCount"]
+- !private ["C6DevCon9HealthKit", "HKQuery"]
+- !private ["C6DevCon9HealthKit", "HKQueryOptions"]
+- ["C6DevCon9HealthKit", "HKSample"]
+- !private ["C6DevCon9HealthKit", "HKSampleQuery"]
+- !private ["C6DevCon9HealthKit", "HKSampleSortIdentifierEndDate"]
+- !private ["C6DevCon9HealthKit", "HKSampleSortIdentifierStartDate"]
+- ["C6DevCon9HealthKit", "HKSampleType"]
+- !private ["C6DevCon9HealthKit", "HKStatisticsCollectionQuery"]
+- !private ["C6DevCon9HealthKit", "HKUnit"]
+- ["C6DevCon9HealthKit", "HealthKitStore"]
+- !private ["C6DevCon9HealthKit", "NSCalendar"]
+- ["C6DevCon9HealthKit", "NSDate"]
+- !private ["C6DevCon9HealthKit", "NSDateComponents"]
+- !private ["C6DevCon9HealthKit", "NSDateFormatter"]
+- ["C6DevCon9HealthKit", "NSError"]
+- !private ["C6DevCon9HealthKit", "NSLocalizedDescriptionKey"]
+- ["C6DevCon9HealthKit", "NSSet"]
+- !private ["C6DevCon9HealthKit", "NSSortDescriptor"]
+- !private ["C6DevCon9HealthKit", "Set"]
+- ["C6DevCon9HealthKit", "Void"]
+- !private ["C6DevCon9HealthKit", "abort"]
+- ["C6DevCon9HealthKit", "authorizeHealthKit"]
+- ["C6DevCon9HealthKit", "dataTypesToWrite"]
+- !private ["C6DevCon9HealthKit", "dateOfMax"]
+- !private ["C6DevCon9HealthKit", "dates"]
+- ["C6DevCon9HealthKit", "deinit"]
+- !private ["C6DevCon9HealthKit", "dispatch_async"]
+- !private ["C6DevCon9HealthKit", "dispatch_get_main_queue"]
+- ["C6DevCon9HealthKit", "distanceSampleWithDistance"]
+- !private ["C6DevCon9HealthKit", "heartRate"]
+- ["C6DevCon9HealthKit", "init"]
+- !private ["C6DevCon9HealthKit", "print"]
+- ["C6DevCon9HealthKit", "readHeartRate"]
+- ["C6DevCon9HealthKit", "readMostRecentSample"]
+- ["C6DevCon9HealthKit", "readStairsClimbRate"]
+- ["C6DevCon9HealthKit", "readSteps"]
+- ["C6DevCon9HealthKit", "saveBMISample"]
+- ["C6DevCon9HealthKit", "saveDistanceValueToHealthKit"]
+- !private ["C6DevCon9HealthKit", "stairClimbRate"]
+- !private ["C6DevCon9HealthKit", "stepsOver"]
+- !private ["SQ", "deinit"]
+- !private ["PSs9Indexable", "Element"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "Key"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "Value"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "append"]
+- !private ["PSs9Indexable", "first"]
+- ["PSs9Indexable", "init"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSs21MutableCollectionType", "Element"]
+- !private ["PSs21MutableCollectionType", "Generator"]
+- !private ["PSs21MutableCollectionType", "Index"]
+- !private ["PSs21MutableCollectionType", "SubSequence"]
+- !private ["PSs21MutableCollectionType", "_Element"]
+- !private ["PSs21MutableCollectionType", "append"]
+- !private ["PSs21MutableCollectionType", "first"]
+- ["PSs21MutableCollectionType", "init"]
+- !private ["PSs16MutableIndexable", "Element"]
+- !private ["PSs16MutableIndexable", "Generator"]
+- !private ["PSs16MutableIndexable", "Index"]
+- !private ["PSs16MutableIndexable", "SubSequence"]
+- !private ["PSs16MutableIndexable", "_Element"]
+- !private ["PSs16MutableIndexable", "append"]
+- !private ["PSs16MutableIndexable", "first"]
+- ["PSs16MutableIndexable", "init"]
+- !private ["PSs16MutableSliceable", "Element"]
+- !private ["PSs16MutableSliceable", "Generator"]
+- !private ["PSs16MutableSliceable", "Index"]
+- !private ["PSs16MutableSliceable", "SubSequence"]
+- !private ["PSs16MutableSliceable", "_Element"]
+- !private ["PSs16MutableSliceable", "append"]
+- !private ["PSs16MutableSliceable", "first"]
+- ["PSs16MutableSliceable", "init"]
+- !private ["CSo10NSCalendar", "components"]
+- !private ["CSo10NSCalendar", "currentCalendar"]
+- !private ["CSo10NSCalendar", "dateByAddingUnit"]
+- !private ["CSo10NSCalendar", "dateFromComponents"]
+- !private ["VSC17NSCalendarOptions", "Element"]
+- !private ["VSC14NSCalendarUnit", "Day"]
+- !private ["VSC14NSCalendarUnit", "Element"]
+- !private ["VSC14NSCalendarUnit", "Month"]
+- !private ["VSC14NSCalendarUnit", "NSMonthCalendarUnit"]
+- !private ["VSC14NSCalendarUnit", "WeekOfYear"]
+- !private ["VSC14NSCalendarUnit", "Weekday"]
+- !private ["VSC14NSCalendarUnit", "Year"]
+- !private ["PSo8NSCoding", "components"]
+- !private ["PSo8NSCoding", "countUnit"]
+- !private ["PSo8NSCoding", "currentCalendar"]
+- !private ["PSo8NSCoding", "dateByAddingUnit"]
+- !private ["PSo8NSCoding", "dateFormat"]
+- !private ["PSo8NSCoding", "dateFromComponents"]
+- !private ["PSo8NSCoding", "day"]
+- !private ["PSo8NSCoding", "distantPast"]
+- !private ["PSo8NSCoding", "doubleValueForUnit"]
+- !private ["PSo8NSCoding", "hour"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "localizedDescription"]
+- !private ["PSo8NSCoding", "minuteUnit"]
+- !private ["PSo8NSCoding", "quantity"]
+- !private ["PSo8NSCoding", "quantityTypeForIdentifier"]
+- !private ["PSo8NSCoding", "startDate"]
+- !private ["PSo8NSCoding", "stringFromDate"]
+- !private ["PSo8NSCoding", "sumQuantity"]
+- !private ["PSo8NSCoding", "unitDividedByUnit"]
+- !private ["PSo8NSCoding", "weekday"]
+- !private ["PSo9NSCopying", "components"]
+- !private ["PSo9NSCopying", "countUnit"]
+- !private ["PSo9NSCopying", "currentCalendar"]
+- !private ["PSo9NSCopying", "dateByAddingUnit"]
+- !private ["PSo9NSCopying", "dateFormat"]
+- !private ["PSo9NSCopying", "dateFromComponents"]
+- !private ["PSo9NSCopying", "day"]
+- !private ["PSo9NSCopying", "distantPast"]
+- !private ["PSo9NSCopying", "doubleValueForUnit"]
+- !private ["PSo9NSCopying", "hour"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "localizedDescription"]
+- !private ["PSo9NSCopying", "minuteUnit"]
+- !private ["PSo9NSCopying", "quantityTypeForIdentifier"]
+- !private ["PSo9NSCopying", "startDate"]
+- !private ["PSo9NSCopying", "stringFromDate"]
+- !private ["PSo9NSCopying", "sumQuantity"]
+- !private ["PSo9NSCopying", "unitDividedByUnit"]
+- !private ["PSo9NSCopying", "weekday"]
+- !private ["CSo6NSDate", "distantPast"]
+- !private ["CSo6NSDate", "init"]
+- !private ["CSo16NSDateComponents", "day"]
+- !private ["CSo16NSDateComponents", "hour"]
+- !private ["CSo16NSDateComponents", "init"]
+- !private ["CSo16NSDateComponents", "weekday"]
+- !private ["CSo15NSDateFormatter", "dateFormat"]
+- !private ["CSo15NSDateFormatter", "init"]
+- !private ["CSo15NSDateFormatter", "stringFromDate"]
+- !private ["CSo7NSError", "init"]
+- !private ["CSo7NSError", "localizedDescription"]
+- !private ["PSo17NSFastEnumeration", "init"]
+- !private ["CSo11NSFormatter", "dateFormat"]
+- !private ["CSo11NSFormatter", "init"]
+- !private ["CSo11NSFormatter", "stringFromDate"]
+- !private ["OSC21NSLengthFormatterUnit", "Meter"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "components"]
+- !private ["CSo8NSObject", "countUnit"]
+- !private ["CSo8NSObject", "currentCalendar"]
+- !private ["CSo8NSObject", "dateByAddingUnit"]
+- !private ["CSo8NSObject", "dateFormat"]
+- !private ["CSo8NSObject", "dateFromComponents"]
+- !private ["CSo8NSObject", "day"]
+- !private ["CSo8NSObject", "distantPast"]
+- !private ["CSo8NSObject", "doubleValueForUnit"]
+- !private ["CSo8NSObject", "enumerateStatisticsFromDate"]
+- !private ["CSo8NSObject", "executeQuery"]
+- !private ["CSo8NSObject", "hour"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "initialResultsHandler"]
+- !private ["CSo8NSObject", "isHealthDataAvailable"]
+- !private ["CSo8NSObject", "localizedDescription"]
+- !private ["CSo8NSObject", "minuteUnit"]
+- !private ["CSo8NSObject", "predicateForSamplesWithStartDate"]
+- !private ["CSo8NSObject", "quantity"]
+- !private ["CSo8NSObject", "quantityTypeForIdentifier"]
+- !private ["CSo8NSObject", "requestAuthorizationToShareTypes"]
+- !private ["CSo8NSObject", "saveObject"]
+- !private ["CSo8NSObject", "startDate"]
+- !private ["CSo8NSObject", "stringFromDate"]
+- !private ["CSo8NSObject", "sumQuantity"]
+- !private ["CSo8NSObject", "unitDividedByUnit"]
+- !private ["CSo8NSObject", "weekday"]
+- !private ["PSo16NSObjectProtocol", "components"]
+- !private ["PSo16NSObjectProtocol", "countUnit"]
+- !private ["PSo16NSObjectProtocol", "currentCalendar"]
+- !private ["PSo16NSObjectProtocol", "dateByAddingUnit"]
+- !private ["PSo16NSObjectProtocol", "dateFormat"]
+- !private ["PSo16NSObjectProtocol", "dateFromComponents"]
+- !private ["PSo16NSObjectProtocol", "day"]
+- !private ["PSo16NSObjectProtocol", "distantPast"]
+- !private ["PSo16NSObjectProtocol", "doubleValueForUnit"]
+- !private ["PSo16NSObjectProtocol", "enumerateStatisticsFromDate"]
+- !private ["PSo16NSObjectProtocol", "executeQuery"]
+- !private ["PSo16NSObjectProtocol", "hour"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "initialResultsHandler"]
+- !private ["PSo16NSObjectProtocol", "isHealthDataAvailable"]
+- !private ["PSo16NSObjectProtocol", "localizedDescription"]
+- !private ["PSo16NSObjectProtocol", "minuteUnit"]
+- !private ["PSo16NSObjectProtocol", "predicateForSamplesWithStartDate"]
+- !private ["PSo16NSObjectProtocol", "quantity"]
+- !private ["PSo16NSObjectProtocol", "quantityTypeForIdentifier"]
+- !private ["PSo16NSObjectProtocol", "requestAuthorizationToShareTypes"]
+- !private ["PSo16NSObjectProtocol", "saveObject"]
+- !private ["PSo16NSObjectProtocol", "startDate"]
+- !private ["PSo16NSObjectProtocol", "stringFromDate"]
+- !private ["PSo16NSObjectProtocol", "sumQuantity"]
+- !private ["PSo16NSObjectProtocol", "unitDividedByUnit"]
+- !private ["PSo16NSObjectProtocol", "weekday"]
+- !private ["PSo14NSSecureCoding", "components"]
+- !private ["PSo14NSSecureCoding", "countUnit"]
+- !private ["PSo14NSSecureCoding", "currentCalendar"]
+- !private ["PSo14NSSecureCoding", "dateByAddingUnit"]
+- !private ["PSo14NSSecureCoding", "dateFromComponents"]
+- !private ["PSo14NSSecureCoding", "day"]
+- !private ["PSo14NSSecureCoding", "distantPast"]
+- !private ["PSo14NSSecureCoding", "doubleValueForUnit"]
+- !private ["PSo14NSSecureCoding", "hour"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "localizedDescription"]
+- !private ["PSo14NSSecureCoding", "minuteUnit"]
+- !private ["PSo14NSSecureCoding", "quantity"]
+- !private ["PSo14NSSecureCoding", "quantityTypeForIdentifier"]
+- !private ["PSo14NSSecureCoding", "startDate"]
+- !private ["PSo14NSSecureCoding", "sumQuantity"]
+- !private ["PSo14NSSecureCoding", "unitDividedByUnit"]
+- !private ["PSo14NSSecureCoding", "weekday"]
+- !private ["CSo5NSSet", "init"]
+- !private ["CSo16NSSortDescriptor", "init"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "init"]
+- !private ["PSs21NilLiteralConvertible", "Some"]
+- !private ["PSs13OptionSetType", "CumulativeSum"]
+- !private ["PSs13OptionSetType", "Day"]
+- !private ["PSs13OptionSetType", "Element"]
+- !private ["PSs13OptionSetType", "Month"]
+- !private ["PSs13OptionSetType", "NSMonthCalendarUnit"]
+- !private ["PSs13OptionSetType", "None"]
+- !private ["PSs13OptionSetType", "StrictStartDate"]
+- !private ["PSs13OptionSetType", "WeekOfYear"]
+- !private ["PSs13OptionSetType", "Weekday"]
+- !private ["PSs13OptionSetType", "Year"]
+- !private ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs30RangeReplaceableCollectionType", "Element"]
+- !private ["PSs30RangeReplaceableCollectionType", "Generator"]
+- !private ["PSs30RangeReplaceableCollectionType", "Index"]
+- !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["PSs30RangeReplaceableCollectionType", "_Element"]
+- !private ["PSs30RangeReplaceableCollectionType", "append"]
+- !private ["PSs30RangeReplaceableCollectionType", "first"]
+- ["PSs30RangeReplaceableCollectionType", "init"]
+- !private ["PSs16RawRepresentable", "CumulativeSum"]
+- !private ["PSs16RawRepresentable", "Day"]
+- !private ["PSs16RawRepresentable", "Element"]
+- !private ["PSs16RawRepresentable", "Meter"]
+- !private ["PSs16RawRepresentable", "Month"]
+- !private ["PSs16RawRepresentable", "NSMonthCalendarUnit"]
+- !private ["PSs16RawRepresentable", "None"]
+- !private ["PSs16RawRepresentable", "StrictStartDate"]
+- !private ["PSs16RawRepresentable", "WeekOfYear"]
+- !private ["PSs16RawRepresentable", "Weekday"]
+- !private ["PSs16RawRepresentable", "Year"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "Key"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "Value"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "append"]
+- !private ["PSs12SequenceType", "first"]
+- ["PSs12SequenceType", "init"]
+- !private ["VSs3Set", "Element"]
+- !private ["PSs14SetAlgebraType", "CumulativeSum"]
+- !private ["PSs14SetAlgebraType", "Day"]
+- !private ["PSs14SetAlgebraType", "Element"]
+- !private ["PSs14SetAlgebraType", "Month"]
+- !private ["PSs14SetAlgebraType", "NSMonthCalendarUnit"]
+- !private ["PSs14SetAlgebraType", "None"]
+- !private ["PSs14SetAlgebraType", "StrictStartDate"]
+- !private ["PSs14SetAlgebraType", "WeekOfYear"]
+- !private ["PSs14SetAlgebraType", "Weekday"]
+- !private ["PSs14SetAlgebraType", "Year"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["PSs10Streamable", "init"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs10_ArrayType", "Element"]
+- !private ["PSs10_ArrayType", "Generator"]
+- !private ["PSs10_ArrayType", "Index"]
+- !private ["PSs10_ArrayType", "SubSequence"]
+- !private ["PSs10_ArrayType", "_Element"]
+- !private ["PSs10_ArrayType", "append"]
+- !private ["PSs10_ArrayType", "first"]
+- ["PSs10_ArrayType", "init"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs24_DestructorSafeContainer", "Element"]
+- !private ["PSs24_DestructorSafeContainer", "Generator"]
+- !private ["PSs24_DestructorSafeContainer", "Index"]
+- !private ["PSs24_DestructorSafeContainer", "SubSequence"]
+- !private ["PSs24_DestructorSafeContainer", "_Element"]
+- !private ["PSs24_DestructorSafeContainer", "append"]
+- !private ["PSs24_DestructorSafeContainer", "first"]
+- ["PSs24_DestructorSafeContainer", "init"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Key"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["PSs21_ObjectiveCBridgeable", "Value"]
+- !private ["PSs21_ObjectiveCBridgeable", "_Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "append"]
+- !private ["PSs21_ObjectiveCBridgeable", "first"]
+- ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "Element"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Key"]
+- !private ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "Value"]
+- !private ["PSs12_Reflectable", "_Element"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "append"]
+- !private ["PSs12_Reflectable", "distantPast"]
+- !private ["PSs12_Reflectable", "first"]
+- ["PSs12_Reflectable", "init"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+depends-nominal:
+- "PSs9AnyObject"
+- "Sa"
+- "PSs23ArrayLiteralConvertible"
+- !private "VSs10ArraySlice"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- "PSs14CollectionType"
+- !private "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "VSs10Dictionary"
+- !private "PSs28DictionaryLiteralConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs9ErrorType"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "PSs16ForwardIndexType"
+- !private "PSs13GeneratorType"
+- "CSo13HKHealthStore"
+- !private "CSo8HKObject"
+- !private "CSo12HKObjectType"
+- !private "CSo10HKQuantity"
+- !private "CSo16HKQuantitySample"
+- !private "CSo14HKQuantityType"
+- !private "CSo7HKQuery"
+- !private "VSC14HKQueryOptions"
+- !private "CSo8HKSample"
+- !private "CSo13HKSampleQuery"
+- !private "CSo12HKSampleType"
+- !private "CSo12HKStatistics"
+- !private "CSo22HKStatisticsCollection"
+- !private "CSo27HKStatisticsCollectionQuery"
+- !private "VSC19HKStatisticsOptions"
+- !private "CSo6HKUnit"
+- "PSs8Hashable"
+- "C6DevCon9HealthKit"
+- !private "SQ"
+- "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- "PSs21MutableCollectionType"
+- "PSs16MutableIndexable"
+- "PSs16MutableSliceable"
+- !private "CSo10NSCalendar"
+- !private "VSC17NSCalendarOptions"
+- !private "VSC14NSCalendarUnit"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo6NSDate"
+- !private "CSo16NSDateComponents"
+- !private "CSo15NSDateFormatter"
+- !private "CSo7NSError"
+- !private "PSo17NSFastEnumeration"
+- !private "CSo11NSFormatter"
+- !private "OSC21NSLengthFormatterUnit"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo5NSSet"
+- !private "CSo16NSSortDescriptor"
+- !private "CSo8NSString"
+- !private "PSs21NilLiteralConvertible"
+- !private "PSs13OptionSetType"
+- !private "Sq"
+- !private "PSs16OutputStreamType"
+- !private "PSs21RandomAccessIndexType"
+- "PSs30RangeReplaceableCollectionType"
+- !private "PSs16RawRepresentable"
+- "PSs12SequenceType"
+- !private "VSs3Set"
+- !private "PSs14SetAlgebraType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Streamable"
+- !private "PSs10Strideable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- "PSs10_ArrayType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- "PSs24_DestructorSafeContainer"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/myHeart/DevCon-Bridging-Header.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CloudMine.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMAPICredentials.h"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMDate.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMSerializable.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMDistance.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMUntypedObject.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObject.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMStoreCallbacks.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMACLFetchResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMStoreResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMSnippetResult.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMResponseMetadata.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMUser.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMUserAccountResult.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMSocialLoginViewController.h"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMPaymentResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObjectFetchResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObjectUploadResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMFileFetchResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMFileUploadResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMFileUploadResult.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMDeleteResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMStore.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMStoreOptions.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMServerFunction.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMPagingDescriptor.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMFile.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObjectOwnershipLevel.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMDeviceTokenResult.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMGeoPoint.h"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMACL.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMMimeType.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObjectClassNameRegistry.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObjectDecoder.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObjectEncoder.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMObjectSerialization.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMCoding.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMSortDescriptor.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMNullStore.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMWebService.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFNetworking.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFURLRequestSerialization.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFURLResponseSerialization.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFSecurityPolicy.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFNetworkReachabilityManager.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFURLConnectionOperation.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFHTTPRequestOperation.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFHTTPRequestOperationManager.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFURLSessionManager.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/AFNetworking/AFHTTPSessionManager.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMChannelResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMViewChannelsResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMAppDelegateBase.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMActiveUser.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMUserResponse.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMPaymentService.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/CMCardPayment.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/CloudMine/UIImageView+CloudMine.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/NewRelicAgent/NewRelicAgent/NewRelic.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/NewRelicAgent/NewRelicAgent/NewRelicFeatureFlags.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/NewRelicAgent/NewRelicAgent/NRConstants.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/NewRelicAgent/NewRelicAgent/NRTimer.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/NewRelicAgent/NewRelicAgent/NRLogger.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/NewRelicAgent/NewRelicAgent/NewRelicCustomInteractionInterface.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Headers/Public/NewRelicAgent/NewRelicAgent/NRGCDOverride.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Modules/ResearchKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ResearchKit-Swift.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKAnswerFormat_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKStepNavigationRule_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKRecorder_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKQuestionStepViewController_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKResult_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKCompletionStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKHolePegTestRemoveStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKHolePegTestPlaceStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKPSATStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKTimedWalkStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKTappingIntervalStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKFitnessStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKCountdownStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKWalkingTaskStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKSpatialSpanMemoryStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKToneAudiometryPracticeStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKToneAudiometryStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKAudioStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKTowerOfHanoiStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKReactionTimeStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKCompletionStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKHolePegTestRemoveStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKHolePegTestPlaceStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKPSATStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKTimedWalkStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKTappingIntervalStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKFitnessStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKCountdownStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKWalkingTaskStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKSpatialSpanMemoryStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKToneAudiometryPracticeStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKToneAudiometryStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKAudioStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKOrderedTask_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKCustomStepView.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKReviewStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKImageCaptureStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKConsentReviewStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKVisualConsentStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKInstructionStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKQuestionStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKErrors.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKDataLogger.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKTaskViewController_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKDefines_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ResearchKit_Private.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKPieChartView.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKDiscreteGraphChartView.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKGraphChartView.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKLineGraphChartView.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKRangedPoint.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKActiveStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKActiveStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKPasscodeViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKPasscodeStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKKeychainWrapper.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKLoginStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKLoginStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKVerificationStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKVerificationStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKRegistrationStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKConsentSharingStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKConsentReviewStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKVisualConsentStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKConsentSection.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKConsentSignature.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKConsentDocument.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders/ORKWaitStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKFormStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKRecorder.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKStepViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKTaskViewController.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKResultPredicate.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKHealthAnswerFormat.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKWaitStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKIt.framework/Headers/ORKReviewStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKImageCaptureStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKStepNavigationRule.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKFormStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKInstructionStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKQuestionStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKNavigableOrderedTask.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKOrderedTask.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKAnswerFormat.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKResult.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKStep.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKTask.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ORKDefines.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ResearchKit.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/WebKit.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/Charts.framework/Modules/Charts.swiftmodule/x86_64.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/Charts.framework/Headers/Charts-Swift.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/Charts.framework/Headers/Charts.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/Charts.framework/Modules/module.modulemap"
+interface-hash: "6f2d591b0b580cf31c78b0bb61d23c78"

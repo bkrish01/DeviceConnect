@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "2cf1948d1034736e02a36ecadcc18abd"
+build_time: [510905687, 749827000]
+inputs:
+  "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKStepNavigationRule.swift": [510883928, 0]

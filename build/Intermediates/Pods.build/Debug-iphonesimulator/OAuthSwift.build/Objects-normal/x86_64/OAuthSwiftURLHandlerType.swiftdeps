@@ -1,0 +1,542 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OAuthSwiftURLHandlerType"
+- "OAuthSwiftOpenURLExternally"
+- "SafariURLHandler"
+- "ExtensionContextURLHandler"
+provides-nominal:
+- "P10OAuthSwift24OAuthSwiftURLHandlerType"
+- "C10OAuthSwift27OAuthSwiftOpenURLExternally"
+- "C10OAuthSwift16SafariURLHandler"
+- "C10OAuthSwift26ExtensionContextURLHandler"
+provides-member:
+- ["P10OAuthSwift24OAuthSwiftURLHandlerType", ""]
+- ["C10OAuthSwift27OAuthSwiftOpenURLExternally", ""]
+- ["C10OAuthSwift16SafariURLHandler", ""]
+- ["C10OAuthSwift26ExtensionContextURLHandler", ""]
+provides-dynamic-lookup:
+- "dismissCompletion"
+- "viewController"
+- "animated"
+- "handle"
+- "handle"
+- "handle"
+- "handle"
+- "observers"
+- "factory"
+- "safariViewControllerDidFinish"
+- "presentCompletion"
+- "delegate"
+- "safariViewController"
+- "safariViewController"
+depends-top-level:
+- "Bool"
+- "NSExtensionContext"
+- !private "Array"
+- !private "UIApplication"
+- "NSObject"
+- !private "dispatch_once"
+- "ExtensionContextURLHandler"
+- "NSURL"
+- "OAuthSwiftOpenURLExternally"
+- "AnyObject"
+- "UIViewController"
+- "SFSafariViewController"
+- !private "NSNotificationCenter"
+- !private "??"
+- "Void"
+- !private "NSUUID"
+- "UIActivity"
+- "SafariURLHandler"
+- "SFSafariViewControllerDelegate"
+- "String"
+- !private "OAuthSwift"
+- !private "NSOperationQueue"
+- !private "dispatch_once_t"
+- "OAuthSwiftURLHandlerType"
+- "BooleanLiteralType"
+depends-member:
+- ["PSs9AnyObject", "AnyObject"]
+- !private ["PSs9AnyObject", "CallbackNotification"]
+- !private ["PSs9AnyObject", "NSNotificationCenter"]
+- !private ["PSs9AnyObject", "NSOperationQueue"]
+- !private ["PSs9AnyObject", "NSUUID"]
+- !private ["PSs9AnyObject", "OAuthSwift"]
+- !private ["PSs9AnyObject", "OAuthSwiftOpenURLExternally"]
+- ["PSs9AnyObject", "SFSafariViewController"]
+- ["PSs9AnyObject", "String"]
+- !private ["PSs9AnyObject", "UIApplication"]
+- !private ["PSs9AnyObject", "UUIDString"]
+- !private ["PSs9AnyObject", "addObserverForName"]
+- ["PSs9AnyObject", "animated"]
+- !private ["PSs9AnyObject", "defaultCenter"]
+- ["PSs9AnyObject", "delegate"]
+- ["PSs9AnyObject", "dismissCompletion"]
+- !private ["PSs9AnyObject", "dismissViewControllerAnimated"]
+- !private ["PSs9AnyObject", "dispatch_once"]
+- !private ["PSs9AnyObject", "extensionContext"]
+- ["PSs9AnyObject", "factory"]
+- ["PSs9AnyObject", "handle"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "mainQueue"]
+- ["PSs9AnyObject", "observers"]
+- !private ["PSs9AnyObject", "openURL"]
+- ["PSs9AnyObject", "presentCompletion"]
+- !private ["PSs9AnyObject", "presentViewController"]
+- !private ["PSs9AnyObject", "removeObserver"]
+- ["PSs9AnyObject", "safariViewController"]
+- ["PSs9AnyObject", "safariViewControllerDidFinish"]
+- !private ["PSs9AnyObject", "sharedApplication"]
+- ["PSs9AnyObject", "viewController"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["PSs23ArrayLiteralConvertible", "Element"]
+- ["PSs11CVarArgType", "AnyObject"]
+- !private ["PSs11CVarArgType", "CallbackNotification"]
+- !private ["PSs11CVarArgType", "NSNotificationCenter"]
+- !private ["PSs11CVarArgType", "NSOperationQueue"]
+- !private ["PSs11CVarArgType", "NSUUID"]
+- !private ["PSs11CVarArgType", "OAuthSwift"]
+- ["PSs11CVarArgType", "SFSafariViewController"]
+- ["PSs11CVarArgType", "String"]
+- !private ["PSs11CVarArgType", "UUIDString"]
+- !private ["PSs11CVarArgType", "addObserverForName"]
+- ["PSs11CVarArgType", "animated"]
+- !private ["PSs11CVarArgType", "defaultCenter"]
+- ["PSs11CVarArgType", "delegate"]
+- ["PSs11CVarArgType", "dismissCompletion"]
+- !private ["PSs11CVarArgType", "dismissViewControllerAnimated"]
+- ["PSs11CVarArgType", "factory"]
+- ["PSs11CVarArgType", "handle"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "mainQueue"]
+- ["PSs11CVarArgType", "observers"]
+- !private ["PSs11CVarArgType", "openURL"]
+- ["PSs11CVarArgType", "presentCompletion"]
+- !private ["PSs11CVarArgType", "presentViewController"]
+- !private ["PSs11CVarArgType", "removeObserver"]
+- ["PSs11CVarArgType", "safariViewController"]
+- ["PSs11CVarArgType", "safariViewControllerDidFinish"]
+- !private ["PSs11CVarArgType", "sharedApplication"]
+- ["PSs11CVarArgType", "viewController"]
+- ["PSs11CVarArgType", ""]
+- !private ["VC10OAuthSwift10OAuthSwift20CallbackNotification", "notificationName"]
+- !private ["PSs14CollectionType", "Element"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "_Element"]
+- ["PSs14CollectionType", "init"]
+- !private ["PSs14CollectionType", "removeValueForKey"]
+- !private ["PSs14CollectionType", "subscript"]
+- !private ["PSs28CustomDebugStringConvertible", "Element"]
+- !private ["PSs28CustomDebugStringConvertible", "Some"]
+- ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "removeValueForKey"]
+- !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- ["PSs23CustomStringConvertible", "AnyObject"]
+- !private ["PSs23CustomStringConvertible", "CallbackNotification"]
+- !private ["PSs23CustomStringConvertible", "Element"]
+- !private ["PSs23CustomStringConvertible", "NSNotificationCenter"]
+- !private ["PSs23CustomStringConvertible", "NSOperationQueue"]
+- !private ["PSs23CustomStringConvertible", "NSUUID"]
+- !private ["PSs23CustomStringConvertible", "OAuthSwift"]
+- ["PSs23CustomStringConvertible", "SFSafariViewController"]
+- ["PSs23CustomStringConvertible", "String"]
+- !private ["PSs23CustomStringConvertible", "UUIDString"]
+- !private ["PSs23CustomStringConvertible", "addObserverForName"]
+- ["PSs23CustomStringConvertible", "animated"]
+- !private ["PSs23CustomStringConvertible", "defaultCenter"]
+- ["PSs23CustomStringConvertible", "delegate"]
+- ["PSs23CustomStringConvertible", "dismissCompletion"]
+- !private ["PSs23CustomStringConvertible", "dismissViewControllerAnimated"]
+- ["PSs23CustomStringConvertible", "factory"]
+- ["PSs23CustomStringConvertible", "handle"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "mainQueue"]
+- ["PSs23CustomStringConvertible", "observers"]
+- !private ["PSs23CustomStringConvertible", "openURL"]
+- ["PSs23CustomStringConvertible", "presentCompletion"]
+- !private ["PSs23CustomStringConvertible", "presentViewController"]
+- !private ["PSs23CustomStringConvertible", "removeObserver"]
+- !private ["PSs23CustomStringConvertible", "removeValueForKey"]
+- ["PSs23CustomStringConvertible", "safariViewController"]
+- ["PSs23CustomStringConvertible", "safariViewControllerDidFinish"]
+- !private ["PSs23CustomStringConvertible", "sharedApplication"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- ["PSs23CustomStringConvertible", "viewController"]
+- ["PSs23CustomStringConvertible", ""]
+- ["VSs10Dictionary", "init"]
+- !private ["VSs10Dictionary", "removeValueForKey"]
+- !private ["VSs10Dictionary", "subscript"]
+- ["PSs28DictionaryLiteralConvertible", "init"]
+- !private ["PSs28DictionaryLiteralConvertible", "removeValueForKey"]
+- !private ["PSs28DictionaryLiteralConvertible", "subscript"]
+- ["PSs9Equatable", "AnyObject"]
+- !private ["PSs9Equatable", "CallbackNotification"]
+- !private ["PSs9Equatable", "NSNotificationCenter"]
+- !private ["PSs9Equatable", "NSOperationQueue"]
+- !private ["PSs9Equatable", "NSUUID"]
+- !private ["PSs9Equatable", "OAuthSwift"]
+- ["PSs9Equatable", "SFSafariViewController"]
+- ["PSs9Equatable", "String"]
+- !private ["PSs9Equatable", "UUIDString"]
+- !private ["PSs9Equatable", "addObserverForName"]
+- ["PSs9Equatable", "animated"]
+- !private ["PSs9Equatable", "defaultCenter"]
+- ["PSs9Equatable", "delegate"]
+- ["PSs9Equatable", "dismissCompletion"]
+- !private ["PSs9Equatable", "dismissViewControllerAnimated"]
+- ["PSs9Equatable", "factory"]
+- ["PSs9Equatable", "handle"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "mainQueue"]
+- ["PSs9Equatable", "observers"]
+- !private ["PSs9Equatable", "openURL"]
+- ["PSs9Equatable", "presentCompletion"]
+- !private ["PSs9Equatable", "presentViewController"]
+- !private ["PSs9Equatable", "removeObserver"]
+- ["PSs9Equatable", "safariViewController"]
+- ["PSs9Equatable", "safariViewControllerDidFinish"]
+- !private ["PSs9Equatable", "sharedApplication"]
+- ["PSs9Equatable", "viewController"]
+- ["PSs9Equatable", ""]
+- ["C10OAuthSwift26ExtensionContextURLHandler", "NSExtensionContext"]
+- ["C10OAuthSwift26ExtensionContextURLHandler", "NSURL"]
+- ["C10OAuthSwift26ExtensionContextURLHandler", "deinit"]
+- !private ["C10OAuthSwift26ExtensionContextURLHandler", "extensionContext"]
+- ["C10OAuthSwift26ExtensionContextURLHandler", "handle"]
+- ["C10OAuthSwift26ExtensionContextURLHandler", "init"]
+- !private ["PSs13GeneratorType", "Element"]
+- ["PSs8Hashable", "AnyObject"]
+- !private ["PSs8Hashable", "CallbackNotification"]
+- !private ["PSs8Hashable", "NSNotificationCenter"]
+- !private ["PSs8Hashable", "NSOperationQueue"]
+- !private ["PSs8Hashable", "NSUUID"]
+- !private ["PSs8Hashable", "OAuthSwift"]
+- ["PSs8Hashable", "SFSafariViewController"]
+- ["PSs8Hashable", "String"]
+- !private ["PSs8Hashable", "UUIDString"]
+- !private ["PSs8Hashable", "addObserverForName"]
+- ["PSs8Hashable", "animated"]
+- !private ["PSs8Hashable", "defaultCenter"]
+- ["PSs8Hashable", "delegate"]
+- ["PSs8Hashable", "dismissCompletion"]
+- !private ["PSs8Hashable", "dismissViewControllerAnimated"]
+- ["PSs8Hashable", "factory"]
+- ["PSs8Hashable", "handle"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "mainQueue"]
+- ["PSs8Hashable", "observers"]
+- !private ["PSs8Hashable", "openURL"]
+- ["PSs8Hashable", "presentCompletion"]
+- !private ["PSs8Hashable", "presentViewController"]
+- !private ["PSs8Hashable", "removeObserver"]
+- ["PSs8Hashable", "safariViewController"]
+- ["PSs8Hashable", "safariViewControllerDidFinish"]
+- !private ["PSs8Hashable", "sharedApplication"]
+- ["PSs8Hashable", "viewController"]
+- ["PSs8Hashable", ""]
+- !private ["PSs9Indexable", "Element"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "_Element"]
+- ["PSs9Indexable", "init"]
+- !private ["PSs9Indexable", "removeValueForKey"]
+- !private ["PSs9Indexable", "subscript"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["PSs21MutableCollectionType", "Element"]
+- !private ["PSs16MutableIndexable", "Element"]
+- !private ["PSs16MutableSliceable", "Element"]
+- !private ["PSo8NSCoding", "UUIDString"]
+- !private ["PSo8NSCoding", "delegate"]
+- !private ["PSo8NSCoding", "dismissViewControllerAnimated"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "presentViewController"]
+- !private ["PSo9NSCopying", "UUIDString"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["CSo18NSExtensionContext", "openURL"]
+- !private ["PSo26NSExtensionRequestHandling", "delegate"]
+- !private ["PSo26NSExtensionRequestHandling", "dismissViewControllerAnimated"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "presentViewController"]
+- !private ["CSo20NSNotificationCenter", "addObserverForName"]
+- !private ["CSo20NSNotificationCenter", "defaultCenter"]
+- !private ["CSo20NSNotificationCenter", "removeObserver"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "CallbackNotification"]
+- !private ["CSo8NSObject", "NSNotificationCenter"]
+- !private ["CSo8NSObject", "NSOperationQueue"]
+- ["CSo8NSObject", "NSURL"]
+- !private ["CSo8NSObject", "NSUUID"]
+- !private ["CSo8NSObject", "OAuthSwift"]
+- ["CSo8NSObject", "SFSafariViewController"]
+- ["CSo8NSObject", "SFSafariViewControllerDelegate"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIActivity"]
+- ["CSo8NSObject", "UIViewController"]
+- !private ["CSo8NSObject", "UUIDString"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addObserverForName"]
+- ["CSo8NSObject", "animated"]
+- !private ["CSo8NSObject", "defaultCenter"]
+- ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "dismissCompletion"]
+- !private ["CSo8NSObject", "dismissViewControllerAnimated"]
+- ["CSo8NSObject", "factory"]
+- ["CSo8NSObject", "handle"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "mainQueue"]
+- ["CSo8NSObject", "observers"]
+- !private ["CSo8NSObject", "openURL"]
+- ["CSo8NSObject", "presentCompletion"]
+- !private ["CSo8NSObject", "presentViewController"]
+- !private ["CSo8NSObject", "removeObserver"]
+- ["CSo8NSObject", "safariViewController"]
+- ["CSo8NSObject", "safariViewControllerDidFinish"]
+- !private ["CSo8NSObject", "sharedApplication"]
+- ["CSo8NSObject", "viewController"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "AnyObject"]
+- !private ["PSo16NSObjectProtocol", "CallbackNotification"]
+- !private ["PSo16NSObjectProtocol", "NSNotificationCenter"]
+- !private ["PSo16NSObjectProtocol", "NSOperationQueue"]
+- !private ["PSo16NSObjectProtocol", "NSUUID"]
+- !private ["PSo16NSObjectProtocol", "OAuthSwift"]
+- ["PSo16NSObjectProtocol", "SFSafariViewController"]
+- ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "UUIDString"]
+- !private ["PSo16NSObjectProtocol", "addObserverForName"]
+- ["PSo16NSObjectProtocol", "animated"]
+- !private ["PSo16NSObjectProtocol", "defaultCenter"]
+- ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "dismissCompletion"]
+- !private ["PSo16NSObjectProtocol", "dismissViewControllerAnimated"]
+- ["PSo16NSObjectProtocol", "factory"]
+- ["PSo16NSObjectProtocol", "handle"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "mainQueue"]
+- ["PSo16NSObjectProtocol", "observers"]
+- !private ["PSo16NSObjectProtocol", "openURL"]
+- ["PSo16NSObjectProtocol", "presentCompletion"]
+- !private ["PSo16NSObjectProtocol", "presentViewController"]
+- !private ["PSo16NSObjectProtocol", "removeObserver"]
+- ["PSo16NSObjectProtocol", "safariViewController"]
+- ["PSo16NSObjectProtocol", "safariViewControllerDidFinish"]
+- !private ["PSo16NSObjectProtocol", "sharedApplication"]
+- ["PSo16NSObjectProtocol", "viewController"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["CSo16NSOperationQueue", "mainQueue"]
+- !private ["PSo14NSSecureCoding", "UUIDString"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo6NSUUID", "UUIDString"]
+- !private ["CSo6NSUUID", "init"]
+- !private ["PSs21NilLiteralConvertible", "Some"]
+- !private ["C10OAuthSwift10OAuthSwift", "CallbackNotification"]
+- ["C10OAuthSwift27OAuthSwiftOpenURLExternally", "NSURL"]
+- ["C10OAuthSwift27OAuthSwiftOpenURLExternally", "OAuthSwiftOpenURLExternally"]
+- !private ["C10OAuthSwift27OAuthSwiftOpenURLExternally", "UIApplication"]
+- ["C10OAuthSwift27OAuthSwiftOpenURLExternally", "deinit"]
+- !private ["C10OAuthSwift27OAuthSwiftOpenURLExternally", "dispatch_once"]
+- !private ["C10OAuthSwift27OAuthSwiftOpenURLExternally", "dispatch_once_t"]
+- ["C10OAuthSwift27OAuthSwiftOpenURLExternally", "handle"]
+- ["C10OAuthSwift27OAuthSwiftOpenURLExternally", "init"]
+- ["C10OAuthSwift27OAuthSwiftOpenURLExternally", "sharedInstance"]
+- ["P10OAuthSwift24OAuthSwiftURLHandlerType", "AnyObject"]
+- !private ["P10OAuthSwift24OAuthSwiftURLHandlerType", "NSNotificationCenter"]
+- !private ["P10OAuthSwift24OAuthSwiftURLHandlerType", "NSOperationQueue"]
+- ["P10OAuthSwift24OAuthSwiftURLHandlerType", "NSURL"]
+- !private ["P10OAuthSwift24OAuthSwiftURLHandlerType", "NSUUID"]
+- !private ["P10OAuthSwift24OAuthSwiftURLHandlerType", "OAuthSwift"]
+- !private ["P10OAuthSwift24OAuthSwiftURLHandlerType", "OAuthSwiftOpenURLExternally"]
+- ["P10OAuthSwift24OAuthSwiftURLHandlerType", "SFSafariViewController"]
+- ["P10OAuthSwift24OAuthSwiftURLHandlerType", "String"]
+- !private ["P10OAuthSwift24OAuthSwiftURLHandlerType", "UIApplication"]
+- !private ["P10OAuthSwift24OAuthSwiftURLHandlerType", "animated"]
+- !private ["P10OAuthSwift24OAuthSwiftURLHandlerType", "delegate"]
+- !private ["P10OAuthSwift24OAuthSwiftURLHandlerType", "dismissCompletion"]
+- !private ["P10OAuthSwift24OAuthSwiftURLHandlerType", "dispatch_once"]
+- !private ["P10OAuthSwift24OAuthSwiftURLHandlerType", "extensionContext"]
+- !private ["P10OAuthSwift24OAuthSwiftURLHandlerType", "factory"]
+- ["P10OAuthSwift24OAuthSwiftURLHandlerType", "handle"]
+- !private ["P10OAuthSwift24OAuthSwiftURLHandlerType", "init"]
+- !private ["P10OAuthSwift24OAuthSwiftURLHandlerType", "observers"]
+- !private ["P10OAuthSwift24OAuthSwiftURLHandlerType", "presentCompletion"]
+- ["P10OAuthSwift24OAuthSwiftURLHandlerType", "safariViewController"]
+- ["P10OAuthSwift24OAuthSwiftURLHandlerType", "safariViewControllerDidFinish"]
+- !private ["P10OAuthSwift24OAuthSwiftURLHandlerType", "viewController"]
+- ["P10OAuthSwift24OAuthSwiftURLHandlerType", ""]
+- !private ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSs30RangeReplaceableCollectionType", "Element"]
+- !private ["CSo22SFSafariViewController", "delegate"]
+- !private ["CSo22SFSafariViewController", "dismissViewControllerAnimated"]
+- ["CSo22SFSafariViewController", "init"]
+- ["PSo30SFSafariViewControllerDelegate", "AnyObject"]
+- !private ["PSo30SFSafariViewControllerDelegate", "NSNotificationCenter"]
+- !private ["PSo30SFSafariViewControllerDelegate", "NSOperationQueue"]
+- !private ["PSo30SFSafariViewControllerDelegate", "NSUUID"]
+- !private ["PSo30SFSafariViewControllerDelegate", "OAuthSwift"]
+- ["PSo30SFSafariViewControllerDelegate", "SFSafariViewController"]
+- ["PSo30SFSafariViewControllerDelegate", "String"]
+- !private ["PSo30SFSafariViewControllerDelegate", "animated"]
+- !private ["PSo30SFSafariViewControllerDelegate", "delegate"]
+- !private ["PSo30SFSafariViewControllerDelegate", "dismissCompletion"]
+- !private ["PSo30SFSafariViewControllerDelegate", "factory"]
+- ["PSo30SFSafariViewControllerDelegate", "handle"]
+- !private ["PSo30SFSafariViewControllerDelegate", "observers"]
+- !private ["PSo30SFSafariViewControllerDelegate", "presentCompletion"]
+- ["PSo30SFSafariViewControllerDelegate", "safariViewController"]
+- ["PSo30SFSafariViewControllerDelegate", "safariViewControllerDidFinish"]
+- !private ["PSo30SFSafariViewControllerDelegate", "viewController"]
+- ["PSo30SFSafariViewControllerDelegate", ""]
+- ["C10OAuthSwift16SafariURLHandler", "AnyObject"]
+- ["C10OAuthSwift16SafariURLHandler", "Bool"]
+- !private ["C10OAuthSwift16SafariURLHandler", "NSNotificationCenter"]
+- !private ["C10OAuthSwift16SafariURLHandler", "NSOperationQueue"]
+- ["C10OAuthSwift16SafariURLHandler", "NSURL"]
+- !private ["C10OAuthSwift16SafariURLHandler", "NSUUID"]
+- !private ["C10OAuthSwift16SafariURLHandler", "OAuthSwift"]
+- ["C10OAuthSwift16SafariURLHandler", "SFSafariViewController"]
+- ["C10OAuthSwift16SafariURLHandler", "SFSafariViewControllerDelegate"]
+- ["C10OAuthSwift16SafariURLHandler", "String"]
+- ["C10OAuthSwift16SafariURLHandler", "UIActivity"]
+- ["C10OAuthSwift16SafariURLHandler", "UIViewController"]
+- ["C10OAuthSwift16SafariURLHandler", "Void"]
+- ["C10OAuthSwift16SafariURLHandler", "animated"]
+- ["C10OAuthSwift16SafariURLHandler", "deinit"]
+- ["C10OAuthSwift16SafariURLHandler", "delegate"]
+- ["C10OAuthSwift16SafariURLHandler", "dismissCompletion"]
+- ["C10OAuthSwift16SafariURLHandler", "factory"]
+- ["C10OAuthSwift16SafariURLHandler", "handle"]
+- ["C10OAuthSwift16SafariURLHandler", "init"]
+- ["C10OAuthSwift16SafariURLHandler", "observers"]
+- ["C10OAuthSwift16SafariURLHandler", "presentCompletion"]
+- ["C10OAuthSwift16SafariURLHandler", "safariViewController"]
+- ["C10OAuthSwift16SafariURLHandler", "safariViewControllerDidFinish"]
+- ["C10OAuthSwift16SafariURLHandler", "viewController"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "_Element"]
+- ["PSs12SequenceType", "init"]
+- !private ["PSs12SequenceType", "removeValueForKey"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["VSs5Slice", "Generator"]
+- !private ["VSs5Slice", "Index"]
+- !private ["VSs5Slice", "SubSequence"]
+- !private ["VSs5Slice", "_Element"]
+- !private ["VSs12StaticString", "deinit"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- !private ["PSo21UIAppearanceContainer", "dismissViewControllerAnimated"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "presentViewController"]
+- !private ["CSo13UIApplication", "openURL"]
+- !private ["CSo13UIApplication", "sharedApplication"]
+- !private ["PSo18UIContentContainer", "delegate"]
+- !private ["PSo18UIContentContainer", "dismissViewControllerAnimated"]
+- ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "presentViewController"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- !private ["PSo18UIFocusEnvironment", "dismissViewControllerAnimated"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "presentViewController"]
+- !private ["CSo11UIResponder", "delegate"]
+- !private ["CSo11UIResponder", "dismissViewControllerAnimated"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "openURL"]
+- !private ["CSo11UIResponder", "presentViewController"]
+- !private ["CSo11UIResponder", "sharedApplication"]
+- !private ["PSo16UIStateRestoring", "delegate"]
+- !private ["PSo16UIStateRestoring", "dismissViewControllerAnimated"]
+- ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "presentViewController"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- !private ["PSo18UITraitEnvironment", "dismissViewControllerAnimated"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "presentViewController"]
+- !private ["CSo16UIViewController", "delegate"]
+- !private ["CSo16UIViewController", "dismissViewControllerAnimated"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "presentViewController"]
+- !private ["PSs10_ArrayType", "Element"]
+- !private ["PSs24_DestructorSafeContainer", "Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "Element"]
+- ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "removeValueForKey"]
+- !private ["PSs21_ObjectiveCBridgeable", "subscript"]
+- !private ["PSs12_Reflectable", "Element"]
+- !private ["PSs12_Reflectable", "Some"]
+- ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "removeValueForKey"]
+- !private ["PSs12_Reflectable", "subscript"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- "PSs11CVarArgType"
+- !private "VC10OAuthSwift10OAuthSwift20CallbackNotification"
+- "PSs14CollectionType"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "VSs10Dictionary"
+- "PSs28DictionaryLiteralConvertible"
+- "PSs9Equatable"
+- "C10OAuthSwift26ExtensionContextURLHandler"
+- !private "PSs13GeneratorType"
+- "PSs8Hashable"
+- "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo18NSExtensionContext"
+- "PSo26NSExtensionRequestHandling"
+- !private "CSo20NSNotificationCenter"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo16NSOperationQueue"
+- !private "PSo14NSSecureCoding"
+- !private "CSo6NSUUID"
+- !private "PSs21NilLiteralConvertible"
+- !private "C10OAuthSwift10OAuthSwift"
+- "C10OAuthSwift27OAuthSwiftOpenURLExternally"
+- "P10OAuthSwift24OAuthSwiftURLHandlerType"
+- !private "Sq"
+- !private "PSs30RangeReplaceableCollectionType"
+- "CSo22SFSafariViewController"
+- "PSo30SFSafariViewControllerDelegate"
+- "C10OAuthSwift16SafariURLHandler"
+- "PSs12SequenceType"
+- !private "VSs5Slice"
+- !private "VSs12StaticString"
+- "PSo21UIAppearanceContainer"
+- !private "CSo13UIApplication"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+- !private "PSs10_ArrayType"
+- !private "PSs24_DestructorSafeContainer"
+- "PSs21_ObjectiveCBridgeable"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Target Support Files/OAuthSwift/OAuthSwift-umbrella.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Intermediates/Pods.build/Debug-iphonesimulator/OAuthSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "e3af727124859697ba38b37c71cf865b"

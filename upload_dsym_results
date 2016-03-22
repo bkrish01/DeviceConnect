@@ -1,0 +1,3 @@
+dSYM archive upload attempt #1 (of 3)
+curl --write-out %{http_code} --silent --output /dev/null -F dsym=@"/tmp/DevCon.app.dSYM-1458688089.zip" -F buildId="e0f862ab97583dd7a6b1025c7073633c" -F appName="DevCon" -H "X-APP-LICENSE-KEY: AAa6d3582bb7285d1003e1bde5b9103e60d832689f" "https://mobile-symbol-upload.newrelic.com/symbol"
+New Relic: Successfully uploaded debug symbols

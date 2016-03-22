@@ -1,0 +1,489 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ORKActiveStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKActiveStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKActiveStepViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKActiveStepViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKAnswerFormat.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKAnswerFormat.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKConsentDocument.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Consent/ORKConsentDocument.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKConsentReviewStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Consent/ORKConsentReviewStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKConsentSection.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Consent/ORKConsentSection.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKConsentSharingStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Consent/ORKConsentSharingStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKConsentSignature.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Consent/ORKConsentSignature.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKDefines.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKDefines.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKDiscreteGraphChartView.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Charts/ORKDiscreteGraphChartView.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKFormStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKFormStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKFormStepViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKFormStepViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKGraphChartView.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Charts/ORKGraphChartView.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKHealthAnswerFormat.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKHealthAnswerFormat.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKImageCaptureStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKImageCaptureStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKImageCaptureStepViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKImageCaptureStepViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKInstructionStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKInstructionStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKKeychainWrapper.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKKeychainWrapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKLineGraphChartView.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Charts/ORKLineGraphChartView.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKLoginStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Onboarding/ORKLoginStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKLoginStepViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Onboarding/ORKLoginStepViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKNavigableOrderedTask.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKNavigableOrderedTask.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKOrderedTask.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKOrderedTask.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKPasscodeStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKPasscodeStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKPasscodeViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKPasscodeViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKPieChartView.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Charts/ORKPieChartView.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKQuestionStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKQuestionStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKRangedPoint.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Charts/ORKRangedPoint.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKRecorder.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKRecorder.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKRegistrationStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Onboarding/ORKRegistrationStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKResult.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKResultPredicate.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKResultPredicate.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKReviewStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKReviewStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKStepNavigationRule.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKStepNavigationRule.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKStepViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKStepViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKTask.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKTask.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKTaskViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKTaskViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKTimedWalkStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKTimedWalkStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKVerificationStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Onboarding/ORKVerificationStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKVerificationStepViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Onboarding/ORKVerificationStepViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKVisualConsentStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Consent/ORKVisualConsentStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKWaitStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKWaitStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ResearchKit-Swift.h",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Headers/ResearchKit-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ResearchKit.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ResearchKit.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/brajbong/Downloads/ValidicApp.V4/build/Intermediates/ResearchKit.build/Debug-iphonesimulator/ResearchKit.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/brajbong/Downloads/ValidicApp.V4/build/Products/Debug-iphonesimulator/ResearchKit.framework/PrivateHeaders",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ORKAnswerFormat_Private.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKAnswerFormat_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKAudioStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKAudioStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKAudioStepViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKAudioStepViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKCompletionStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKCompletionStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKCompletionStepViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKCompletionStepViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKConsentReviewStepViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Consent/ORKConsentReviewStepViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKConsentSharingStepViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Consent/ORKConsentSharingStepViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKCountdownStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKCountdownStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKCountdownStepViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKCountdownStepViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKCustomStepView.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKCustomStepView.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKDataLogger.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKDataLogger.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKDefines_Private.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKDefines_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKErrors.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKErrors.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKFitnessStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKFitnessStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKFitnessStepViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKFitnessStepViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKHolePegTestPlaceStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKHolePegTestPlaceStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKHolePegTestPlaceStepViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKHolePegTestPlaceStepViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKHolePegTestRemoveStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKHolePegTestRemoveStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKHolePegTestRemoveStepViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKHolePegTestRemoveStepViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKInstructionStepViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKInstructionStepViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKOrderedTask_Private.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKOrderedTask_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKPSATStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKPSATStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKPSATStepViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKPSATStepViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKPasscodeStepViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKPasscodeStepViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKQuestionStepViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKQuestionStepViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKQuestionStepViewController_Private.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKQuestionStepViewController_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKReactionTimeStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKReactionTimeStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKRecorder_Private.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKRecorder_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKResult_Private.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKResult_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKReviewStepViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKReviewStepViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKSpatialSpanMemoryStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKSpatialSpanMemoryStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKSpatialSpanMemoryStepViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKSpatialSpanMemoryStepViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKStepNavigationRule_Private.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKStepNavigationRule_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKTappingIntervalStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKTappingIntervalStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKTappingIntervalStepViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKTappingIntervalStepViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKTaskViewController_Private.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKTaskViewController_Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKTimedWalkStepViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKTimedWalkStepViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKToneAudiometryPracticeStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKToneAudiometryPracticeStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKToneAudiometryPracticeStepViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKToneAudiometryPracticeStepViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKToneAudiometryStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKToneAudiometryStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKToneAudiometryStepViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKToneAudiometryStepViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKTowerOfHanoiStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKTowerOfHanoiStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKVisualConsentStepViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Consent/ORKVisualConsentStepViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKWaitStepViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/Common/ORKWaitStepViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKWalkingTaskStep.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKWalkingTaskStep.h"
+        },
+        {
+          'type': 'file',
+          'name': "ORKWalkingTaskStepViewController.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ActiveTasks/ORKWalkingTaskStepViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "ResearchKit_Private.h",
+          'external-contents': "/Users/brajbong/Downloads/ResearchKit-master/ResearchKit/ResearchKit_Private.h"
+        }
+      ]
+    }
+  ]
+}

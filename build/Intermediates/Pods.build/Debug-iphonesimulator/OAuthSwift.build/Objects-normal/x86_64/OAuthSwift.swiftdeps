@@ -1,0 +1,454 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OAuthSwift"
+- "OAuthSwiftErrorDomain"
+provides-nominal:
+- "C10OAuthSwift10OAuthSwift"
+- "VC10OAuthSwift10OAuthSwift20CallbackNotification"
+provides-member:
+- ["C10OAuthSwift10OAuthSwift", ""]
+- ["VC10OAuthSwift10OAuthSwift20CallbackNotification", ""]
+provides-dynamic-lookup:
+- "notificationCenter"
+- "observeCallback"
+- "client"
+- "removeCallbackNotificationObserver"
+- "authorize_url_handler"
+- "handleOpenURL"
+- "observer"
+depends-top-level:
+- !private "NSOperationQueue"
+- "String"
+- "NSObject"
+- "StringLiteralType"
+- "NSNotificationCenter"
+- "OAuthSwiftCredential"
+- !private "NSNotification"
+- "OAuthSwiftURLHandlerType"
+- "AnyObject"
+- "NSError"
+- "OAuthSwiftErrorDomain"
+- "NSURL"
+- "OAuthSwift"
+- "Void"
+- "Dictionary"
+- "OAuthSwiftClient"
+- "NSURLResponse"
+- "OAuthSwiftOpenURLExternally"
+depends-member:
+- !private ["PSs9AnyObject", "CallbackNotification"]
+- !private ["PSs9AnyObject", "NSNotification"]
+- !private ["PSs9AnyObject", "NSNotificationCenter"]
+- !private ["PSs9AnyObject", "NSOperationQueue"]
+- !private ["PSs9AnyObject", "OAuthSwift"]
+- !private ["PSs9AnyObject", "OAuthSwiftClient"]
+- ["PSs9AnyObject", "OAuthSwiftOpenURLExternally"]
+- ["PSs9AnyObject", "Version"]
+- !private ["PSs9AnyObject", "addObserverForName"]
+- ["PSs9AnyObject", "authorize_url_handler"]
+- ["PSs9AnyObject", "client"]
+- !private ["PSs9AnyObject", "credential"]
+- !private ["PSs9AnyObject", "defaultCenter"]
+- ["PSs9AnyObject", "handleOpenURL"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "mainQueue"]
+- ["PSs9AnyObject", "notificationCenter"]
+- ["PSs9AnyObject", "observeCallback"]
+- ["PSs9AnyObject", "observer"]
+- !private ["PSs9AnyObject", "postNotification"]
+- ["PSs9AnyObject", "removeCallbackNotificationObserver"]
+- !private ["PSs9AnyObject", "removeObserver"]
+- ["PSs9AnyObject", "sharedInstance"]
+- !private ["PSs9AnyObject", "userInfo"]
+- ["PSs9AnyObject", "version"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "CallbackNotification"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "NSNotification"]
+- !private ["PSs11CVarArgType", "NSNotificationCenter"]
+- !private ["PSs11CVarArgType", "NSOperationQueue"]
+- !private ["PSs11CVarArgType", "OAuthSwift"]
+- !private ["PSs11CVarArgType", "OAuthSwiftClient"]
+- ["PSs11CVarArgType", "OAuthSwiftOpenURLExternally"]
+- ["PSs11CVarArgType", "Version"]
+- !private ["PSs11CVarArgType", "addObserverForName"]
+- ["PSs11CVarArgType", "authorize_url_handler"]
+- ["PSs11CVarArgType", "client"]
+- !private ["PSs11CVarArgType", "credential"]
+- !private ["PSs11CVarArgType", "defaultCenter"]
+- ["PSs11CVarArgType", "handleOpenURL"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "mainQueue"]
+- ["PSs11CVarArgType", "notificationCenter"]
+- ["PSs11CVarArgType", "observeCallback"]
+- ["PSs11CVarArgType", "observer"]
+- !private ["PSs11CVarArgType", "postNotification"]
+- ["PSs11CVarArgType", "removeCallbackNotificationObserver"]
+- !private ["PSs11CVarArgType", "removeObserver"]
+- !private ["PSs11CVarArgType", "userInfo"]
+- ["PSs11CVarArgType", "version"]
+- ["PSs11CVarArgType", ""]
+- ["VC10OAuthSwift10OAuthSwift20CallbackNotification", "init"]
+- ["VC10OAuthSwift10OAuthSwift20CallbackNotification", "notificationName"]
+- ["VC10OAuthSwift10OAuthSwift20CallbackNotification", "optionsURLKey"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "Key"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "Value"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "subscript"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "_DisabledRangeIndex"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- !private ["PSs28CustomDebugStringConvertible", "Key"]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "Value"]
+- !private ["PSs28CustomDebugStringConvertible", "_Element"]
+- !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "CallbackNotification"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "Key"]
+- !private ["PSs23CustomStringConvertible", "NSNotification"]
+- !private ["PSs23CustomStringConvertible", "NSNotificationCenter"]
+- !private ["PSs23CustomStringConvertible", "NSOperationQueue"]
+- !private ["PSs23CustomStringConvertible", "OAuthSwift"]
+- !private ["PSs23CustomStringConvertible", "OAuthSwiftClient"]
+- ["PSs23CustomStringConvertible", "OAuthSwiftOpenURLExternally"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "Value"]
+- ["PSs23CustomStringConvertible", "Version"]
+- !private ["PSs23CustomStringConvertible", "_Element"]
+- !private ["PSs23CustomStringConvertible", "addObserverForName"]
+- ["PSs23CustomStringConvertible", "authorize_url_handler"]
+- ["PSs23CustomStringConvertible", "client"]
+- !private ["PSs23CustomStringConvertible", "credential"]
+- !private ["PSs23CustomStringConvertible", "defaultCenter"]
+- ["PSs23CustomStringConvertible", "handleOpenURL"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "mainQueue"]
+- ["PSs23CustomStringConvertible", "notificationCenter"]
+- ["PSs23CustomStringConvertible", "observeCallback"]
+- ["PSs23CustomStringConvertible", "observer"]
+- !private ["PSs23CustomStringConvertible", "postNotification"]
+- ["PSs23CustomStringConvertible", "removeCallbackNotificationObserver"]
+- !private ["PSs23CustomStringConvertible", "removeObserver"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "userInfo"]
+- ["PSs23CustomStringConvertible", "version"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["VSs10Dictionary", "Generator"]
+- !private ["VSs10Dictionary", "Index"]
+- !private ["VSs10Dictionary", "Key"]
+- !private ["VSs10Dictionary", "SubSequence"]
+- !private ["VSs10Dictionary", "Value"]
+- !private ["VSs10Dictionary", "_Element"]
+- !private ["VSs10Dictionary", "deinit"]
+- !private ["VSs10Dictionary", "subscript"]
+- !private ["VSs15DictionaryIndex", "Distance"]
+- !private ["VSs15DictionaryIndex", "_DisabledRangeIndex"]
+- !private ["PSs28DictionaryLiteralConvertible", "Generator"]
+- !private ["PSs28DictionaryLiteralConvertible", "Index"]
+- !private ["PSs28DictionaryLiteralConvertible", "Key"]
+- !private ["PSs28DictionaryLiteralConvertible", "SubSequence"]
+- !private ["PSs28DictionaryLiteralConvertible", "Value"]
+- !private ["PSs28DictionaryLiteralConvertible", "_Element"]
+- !private ["PSs28DictionaryLiteralConvertible", "subscript"]
+- !private ["PSs9Equatable", "CallbackNotification"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "NSNotification"]
+- !private ["PSs9Equatable", "NSNotificationCenter"]
+- !private ["PSs9Equatable", "NSOperationQueue"]
+- !private ["PSs9Equatable", "OAuthSwift"]
+- !private ["PSs9Equatable", "OAuthSwiftClient"]
+- ["PSs9Equatable", "OAuthSwiftOpenURLExternally"]
+- ["PSs9Equatable", "Version"]
+- !private ["PSs9Equatable", "_DisabledRangeIndex"]
+- !private ["PSs9Equatable", "addObserverForName"]
+- ["PSs9Equatable", "authorize_url_handler"]
+- ["PSs9Equatable", "client"]
+- !private ["PSs9Equatable", "credential"]
+- !private ["PSs9Equatable", "defaultCenter"]
+- ["PSs9Equatable", "handleOpenURL"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "mainQueue"]
+- ["PSs9Equatable", "notificationCenter"]
+- ["PSs9Equatable", "observeCallback"]
+- ["PSs9Equatable", "observer"]
+- !private ["PSs9Equatable", "postNotification"]
+- ["PSs9Equatable", "removeCallbackNotificationObserver"]
+- !private ["PSs9Equatable", "removeObserver"]
+- !private ["PSs9Equatable", "userInfo"]
+- ["PSs9Equatable", "version"]
+- ["PSs9Equatable", ""]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs16ForwardIndexType", "_DisabledRangeIndex"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "CallbackNotification"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "NSNotification"]
+- !private ["PSs8Hashable", "NSNotificationCenter"]
+- !private ["PSs8Hashable", "NSOperationQueue"]
+- !private ["PSs8Hashable", "OAuthSwift"]
+- !private ["PSs8Hashable", "OAuthSwiftClient"]
+- ["PSs8Hashable", "OAuthSwiftOpenURLExternally"]
+- ["PSs8Hashable", "Version"]
+- !private ["PSs8Hashable", "addObserverForName"]
+- ["PSs8Hashable", "authorize_url_handler"]
+- ["PSs8Hashable", "client"]
+- !private ["PSs8Hashable", "credential"]
+- !private ["PSs8Hashable", "defaultCenter"]
+- ["PSs8Hashable", "handleOpenURL"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "mainQueue"]
+- ["PSs8Hashable", "notificationCenter"]
+- ["PSs8Hashable", "observeCallback"]
+- ["PSs8Hashable", "observer"]
+- !private ["PSs8Hashable", "postNotification"]
+- ["PSs8Hashable", "removeCallbackNotificationObserver"]
+- !private ["PSs8Hashable", "removeObserver"]
+- !private ["PSs8Hashable", "userInfo"]
+- ["PSs8Hashable", "version"]
+- ["PSs8Hashable", ""]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "Key"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "Value"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "subscript"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- ["PSo8NSCoding", "Version"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "userInfo"]
+- !private ["PSo8NSCoding", "version"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "userInfo"]
+- !private ["CSo14NSNotification", "init"]
+- !private ["CSo14NSNotification", "userInfo"]
+- !private ["CSo20NSNotificationCenter", "addObserverForName"]
+- !private ["CSo20NSNotificationCenter", "defaultCenter"]
+- !private ["CSo20NSNotificationCenter", "postNotification"]
+- !private ["CSo20NSNotificationCenter", "removeObserver"]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "CallbackNotification"]
+- ["CSo8NSObject", "Dictionary"]
+- ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "NSNotification"]
+- ["CSo8NSObject", "NSNotificationCenter"]
+- !private ["CSo8NSObject", "NSOperationQueue"]
+- ["CSo8NSObject", "NSURL"]
+- ["CSo8NSObject", "NSURLResponse"]
+- !private ["CSo8NSObject", "OAuthSwift"]
+- ["CSo8NSObject", "OAuthSwiftClient"]
+- ["CSo8NSObject", "OAuthSwiftCredential"]
+- ["CSo8NSObject", "OAuthSwiftOpenURLExternally"]
+- ["CSo8NSObject", "OAuthSwiftURLHandlerType"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "Version"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addObserverForName"]
+- ["CSo8NSObject", "authorize_url_handler"]
+- ["CSo8NSObject", "client"]
+- !private ["CSo8NSObject", "credential"]
+- !private ["CSo8NSObject", "defaultCenter"]
+- ["CSo8NSObject", "handleOpenURL"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "mainQueue"]
+- ["CSo8NSObject", "notificationCenter"]
+- ["CSo8NSObject", "observeCallback"]
+- ["CSo8NSObject", "observer"]
+- !private ["CSo8NSObject", "postNotification"]
+- ["CSo8NSObject", "removeCallbackNotificationObserver"]
+- !private ["CSo8NSObject", "removeObserver"]
+- !private ["CSo8NSObject", "userInfo"]
+- ["CSo8NSObject", "version"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "CallbackNotification"]
+- !private ["PSo16NSObjectProtocol", "NSNotification"]
+- !private ["PSo16NSObjectProtocol", "NSNotificationCenter"]
+- !private ["PSo16NSObjectProtocol", "NSOperationQueue"]
+- !private ["PSo16NSObjectProtocol", "OAuthSwift"]
+- !private ["PSo16NSObjectProtocol", "OAuthSwiftClient"]
+- ["PSo16NSObjectProtocol", "OAuthSwiftOpenURLExternally"]
+- ["PSo16NSObjectProtocol", "Version"]
+- !private ["PSo16NSObjectProtocol", "addObserverForName"]
+- ["PSo16NSObjectProtocol", "authorize_url_handler"]
+- ["PSo16NSObjectProtocol", "client"]
+- !private ["PSo16NSObjectProtocol", "credential"]
+- !private ["PSo16NSObjectProtocol", "defaultCenter"]
+- ["PSo16NSObjectProtocol", "handleOpenURL"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "mainQueue"]
+- ["PSo16NSObjectProtocol", "notificationCenter"]
+- ["PSo16NSObjectProtocol", "observeCallback"]
+- ["PSo16NSObjectProtocol", "observer"]
+- !private ["PSo16NSObjectProtocol", "postNotification"]
+- ["PSo16NSObjectProtocol", "removeCallbackNotificationObserver"]
+- !private ["PSo16NSObjectProtocol", "removeObserver"]
+- !private ["PSo16NSObjectProtocol", "userInfo"]
+- ["PSo16NSObjectProtocol", "version"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["CSo16NSOperationQueue", "mainQueue"]
+- ["PSs21NilLiteralConvertible", "Some"]
+- ["C10OAuthSwift10OAuthSwift", "AnyObject"]
+- ["C10OAuthSwift10OAuthSwift", "CallbackNotification"]
+- ["C10OAuthSwift10OAuthSwift", "Dictionary"]
+- ["C10OAuthSwift10OAuthSwift", "FailureHandler"]
+- ["C10OAuthSwift10OAuthSwift", "NSError"]
+- !private ["C10OAuthSwift10OAuthSwift", "NSNotification"]
+- ["C10OAuthSwift10OAuthSwift", "NSNotificationCenter"]
+- !private ["C10OAuthSwift10OAuthSwift", "NSOperationQueue"]
+- ["C10OAuthSwift10OAuthSwift", "NSURL"]
+- ["C10OAuthSwift10OAuthSwift", "NSURLResponse"]
+- !private ["C10OAuthSwift10OAuthSwift", "OAuthSwift"]
+- ["C10OAuthSwift10OAuthSwift", "OAuthSwiftClient"]
+- ["C10OAuthSwift10OAuthSwift", "OAuthSwiftCredential"]
+- ["C10OAuthSwift10OAuthSwift", "OAuthSwiftOpenURLExternally"]
+- ["C10OAuthSwift10OAuthSwift", "OAuthSwiftURLHandlerType"]
+- ["C10OAuthSwift10OAuthSwift", "String"]
+- ["C10OAuthSwift10OAuthSwift", "TokenSuccessHandler"]
+- ["C10OAuthSwift10OAuthSwift", "Void"]
+- ["C10OAuthSwift10OAuthSwift", "authorize_url_handler"]
+- ["C10OAuthSwift10OAuthSwift", "client"]
+- ["C10OAuthSwift10OAuthSwift", "deinit"]
+- ["C10OAuthSwift10OAuthSwift", "handleOpenURL"]
+- ["C10OAuthSwift10OAuthSwift", "init"]
+- ["C10OAuthSwift10OAuthSwift", "notificationCenter"]
+- ["C10OAuthSwift10OAuthSwift", "observeCallback"]
+- ["C10OAuthSwift10OAuthSwift", "observer"]
+- ["C10OAuthSwift10OAuthSwift", "removeCallbackNotificationObserver"]
+- ["C10OAuthSwift10OAuthSwift", "version"]
+- !private ["C10OAuthSwift16OAuthSwiftClient", "credential"]
+- !private ["C10OAuthSwift16OAuthSwiftClient", "init"]
+- ["C10OAuthSwift20OAuthSwiftCredential", "Version"]
+- !private ["C10OAuthSwift20OAuthSwiftCredential", "version"]
+- ["C10OAuthSwift27OAuthSwiftOpenURLExternally", "deinit"]
+- ["C10OAuthSwift27OAuthSwiftOpenURLExternally", "sharedInstance"]
+- ["P10OAuthSwift24OAuthSwiftURLHandlerType", "sharedInstance"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "Key"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "Value"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["VSs5Slice", "Generator"]
+- !private ["VSs5Slice", "Index"]
+- !private ["VSs5Slice", "SubSequence"]
+- !private ["VSs5Slice", "_Element"]
+- !private ["VSs12StaticString", "deinit"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs14_Incrementable", "_DisabledRangeIndex"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Key"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["PSs21_ObjectiveCBridgeable", "Value"]
+- !private ["PSs21_ObjectiveCBridgeable", "_Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "subscript"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Key"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "Value"]
+- !private ["PSs12_Reflectable", "_Element"]
+- !private ["PSs12_Reflectable", "subscript"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- "PSs11CVarArgType"
+- "VC10OAuthSwift10OAuthSwift20CallbackNotification"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "VSs10Dictionary"
+- !private "VSs15DictionaryIndex"
+- !private "PSs28DictionaryLiteralConvertible"
+- "PSs9Equatable"
+- !private "PSs16ForwardIndexType"
+- !private "PSs13GeneratorType"
+- "PSs8Hashable"
+- !private "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo14NSNotification"
+- !private "CSo20NSNotificationCenter"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo16NSOperationQueue"
+- "PSs21NilLiteralConvertible"
+- "C10OAuthSwift10OAuthSwift"
+- !private "C10OAuthSwift16OAuthSwiftClient"
+- "C10OAuthSwift20OAuthSwiftCredential"
+- "C10OAuthSwift27OAuthSwiftOpenURLExternally"
+- "P10OAuthSwift24OAuthSwiftURLHandlerType"
+- "Sq"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs12SequenceType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "VSs5Slice"
+- !private "VSs12StaticString"
+- !private "PSs10Strideable"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Target Support Files/OAuthSwift/OAuthSwift-umbrella.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Intermediates/Pods.build/Debug-iphonesimulator/OAuthSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "5e3b7424bc807cd8781bb4aa4acbe1c1"

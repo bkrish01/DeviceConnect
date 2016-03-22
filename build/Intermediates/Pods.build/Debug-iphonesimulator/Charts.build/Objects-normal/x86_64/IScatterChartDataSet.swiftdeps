@@ -1,0 +1,89 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "IScatterChartDataSet"
+provides-nominal:
+- "P6Charts20IScatterChartDataSet"
+provides-member:
+- ["P6Charts20IScatterChartDataSet", ""]
+provides-dynamic-lookup:
+- "scatterShapeHoleColor"
+- "scatterShape"
+- "customScatterShape"
+- "scatterShapeHoleRadius"
+- "scatterShapeSize"
+depends-top-level:
+- "ScatterChartDataSet"
+- "NSUIColor"
+- "CGPath"
+- "ILineScatterCandleRadarChartDataSet"
+- "IScatterChartDataSet"
+- "CGFloat"
+depends-member:
+- ["PSs9AnyObject", "ScatterShape"]
+- ["C6Charts38BarLineScatterCandleBubbleChartDataSet", "ScatterShape"]
+- ["PSs11CVarArgType", "ScatterShape"]
+- ["C6Charts16ChartBaseDataSet", "ScatterShape"]
+- ["C6Charts12ChartDataSet", "ScatterShape"]
+- ["PSs23CustomStringConvertible", "ScatterShape"]
+- ["PSs9Equatable", "ScatterShape"]
+- ["PSs8Hashable", "ScatterShape"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "CGFloat"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "CGPath"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "NSUIColor"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "ScatterChartDataSet"]
+- ["P6Charts39IBarLineScatterCandleBubbleChartDataSet", "ScatterShape"]
+- ["P6Charts13IChartDataSet", "CGFloat"]
+- ["P6Charts13IChartDataSet", "CGPath"]
+- ["P6Charts13IChartDataSet", "NSUIColor"]
+- ["P6Charts13IChartDataSet", "ScatterChartDataSet"]
+- ["P6Charts13IChartDataSet", "ScatterShape"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", "CGFloat"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", "CGPath"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", "NSUIColor"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", "ScatterChartDataSet"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", "ScatterShape"]
+- ["P6Charts35ILineScatterCandleRadarChartDataSet", ""]
+- ["P6Charts20IScatterChartDataSet", "CGFloat"]
+- ["P6Charts20IScatterChartDataSet", "CGPath"]
+- ["P6Charts20IScatterChartDataSet", "NSUIColor"]
+- ["P6Charts20IScatterChartDataSet", "ScatterChartDataSet"]
+- ["P6Charts20IScatterChartDataSet", "ScatterShape"]
+- ["P6Charts20IScatterChartDataSet", "customScatterShape"]
+- ["P6Charts20IScatterChartDataSet", "scatterShape"]
+- ["P6Charts20IScatterChartDataSet", "scatterShapeHoleColor"]
+- ["P6Charts20IScatterChartDataSet", "scatterShapeHoleRadius"]
+- ["P6Charts20IScatterChartDataSet", "scatterShapeSize"]
+- ["C6Charts34LineScatterCandleRadarChartDataSet", "ScatterShape"]
+- ["CSo8NSObject", "ScatterShape"]
+- ["PSo16NSObjectProtocol", "ScatterShape"]
+- ["C6Charts19ScatterChartDataSet", "ScatterShape"]
+depends-nominal:
+- "PSs9AnyObject"
+- "C6Charts38BarLineScatterCandleBubbleChartDataSet"
+- "PSs11CVarArgType"
+- "C6Charts16ChartBaseDataSet"
+- "C6Charts12ChartDataSet"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "P6Charts39IBarLineScatterCandleBubbleChartDataSet"
+- "P6Charts13IChartDataSet"
+- "P6Charts35ILineScatterCandleRadarChartDataSet"
+- "P6Charts20IScatterChartDataSet"
+- "C6Charts34LineScatterCandleRadarChartDataSet"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C6Charts19ScatterChartDataSet"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/brajbong/Downloads/ValidicApp.V4/Pods/Target Support Files/Charts/Charts-umbrella.h"
+- "/Users/brajbong/Downloads/ValidicApp.V4/build/Intermediates/Pods.build/Debug-iphonesimulator/Charts.build/unextended-module.modulemap"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "e87982426d9548aa7f0dfe648d4fb8f4"
